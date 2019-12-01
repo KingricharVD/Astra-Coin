@@ -101,7 +101,7 @@ const char* GetOpName(opcodetype opcode)
     case OP_1ADD                   : return "OP_1ADD";
     case OP_1SUB                   : return "OP_1SUB";
     case OP_2MUL                   : return "OP_2MUL";
-    case OP_2DIV                   : return "OP_2DIV";
+    case OP_2Astra                   : return "OP_2Astra";
     case OP_NEGATE                 : return "OP_NEGATE";
     case OP_ABS                    : return "OP_ABS";
     case OP_NOT                    : return "OP_NOT";
@@ -109,7 +109,7 @@ const char* GetOpName(opcodetype opcode)
     case OP_ADD                    : return "OP_ADD";
     case OP_SUB                    : return "OP_SUB";
     case OP_MUL                    : return "OP_MUL";
-    case OP_DIV                    : return "OP_DIV";
+    case OP_Astra                    : return "OP_Astra";
     case OP_MOD                    : return "OP_MOD";
     case OP_LSHIFT                 : return "OP_LSHIFT";
     case OP_RSHIFT                 : return "OP_RSHIFT";

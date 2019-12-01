@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>選擇要匯出DIVI幣的位址</translation>
+        <translation>選擇要匯出Astra幣的位址</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>選擇要接收DIVI幣的位址</translation>
+        <translation>選擇要接收Astra幣的位址</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,12 +62,12 @@
         <translation>接收的位址</translation>
     </message>
     <message>
-        <source>These are your DIVI addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>這是你用來付款的 DIVI 位址, 送出前, 請務必確認金額及接收位址是否正確.</translation>
+        <source>These are your Astra addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>這是你用來付款的 Astra 位址, 送出前, 請務必確認金額及接收位址是否正確.</translation>
     </message>
     <message>
-        <source>These are your DIVI addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>這是你用來接收款項的 DIVI 位址, 建議你每次付款都使用新的位址.</translation>
+        <source>These are your Astra addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>這是你用來接收款項的 Astra 位址, 建議你每次付款都使用新的位址.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -164,16 +164,16 @@
         <translation>錢包確認加密</translation>
     </message>
     <message>
-        <source>DIVI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DIVs from being stolen by malware infecting your computer.</source>
-        <translation>DIVI 現在會關閉程式來處理加密流程, 請注意, 僅僅是加密你的錢包並不能完全保護你的 DIV 幣被可疑軟體或病毒偷走的風險.</translation>
+        <source>Astra will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Astras from being stolen by malware infecting your computer.</source>
+        <translation>Astra 現在會關閉程式來處理加密流程, 請注意, 僅僅是加密你的錢包並不能完全保護你的 Astra 幣被可疑軟體或病毒偷走的風險.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>確定要加密你的錢包?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DIV&lt;/b&gt;!</source>
-        <translation>請注意: 如果你加密了你的錢包但是卻忘記你設定的密碼, &lt;b&gt;你將會失去錢包裡的錢(DIV)&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR Astra&lt;/b&gt;!</source>
+        <translation>請注意: 如果你加密了你的錢包但是卻忘記你設定的密碼, &lt;b&gt;你將會失去錢包裡的錢(Astra)&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -227,16 +227,16 @@
         <translation>&amp;BIP 38 加密</translation>
     </message>
     <message>
-        <source>Enter a Divi Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>輸入你想 BIP 38 加密的 Divi 位址, 輸入密碼在中間欄, 按下加密按鈕來產生加密私鑰.</translation>
+        <source>Enter a Astra Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>輸入你想 BIP 38 加密的 Astra 位址, 輸入密碼在中間欄, 按下加密按鈕來產生加密私鑰.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>位址:</translation>
     </message>
     <message>
-        <source>The DIVI address to sign the message with</source>
-        <translation>對訊息簽名的 DIVI 位址</translation>
+        <source>The Astra address to sign the message with</source>
+        <translation>對訊息簽名的 Astra 位址</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -267,8 +267,8 @@
         <translation>拷貝目前的簽章到系統剪貼簿</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DIVI address</source>
-        <translation>使用簽章來證明你是該  DIVI 位址的擁有者,</translation>
+        <source>Sign the message to prove you own this Astra address</source>
+        <translation>使用簽章來證明你是該  Astra 位址的擁有者,</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -287,12 +287,12 @@
         <translation>&amp;BIP 38 解密</translation>
     </message>
     <message>
-        <source>The DIVI address the message was signed with</source>
-        <translation>此訊息之 DIVI 位址已簽章於</translation>
+        <source>The Astra address the message was signed with</source>
+        <translation>此訊息之 Astra 位址已簽章於</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DIVI address</source>
-        <translation>驗證訊息以確保該  DIVI 位址已被簽章</translation>
+        <source>Verify the message to ensure it was signed with the specified Astra address</source>
+        <translation>驗證訊息以確保該  Astra 位址已被簽章</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -582,16 +582,16 @@
         <translation>Tabs 工具列</translation>
     </message>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Core</translation>
+        <source>Astra Core</source>
+        <translation>Astra Core</translation>
     </message>
     <message>
-        <source>Send coins to a DIVI address</source>
-        <translation>送出錢幣到 DIVI 地址</translation>
+        <source>Send coins to a Astra address</source>
+        <translation>送出錢幣到 Astra 地址</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and divi: URIs)</source>
-        <translation>請求付款 (會產生 QR Code跟 divi 位址)</translation>
+        <source>Request payments (generates QR codes and Astra: URIs)</source>
+        <translation>請求付款 (會產生 QR Code跟 Astra 位址)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -602,24 +602,24 @@
         <translation>瀏覽 Masternodes</translation>
     </message>
     <message>
-        <source>&amp;About DIVI Core</source>
-        <translation>&amp;關於 DIVI Core</translation>
+        <source>&amp;About Astra Core</source>
+        <translation>&amp;關於 Astra Core</translation>
     </message>
     <message>
-        <source>Show information about DIVI Core</source>
-        <translation>顯示 DIVI Core 相關資訊</translation>
+        <source>Show information about Astra Core</source>
+        <translation>顯示 Astra Core 相關資訊</translation>
     </message>
     <message>
-        <source>Modify configuration options for DIVI</source>
-        <translation>修改 DIVI 設定</translation>
+        <source>Modify configuration options for Astra</source>
+        <translation>修改 Astra 設定</translation>
     </message>
     <message>
-        <source>Sign messages with your DIVI addresses to prove you own them</source>
-        <translation>使用你的 DIVI 位址對訊息簽章, 來證明你是擁有者</translation>
+        <source>Sign messages with your Astra addresses to prove you own them</source>
+        <translation>使用你的 Astra 位址對訊息簽章, 來證明你是擁有者</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified DIVI addresses</source>
-        <translation>驗證訊息簽章與 DIVI 位址吻合</translation>
+        <source>Verify messages to ensure they were signed with specified Astra addresses</source>
+        <translation>驗證訊息簽章與 Astra 位址吻合</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -650,8 +650,8 @@
         <translation>打開Masternode設定檔</translation>
     </message>
     <message>
-        <source>Open a DIVI: URI or payment request</source>
-        <translation>打開DIVI: 位址或付款請求 </translation>
+        <source>Open a Astra: URI or payment request</source>
+        <translation>打開Astra: 位址或付款請求 </translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -662,12 +662,12 @@
         <translation>區塊鏈瀏覽視窗</translation>
     </message>
     <message>
-        <source>Show the DIVI Core help message to get a list with possible DIVI command-line options</source>
-        <translation>顯示 DIVI Core 幫助訊息以取得 DIVI 命令列表選項</translation>
+        <source>Show the Astra Core help message to get a list with possible Astra command-line options</source>
+        <translation>顯示 Astra Core 幫助訊息以取得 Astra 命令列表選項</translation>
     </message>
     <message>
-        <source>DIVI Core client</source>
-        <translation>DIVI Core 客戶端</translation>
+        <source>Astra Core client</source>
+        <translation>Astra Core 客戶端</translation>
     </message>
     </context>
 <context>
@@ -696,15 +696,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Core</translation>
+        <source>Astra Core</source>
+        <translation>Astra Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Core</translation>
+        <source>Astra Core</source>
+        <translation>Astra Core</translation>
     </message>
     </context>
 <context>
@@ -839,8 +839,8 @@
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The DIVI address to sign the message with</source>
-        <translation>對訊息簽名的 DIVI 位址</translation>
+        <source>The Astra address to sign the message with</source>
+        <translation>對訊息簽名的 Astra 位址</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -863,16 +863,16 @@
         <translation>拷貝目前的簽章到系統剪貼簿</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DIVI address</source>
-        <translation>使用簽章來證明你是該  DIVI 位址的擁有者,</translation>
+        <source>Sign the message to prove you own this Astra address</source>
+        <translation>使用簽章來證明你是該  Astra 位址的擁有者,</translation>
     </message>
     <message>
-        <source>The DIVI address the message was signed with</source>
-        <translation>此訊息之 DIVI 位址已簽章於</translation>
+        <source>The Astra address the message was signed with</source>
+        <translation>此訊息之 Astra 位址已簽章於</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DIVI address</source>
-        <translation>驗證訊息以確保該  DIVI 位址已被簽章</translation>
+        <source>Verify the message to ensure it was signed with the specified Astra address</source>
+        <translation>驗證訊息以確保該  Astra 位址已被簽章</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -910,8 +910,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Core</translation>
+        <source>Astra Core</source>
+        <translation>Astra Core</translation>
     </message>
     </context>
 <context>
@@ -974,9 +974,9 @@
     </message>
     </context>
 <context>
-    <name>ZDivControlDialog</name>
+    <name>ZAstraControlDialog</name>
     </context>
 <context>
-    <name>divi-core</name>
+    <name>Astra-core</name>
     </context>
 </TS>

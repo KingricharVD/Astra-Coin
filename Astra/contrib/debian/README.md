@@ -1,21 +1,21 @@
 
 Debian
 ====================
-This directory contains files used to package divid/divi-qt
-for Debian-based Linux systems. If you compile divid/divi-qt yourself, there are some useful files here.
+This directory contains files used to package Astrad/Astra-qt
+for Debian-based Linux systems. If you compile Astrad/Astra-qt yourself, there are some useful files here.
 
-## divi: URI support ##
+## Astra: URI support ##
 
 
-divi-qt.desktop  (Gnome / Open Desktop)
+Astra-qt.desktop  (Gnome / Open Desktop)
 To install:
 
-	sudo desktop-file-install divi-qt.desktop
+	sudo desktop-file-install Astra-qt.desktop
 	sudo update-desktop-database
 
 If you build yourself, you will either need to modify the paths in
-the .desktop file or copy or symlink your diviqt binary to `/usr/bin`
-and the `../../share/pixmaps/divi128.png` to `/usr/share/pixmaps`
+the .desktop file or copy or symlink your Astraqt binary to `/usr/bin`
+and the `../../share/pixmaps/Astra128.png` to `/usr/share/pixmaps`
 
-divi-qt.protocol (KDE)
+Astra-qt.protocol (KDE)
 

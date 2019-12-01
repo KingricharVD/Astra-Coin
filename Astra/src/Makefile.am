@@ -66,15 +66,15 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += divid
+  bin_PROGRAMS += Astrad
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += divi-cli divi-tx
+  bin_PROGRAMS += Astra-cli Astra-tx
 endif
 
 .PHONY: FORCE
-# divi core #
+# Astra core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   accumulators.h \
@@ -199,7 +199,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between divid and divi-qt
+# server: shared between Astrad and Astra-qt
 libbitcoin_server_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_SOURCES = \
   addrman.cpp \
@@ -246,7 +246,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between divid and divi-qt, but only linked
+# wallet: shared between Astrad and Astra-qt, but only linked
 # when wallet enabled
 
 libbitcoin_wallet_a_CFLAGS = -fPIC
@@ -349,7 +349,7 @@ libzerocoin_libbitcoin_zerocoin_a_SOURCES = \
   libzerocoin/Params.cpp \
   libzerocoin/SerialNumberSignatureOfKnowledge.cpp
 
-# common: shared between divid, and divi-qt and non-server tools
+# common: shared between Astrad, and Astra-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_common_a_SOURCES = \
   accumulators.cpp \
@@ -411,7 +411,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 libbitcoin_util_a_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-# cli: shared between divi-cli and divi-qt
+# cli: shared between Astra-cli and Astra-qt
 libbitcoin_cli_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_SOURCES = \
   rpcclient.cpp \
@@ -421,7 +421,7 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-divid_LDADD = \
+Astrad_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UNIVALUE) \
@@ -433,27 +433,27 @@ divid_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-divid_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+Astrad_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-divid_LDADD += libbitcoin_wallet.a \
+Astrad_LDADD += libbitcoin_wallet.a \
   $(LIBBITCOIN_CRYPTO)
 endif
-divid_SOURCES = divid.cpp
+Astrad_SOURCES = Astrad.cpp
 #
 
 if TARGET_WINDOWS
-divid_SOURCES += divid-res.rc
+Astrad_SOURCES += Astrad-res.rc
 endif
 
-divid_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
-divid_CPPFLAGS = $(BITCOIN_INCLUDES)
-divid_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+Astrad_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
+Astrad_CPPFLAGS = $(BITCOIN_INCLUDES)
+Astrad_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 
-# divi-cli binary #
-divi_cli_LDADD = \
+# Astra-cli binary #
+Astra_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO) \
@@ -462,14 +462,14 @@ divi_cli_LDADD = \
   $(CRYPTO_LIBS) \
   $(EVENT_LIBS)
 
-divi_cli_SOURCES = \
-  divi-cli.cpp
+Astra_cli_SOURCES = \
+  Astra-cli.cpp
 
-divi_cli_CPPFLAGS = $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+Astra_cli_CPPFLAGS = $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
 #
 
-# divi-tx binary #
-divi_tx_LDADD = \
+# Astra-tx binary #
+Astra_tx_LDADD = \
   $(LIBBITCOIN_UNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_ZEROCOIN) \
@@ -479,15 +479,15 @@ divi_tx_LDADD = \
   $(BOOST_LIBS) \
   $(CRYPTO_LIBS)
 
-divi_tx_SOURCES = divi-tx.cpp
-divi_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
+Astra_tx_SOURCES = Astra-tx.cpp
+Astra_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
-divi_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+Astra_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-divi_cli_SOURCES += divi-cli-res.rc
+Astra_cli_SOURCES += Astra-cli-res.rc
 endif
-divi_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+Astra_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h

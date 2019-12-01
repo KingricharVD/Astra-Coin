@@ -1,25 +1,25 @@
-# /etc/conf.d/divid: config file for /etc/init.d/divid
+# /etc/conf.d/Astrad: config file for /etc/init.d/Astrad
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/divi/divi.conf"
+#BITCOIND_CONFIGFILE="/etc/Astra/Astra.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/divid"
+#BITCOIND_PIDDIR="/var/run/Astrad"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/divid.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/Astrad.pid"
 
-# Where to write divid data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/divid"
+# Where to write Astrad data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/Astrad"
 
-# User and group to own divid process
-#BITCOIND_USER="divi"
-#BITCOIND_GROUP="divi"
+# User and group to own Astrad process
+#BITCOIND_USER="Astra"
+#BITCOIND_GROUP="Astra"
 
-# Path to divid executable
-#BITCOIND_BIN="/usr/bin/divid"
+# Path to Astrad executable
+#BITCOIND_BIN="/usr/bin/Astrad"
 
-# Nice value to run divid under
+# Nice value to run Astrad under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)

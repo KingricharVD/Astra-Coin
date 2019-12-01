@@ -64,7 +64,7 @@ Value allocatefunds(const Array& params, bool fHelp)
 			"1. purpose			(string, required) Helpful identifier to recognize this allocation later.  Currently only masternode is recognized. \n"
 			"2. identifier      (string, required) Helpful Identifier to recognize the specific instance of the funding type that the funding is for. \n"
 			"3. amount			(diamond, platinum, gold, silver, copper) tier of masternode. \n"
-			"      <future>     (numeric, required) amount of divi funded will also be accepted for partially funding master nodes and other purposes.\n"
+			"      <future>     (numeric, required) amount of Astra funded will also be accepted for partially funding master nodes and other purposes.\n"
 
 			"\nResult:\n"
 			"\"vin\"			(string) funding transaction id necessary for next step.\n");
@@ -96,7 +96,7 @@ Value fundmasternode(const Array& params, bool fHelp)
 			"\nArguments:\n"
 			"1. alias			(string, required) helpful identifier to recognize this allocation later.\n"
 			"2. amount			(diamond, platinum, gold, silver, copper) tier of masternode. \n"
-			"      <future>     (numeric, required) amount of divi funded will also be accepted for partially funding master nodes and other purposes.\n"
+			"      <future>     (numeric, required) amount of Astra funded will also be accepted for partially funding master nodes and other purposes.\n"
 			"3. TxID			(string, required) funding transaction id .\n"
             "4. masternode		(string, required) ip address of masternode.\n"
 			"(use an empty string for the pay wallet if the same as the funding wallet and you wish to assign a different voting wallet).\n"
@@ -172,7 +172,7 @@ Value masternode(const Array& params, bool fHelp)
 
 string nodeHelp(string indent = "")
 {
-	string ret = indent + "\"address\": \"address\",    (string) Masternode DIVI address\n";
+	string ret = indent + "\"address\": \"address\",    (string) Masternode Astra address\n";
 	ret += indent + "\"protocol\": xxxx,        (numeric) Protocol version\n";
 //	ret += indent + "\"netaddr\": \"xxxx\",       (string) Masternode network address\n";;
 	ret += indent + "\"lastseen\": ttt,			(numeric) The time in seconds since last seen\n";

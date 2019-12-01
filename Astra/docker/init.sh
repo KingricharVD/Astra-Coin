@@ -2,4 +2,4 @@
 
 echo "Starting tor ..."
 tor
-divid -daemon
+Astrad -daemon

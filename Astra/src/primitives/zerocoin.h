@@ -1,8 +1,8 @@
 // Copyright (c) 2017 The PIVX Developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef DIVI_ZEROCOIN_H
-#define DIVI_ZEROCOIN_H
+#ifndef Astra_ZEROCOIN_H
+#define Astra_ZEROCOIN_H
 
 #include <amount.h>
 #include <limits.h>
@@ -189,4 +189,4 @@ public:
     int GetNeededSpends();
 };
 
-#endif //DIVI_ZEROCOIN_H
+#endif //Astra_ZEROCOIN_H

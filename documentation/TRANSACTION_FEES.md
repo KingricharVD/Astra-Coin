@@ -4,13 +4,13 @@ __Transaction fee__ is amount which is paid for transaction to be processed.
 
 ### Fee calculation
 
-Divi uses flexible approach depending on transaction amount, size and global network modifiers. 
+Astra uses flexible approach depending on transaction amount, size and global network modifiers. 
 
 We use next formula to calculate fees: ` Fee = (TV * TVM) * TS / TSM `
 
 In this formula: 
 
-`TV:` Transaction value in DIVI
+`TV:` Transaction value in Astra
 
 `TS:` Transaction size in bytes
 
@@ -34,7 +34,7 @@ Minimum possible fee that will be processed by network(though with lower priorit
 
 ### Maximum possible fee
 
-Maximum fee is controlled by spork, default maximum fee is 100 DIVI. 
+Maximum fee is controlled by spork, default maximum fee is 100 Astra. 
 
 ### Fee deduction
 
@@ -42,4 +42,4 @@ Fee is paid automatically and is calculated as `Fee = (TxIn - TxOut)`, so fee wi
 
 ### Burning
 
-Divi uses PoS tail emission which means coins are generated always, no matter how long it runs in contrast to bitcoin where the supply is limited. To control the inflation we burn fees, this way no one gets the fee, and with every transaction fee which was paid gets burnt reducing total coin supply. 
+Astra uses PoS tail emission which means coins are generated always, no matter how long it runs in contrast to bitcoin where the supply is limited. To control the inflation we burn fees, this way no one gets the fee, and with every transaction fee which was paid gets burnt reducing total coin supply. 

@@ -84,7 +84,7 @@ static void secp256k1_num_mod(secp256k1_num *r, const secp256k1_num *m) {
 
     if (r->limbs >= m->limbs) {
         mp_limb_t t[2*NUM_LIMBS];
-        mpn_tdiv_qr(t, r->data, 0, r->data, r->limbs, m->data, m->limbs);
+        mpn_tAstra_qr(t, r->data, 0, r->data, r->limbs, m->data, m->limbs);
         memset(t, 0, sizeof(t));
         r->limbs = m->limbs;
         while (r->limbs > 1 && r->data[r->limbs-1]==0) {

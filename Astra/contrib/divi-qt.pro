@@ -78,7 +78,7 @@ HEADERS += src/activemasternode.h \
            src/crypter.h \
            src/obfuscation-relay.h \
            src/obfuscation.h \
-           src/divi-config.h \
+           src/Astra-config.h \
            src/db.h \
            src/eccryptoverify.h \
            src/ecwrapper.h \
@@ -131,7 +131,7 @@ HEADERS += src/activemasternode.h \
            src/wallet_ismine.h \
            src/walletdb.h \
            src/compat/sanity.h \
-           src/config/divi-config.h \
+           src/config/Astra-config.h \
            src/crypto/common.h \
            src/crypto/hmac_sha256.h \
            src/crypto/hmac_sha512.h \
@@ -332,7 +332,7 @@ HEADERS += src/activemasternode.h \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h \
            src/crypto/aes_helper.c \
            src/qt/bitcoinamountfield.moc \
-           src/qt/divi.moc \
+           src/qt/Astra.moc \
            src/qt/intro.moc \
            src/qt/overviewpage.moc \
            src/qt/rpcconsole.moc \
@@ -373,9 +373,9 @@ SOURCES += src/activemasternode.cpp \
            src/crypter.cpp \
            src/obfuscation-relay.cpp \
            src/obfuscation.cpp \
-           src/divi-cli.cpp \
-           src/divi-tx.cpp \
-           src/divi.cpp \
+           src/Astra-cli.cpp \
+           src/Astra-tx.cpp \
+           src/Astra.cpp \
            src/db.cpp \
            src/eccryptoverify.cpp \
            src/ecwrapper.cpp \
@@ -470,8 +470,8 @@ SOURCES += src/activemasternode.cpp \
            src/qt/coincontroltreewidget.cpp \
            src/qt/csvmodelwriter.cpp \
            src/qt/obfuscationconfig.cpp \
-           src/qt/divi.cpp \
-           src/qt/divistrings.cpp \
+           src/qt/Astra.cpp \
+           src/qt/Astrastrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
            src/qt/intro.cpp \
@@ -549,7 +549,7 @@ SOURCES += src/activemasternode.cpp \
            src/test/sighash_tests.cpp \
            src/test/sigopcount_tests.cpp \
            src/test/skiplist_tests.cpp \
-           src/test/test_divi.cpp \
+           src/test/test_Astra.cpp \
            src/test/timedata_tests.cpp \
            src/test/transaction_tests.cpp \
            src/test/uint256_tests.cpp \
@@ -640,21 +640,21 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/divi.qrc src/qt/divi_locale.qrc
+RESOURCES += src/qt/Astra.qrc src/qt/Astra_locale.qrc
 
-TRANSLATIONS += src/qt/locale/divi_bg.ts \
-                src/qt/locale/divi_de.ts \
-                src/qt/locale/divi_en.ts \
-                src/qt/locale/divi_es.ts \
-                src/qt/locale/divi_fi.ts \
-                src/qt/locale/divi_fr.ts \
-                src/qt/locale/divi_it.ts \
-                src/qt/locale/divi_ja.ts \
-                src/qt/locale/divi_pl.ts \
-                src/qt/locale/divi_pt.ts \
-                src/qt/locale/divi_ru.ts \
-                src/qt/locale/divi_sk.ts \
-                src/qt/locale/divi_sv.ts \
-                src/qt/locale/divi_vi.ts \
-                src/qt/locale/divi_zh_CN.ts \
-                src/qt/locale/divi_zh_TW.ts
+TRANSLATIONS += src/qt/locale/Astra_bg.ts \
+                src/qt/locale/Astra_de.ts \
+                src/qt/locale/Astra_en.ts \
+                src/qt/locale/Astra_es.ts \
+                src/qt/locale/Astra_fi.ts \
+                src/qt/locale/Astra_fr.ts \
+                src/qt/locale/Astra_it.ts \
+                src/qt/locale/Astra_ja.ts \
+                src/qt/locale/Astra_pl.ts \
+                src/qt/locale/Astra_pt.ts \
+                src/qt/locale/Astra_ru.ts \
+                src/qt/locale/Astra_sk.ts \
+                src/qt/locale/Astra_sv.ts \
+                src/qt/locale/Astra_vi.ts \
+                src/qt/locale/Astra_zh_CN.ts \
+                src/qt/locale/Astra_zh_TW.ts

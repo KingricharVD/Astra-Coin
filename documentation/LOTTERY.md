@@ -2,7 +2,7 @@
 
 ## Definition
 
-__Lottery__ in Divi is a process of selecting 11 winners in a pseudo-random way at the end of every lottery cycle. Lottery winners are determined in every block, this is important to understand, this is not like the real-world lottery where random numbers are generated.
+__Lottery__ in Astra is a process of selecting 11 winners in a pseudo-random way at the end of every lottery cycle. Lottery winners are determined in every block, this is important to understand, this is not like the real-world lottery where random numbers are generated.
 
 __Lottery reward__ is the number of coins that are generated in every block and is added to the lottery pool.
 
@@ -16,8 +16,8 @@ Let's pickup random values to show this on example:
 
 ```cpp
 LC = 200 blocks
-LR = 50 divi
-Total lottery pool = LC * LR = 200 * 50 = 10000 divi
+LR = 50 Astra
+Total lottery pool = LC * LR = 200 * 50 = 10000 Astra
 ```
 
 Let's pretend that we are on block 200, and it's the end of last lottery cycle and the start of new lottery cycle. The algorithm behaves like this:
@@ -46,7 +46,7 @@ static uint256 CalculateLotteryScore(const uint256 &hashCoinbaseTx, const uint25
 When a new block is generated we calculate the score for this block, compare it with 11(or less) scores that are already saved and add it to the list in case it's bigger than minimum score. The new winners list is saved in `vLotteryWinnersCoinstakes` in `CBlockIndex`
 
 ## Lottery participation 
-To participate in the lottery, all you need is to stake with UTXO that is > 10000 Divi. This value can be updated by DVS (multivalue sporks.) 
+To participate in the lottery, all you need is to stake with UTXO that is > 10000 Astra. This value can be updated by DVS (multivalue sporks.) 
 
 ## Lottery winners
 The Current model supports 11 winners.  The biggest hash gets half of the pool, and the other 10 winners are distributed another 5% each. 

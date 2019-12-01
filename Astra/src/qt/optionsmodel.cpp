@@ -5,7 +5,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/divi-config.h"
+#include "config/Astra-config.h"
 #endif
 
 #include "optionsmodel.h"
@@ -61,7 +61,7 @@ void OptionsModel::Init()
 
     // Display
     if (!settings.contains("nDisplayUnit"))
-        settings.setValue("nDisplayUnit", BitcoinUnits::DIV);
+        settings.setValue("nDisplayUnit", BitcoinUnits::Astra);
     nDisplayUnit = settings.value("nDisplayUnit").toInt();
 
     if (!settings.contains("strThirdPartyTxUrls"))
@@ -79,10 +79,10 @@ void OptionsModel::Init()
         settings.setValue("nZeromintPercentage", 10);
     nZeromintPercentage = settings.value("nZeromintPercentage").toLongLong();
 
-    if (!settings.contains("nAnonymizeDiviAmount"))
-        settings.setValue("nAnonymizeDiviAmount", 1000);
+    if (!settings.contains("nAnonymizeAstraAmount"))
+        settings.setValue("nAnonymizeAstraAmount", 1000);
 
-    nAnonymizeDiviAmount = settings.value("nAnonymizeDiviAmount").toLongLong();
+    nAnonymizeAstraAmount = settings.value("nAnonymizeAstraAmount").toLongLong();
 
     if (!settings.contains("fShowMasternodesTab"))
         settings.setValue("fShowMasternodesTab", masternodeConfig.getCount());
@@ -151,8 +151,8 @@ void OptionsModel::Init()
         SoftSetArg("-zeromintpercentage", settings.value("nZeromintPercentage").toString().toStdString());
     if (settings.contains("nPreferredDenom"))
         SoftSetArg("-preferredDenom", settings.value("nPreferredDenom").toString().toStdString());
-    if (settings.contains("nAnonymizeDiviAmount"))
-        SoftSetArg("-anonymizediviamount", settings.value("nAnonymizeDiviAmount").toString().toStdString());
+    if (settings.contains("nAnonymizeAstraAmount"))
+        SoftSetArg("-anonymizeAstraamount", settings.value("nAnonymizeAstraAmount").toString().toStdString());
 
     language = settings.value("language").toString();
 }
@@ -163,7 +163,7 @@ void OptionsModel::Reset()
 
     // Remove all entries from our QSettings object
     settings.clear();
-    resetSettings = true; // Needed in divi.cpp during shotdown to also remove the window positions
+    resetSettings = true; // Needed in Astra.cpp during shotdown to also remove the window positions
 
     // default setting for OptionsModel::StartAtStartup - disabled
     if (GUIUtil::GetStartOnSystemStartup())
@@ -232,8 +232,8 @@ QVariant OptionsModel::data(const QModelIndex& index, int role) const
             return settings.value("nThreadsScriptVerif");
         case ZeromintPercentage:
             return QVariant(nZeromintPercentage);
-        case AnonymizeDiviAmount:
-            return QVariant(nAnonymizeDiviAmount);
+        case AnonymizeAstraAmount:
+            return QVariant(nAnonymizeAstraAmount);
         case Listen:
             return settings.value("fListen");
         default:
@@ -342,10 +342,10 @@ bool OptionsModel::setData(const QModelIndex& index, const QVariant& value, int 
             settings.setValue("nZeromintPercentage", nZeromintPercentage);
             emit zeromintPercentageChanged(nZeromintPercentage);
             break;
-        case AnonymizeDiviAmount:
-            nAnonymizeDiviAmount = value.toInt();
-            settings.setValue("nAnonymizeDiviAmount", nAnonymizeDiviAmount);
-            emit anonymizeDiviAmountChanged(nAnonymizeDiviAmount);
+        case AnonymizeAstraAmount:
+            nAnonymizeAstraAmount = value.toInt();
+            settings.setValue("nAnonymizeAstraAmount", nAnonymizeAstraAmount);
+            emit anonymizeAstraAmountChanged(nAnonymizeAstraAmount);
             break;
         case CoinControlFeatures:
             fCoinControlFeatures = value.toBool();

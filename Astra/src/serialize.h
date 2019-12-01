@@ -8,7 +8,7 @@
 #define BITCOIN_SERIALIZE_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/divi-config.h"
+#include "config/Astra-config.h"
 #endif
 
 #if defined(HAVE_ENDIAN_H)

@@ -1,22 +1,22 @@
-DIVI Core Integration and Staging Repository
+Astra Core Integration and Staging Repository
 =====================================
 
-[![Build Status](https://travis-ci.org/divicoin/divi.svg?branch=master)](https://travis-ci.org/divicoin/divi) [![GitHub version](https://badge.fury.io/gh/divicoin%2FDIVI.svg)](https://badge.fury.io/gh/divicoin%2FDIVI)
+[![Build Status](https://travis-ci.org/Astracoin/Astra.svg?branch=master)](https://travis-ci.org/Astracoin/Astra) [![GitHub version](https://badge.fury.io/gh/Astracoin%2FAstra.svg)](https://badge.fury.io/gh/Astracoin%2FAstra)
 
-DIVI is a new cutting edge cryptocurrency which includes several key features that are not available in most other cryptocurrencies. Some of these features are as follows:
+Astra is a new cutting edge cryptocurrency which includes several key features that are not available in most other cryptocurrencies. Some of these features are as follows:
 - Our _SwiftTX_ functionality allows for fast transaction execution, resulting in guaranteed zero confirmation transactions.
 - Decentralized blockchain voting provides consensus based advancement of the current Masternode technology used to secure the network and provide additional feature functionality.
-- Each of the 5-Tier level Masternodes are secured with a collateral DIV.
+- Each of the 5-Tier level Masternodes are secured with a collateral Astra.
 
-Additional information can be found at [diviproject.org](http://www.diviproject.org) 
+Additional information can be found at [Astraproject.org](http://www.Astraproject.org) 
 
 ### Coin Specs
 <table>
 <tr><td>Algo</td><td>Quark</td></tr>
 <tr><td>Block Time</td><td>60 Seconds</td></tr>
-<tr><td>Total Supply</td><td>6,171,606 DIV</td></tr>
-<tr><td>Currently Circulating</td><td>5,143,207 DIV</td></tr>
-<tr><td>Premine</td><td>60,000 DIV*</td></tr>
+<tr><td>Total Supply</td><td>6,171,606 Astra</td></tr>
+<tr><td>Currently Circulating</td><td>5,143,207 Astra</td></tr>
+<tr><td>Premine</td><td>60,000 Astra*</td></tr>
 </table>
 
 ### 2MB Block Size/Height

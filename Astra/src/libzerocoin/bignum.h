@@ -87,7 +87,7 @@ public:
     CBigNum(short n)            { bn = BN_new(); if (n >= 0) setulong(n); else setint64(n); }
     CBigNum(int n)              { bn = BN_new(); if (n >= 0) setulong(n); else setint64(n); }
     CBigNum(long n)             { bn = BN_new(); if (n >= 0) setulong(n); else setint64(n); }
-#ifdef __APPLE__	
+#ifdef __APPLE__
     CBigNum(int64_t n)            { bn = BN_new(); setint64(n); }
 #endif
     CBigNum(unsigned char n)    { bn = BN_new(); setulong(n); }
@@ -170,7 +170,7 @@ public:
 
         if (sn < (int64_t)0)
         {
-            // Since the minimum signed integer cannot be represented as positive so long as its type is signed, 
+            // Since the minimum signed integer cannot be represented as positive so long as its type is signed,
             // and it's not well-defined what happens if you make it unsigned before negating it,
             // we instead increment the negative integer by 1, convert it, then increment the (now positive) unsigned integer by 1 to compensate
             n = -(sn + 1);
@@ -357,7 +357,7 @@ public:
             nCompact = BN_get_word(cbn.bn);
         }
         // The 0x00800000 bit denotes the sign.
-        // Thus, if it is already set, divide the mantissa by 256 and increase the exponent.
+        // Thus, if it is already set, Astrade the mantissa by 256 and increase the exponent.
         if (nCompact & 0x00800000)
         {
             nCompact >>= 8;
@@ -551,7 +551,7 @@ public:
     }
 
     /**
-     * Calculates the greatest common divisor (GCD) of two numbers.
+     * Calculates the greatest common Astrasor (GCD) of two numbers.
      * @param m the second element
      * @return the GCD
      */

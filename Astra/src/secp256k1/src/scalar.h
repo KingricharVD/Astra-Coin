@@ -75,7 +75,7 @@ static int secp256k1_scalar_is_one(const secp256k1_scalar *a);
 /** Check whether a scalar, considered as an nonnegative integer, is even. */
 static int secp256k1_scalar_is_even(const secp256k1_scalar *a);
 
-/** Check whether a scalar is higher than the group order divided by 2. */
+/** Check whether a scalar is higher than the group order Astraded by 2. */
 static int secp256k1_scalar_is_high(const secp256k1_scalar *a);
 
 /** Conditionally negate a number, in constant time.
@@ -100,7 +100,7 @@ static void secp256k1_scalar_split_128(secp256k1_scalar *r1, secp256k1_scalar *r
 static void secp256k1_scalar_split_lambda(secp256k1_scalar *r1, secp256k1_scalar *r2, const secp256k1_scalar *a);
 #endif
 
-/** Multiply a and b (without taking the modulus!), divide by 2**shift, and round to the nearest integer. Shift must be at least 256. */
+/** Multiply a and b (without taking the modulus!), Astrade by 2**shift, and round to the nearest integer. Shift must be at least 256. */
 static void secp256k1_scalar_mul_shift_var(secp256k1_scalar *r, const secp256k1_scalar *a, const secp256k1_scalar *b, unsigned int shift);
 
 #endif /* SECP256K1_SCALAR_H */

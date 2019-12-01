@@ -164,15 +164,15 @@ public:
 
         vAlertPubKey = ParseHex("0231c07d17c2d69facd84908434dc402b5a9b9e25e5062d1e65163acc7afd0e3ef");
         nDefaultPort = 51472;
-        bnProofOfWorkLimit = ~uint256(0) >> 20;			// DIVI starting difficulty is 1 / 2^12
+        bnProofOfWorkLimit = ~uint256(0) >> 20;			// Astra starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 60 * 24 * 365;
         nMaxReorganizationDepth = 100;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60;						// DIVI: 1 day
-        nTargetSpacing = 1 * 60;						// DIVI: 1 minute
+        nTargetTimespan = 1 * 60;						// Astra: 1 day
+        nTargetSpacing = 1 * 60;						// Astra: 1 minute
         nMaturity = 20;
         nMasternodeCountDrift = 20;
         nMaxMoneyOut = 2534320700 * COIN;
@@ -185,9 +185,9 @@ public:
         nTreasuryPaymentsStartBlock = 101;
         nTreasuryPaymentsCycle = 60 * 24 * 7 + 1;
 
-        nModifierUpdateBlock = 99999999;				// protocol version fix; irrelevant to Divi
+        nModifierUpdateBlock = 99999999;				// protocol version fix; irrelevant to Astra
 
-        nZerocoinStartHeight = 99999999;				// this and following five are all Zerocoin and thus irrelevant to Divi
+        nZerocoinStartHeight = 99999999;				// this and following five are all Zerocoin and thus irrelevant to Astra
         nZerocoinStartTime = 9999999999;
         nBlockEnforceSerialRange = 99999999;
         nBlockRecalculateAccumulators = 99999999;
@@ -228,7 +228,7 @@ public:
         assert(hashGenesisBlock == uint256("0x00000e258596876664989374c7ee36445cf5f4f80889af415cc32478214394ea"));
         assert(genesis.hashMerkleRoot == uint256("0xec803cc6b5e68728ec0117cb1154b6d2893152f89d61319647db106908888bd6"));
 
-        vSeeds.push_back(CDNSSeedData("autoseeds.diviseed.diviproject.org", "autoseeds.diviseed.diviproject.org"));     // Primary DNS Seeder from Fuzzbawls
+        vSeeds.push_back(CDNSSeedData("autoseeds.Astraseed.Astraproject.org", "autoseeds.Astraseed.Astraproject.org"));     // Primary DNS Seeder from Fuzzbawls
         vSeeds.push_back(CDNSSeedData("178.62.195.16", "178.62.195.16"));
         vSeeds.push_back(CDNSSeedData("178.62.221.33", "178.62.221.33"));
         vSeeds.push_back(CDNSSeedData("178.128.251.20", "178.128.251.20"));
@@ -303,15 +303,15 @@ public:
 
         vAlertPubKey = ParseHex("046e70d194b1b6b63b9c5431ea83c7b17d0db8930408b1e7937e41759a799e8fcd22d99ffc0c880094bb07a852a9020f810068417e65d19def8ffbdfa90727b637");
         nDefaultPort = 51472;
-        bnProofOfWorkLimit = ~uint256(0) >> 20; // DIVI starting difficulty is 1 / 2^12
+        bnProofOfWorkLimit = ~uint256(0) >> 20; // Astra starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 1000;
         nMaxReorganizationDepth = 100;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // DIVI: 1 day
-        nTargetSpacing = 1 * 60;  // DIVI: 1 minute
+        nTargetTimespan = 1 * 60; // Astra: 1 day
+        nTargetSpacing = 1 * 60;  // Astra: 1 minute
         nMaturity = 1; //byrdset from 100
         nMasternodeCountDrift = 20;
         nMaxMoneyOut = 2535000000 * COIN;
@@ -364,8 +364,8 @@ public:
         assert(hashGenesisBlock == uint256("0x0000050d77a86f7a3aa38dfac9c23821ed2c5d3002c2e02f9626c7521cd8ced5"));
         assert(genesis.hashMerkleRoot == uint256("0xb68f3b6cefa827045e8bac505203050c9d247c10d7fe2a951575924427a51052"));
 
-        //vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "divi.seed.fuzzbawls.pw"));     // Primary DNS Seeder from Fuzzbawls
-        //vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "divi.seed2.fuzzbawls.pw"));    // Secondary DNS Seeder from Fuzzbawls
+        //vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "Astra.seed.fuzzbawls.pw"));     // Primary DNS Seeder from Fuzzbawls
+        //vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "Astra.seed2.fuzzbawls.pw"));    // Secondary DNS Seeder from Fuzzbawls
         //vSeeds.push_back(CDNSSeedData("coin-server.com", "coin-server.com"));         // Single node address
         //vSeeds.push_back(CDNSSeedData("s3v3nh4cks.ddns.net", "s3v3nh4cks.ddns.net")); // Single node address
         //vSeeds.push_back(CDNSSeedData("178.254.23.111", "178.254.23.111"));           // Single node address
@@ -441,15 +441,15 @@ public:
         nRejectBlockOutdatedMajority = 75;
         nToCheckBlockUpgradeMajority = 100;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // DIVI: 1 day
-        nTargetSpacing = 1 * 60;  // DIVI: 1 minute
+        nTargetTimespan = 1 * 60; // Astra: 1 day
+        nTargetSpacing = 1 * 60;  // Astra: 1 minute
         nMaturity = 15;
         nMasternodeCountDrift = 4;
         nModifierUpdateBlock = 99999999;
         nMaxMoneyOut = 2534320700 * COIN;
         premineAmt = 617222416 * COIN;
 
-        nZerocoinStartHeight = 99999999;				// this and following five are all Zerocoin and thus irrelevant to Divi
+        nZerocoinStartHeight = 99999999;				// this and following five are all Zerocoin and thus irrelevant to Astra
         nZerocoinStartTime = 9999999999;
         nBlockEnforceSerialRange = 99999999;
         nBlockRecalculateAccumulators = 99999999;
@@ -478,15 +478,15 @@ public:
         pchMessageStart[3] = 0x78;
         vAlertPubKey = ParseHex("046e70d194b1b6b63b9c5431ea83c7b17d0db8930408b1e7937e41759a799e8fcd22d99ffc0c880094bb07a852a9020f810068417e65d19def8ffbdfa90727b637");
         nDefaultPort = 51474;
-        bnProofOfWorkLimit = ~uint256(0) >> 20; // DIVI starting difficulty is 1 / 2^12
+        bnProofOfWorkLimit = ~uint256(0) >> 20; // Astra starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 1000;
         nMaxReorganizationDepth = 100;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // DIVI: 1 day
-        nTargetSpacing = 1 * 60;  // DIVI: 1 minute
+        nTargetTimespan = 1 * 60; // Astra: 1 day
+        nTargetSpacing = 1 * 60;  // Astra: 1 minute
         nMaturity = 1; //byrdset from 100
         nMasternodeCountDrift = 20;
         nMaxMoneyOut = 2535000000 * COIN;
@@ -506,14 +506,14 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet divi addresses start with 'x' or 'y'
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet divi script addresses start with '8' or '9'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet Astra addresses start with 'x' or 'y'
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet Astra script addresses start with '8' or '9'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 239);     // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
-        // Testnet divi BIP32 pubkeys start with 'DRKV'
+        // Testnet Astra BIP32 pubkeys start with 'DRKV'
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x3a)(0x80)(0x61)(0xa0).convert_to_container<std::vector<unsigned char> >();
-        // Testnet divi BIP32 prvkeys start with 'DRKP'
+        // Testnet Astra BIP32 prvkeys start with 'DRKP'
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x3a)(0x80)(0x58)(0x37).convert_to_container<std::vector<unsigned char> >();
-        // Testnet divi BIP44 coin type is '1' (All coin's testnet default)
+        // Testnet Astra BIP44 coin type is '1' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
 
         convertSeed6(vFixedSeeds, pnSeed6_test, ARRAYLEN(pnSeed6_test));
@@ -560,8 +560,8 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 1;
-        nTargetTimespan = 24 * 60 * 60; // Divi: 1 day
-        nTargetSpacing = 1 * 60;        // Divi: 1 minutes
+        nTargetTimespan = 24 * 60 * 60; // Astra: 1 day
+        nTargetSpacing = 1 * 60;        // Astra: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         genesis.nTime = 1537971708;
         genesis.nBits = 0x207fffff;

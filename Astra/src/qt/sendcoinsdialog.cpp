@@ -59,7 +59,7 @@ SendCoinsDialog::SendCoinsDialog(QWidget* parent) : QDialog(parent),
     connect(ui->splitBlockCheckBox, SIGNAL(stateChanged(int)), this, SLOT(splitBlockChecked(int)));
     connect(ui->splitBlockLineEdit, SIGNAL(textChanged(const QString&)), this, SLOT(splitBlockLineEditChanged(const QString&)));
 
-    // DIVI specific
+    // Astra specific
     QSettings settings;
     if (!settings.contains("bUseObfuScation"))
         settings.setValue("bUseObfuScation", false);
@@ -134,7 +134,7 @@ SendCoinsDialog::SendCoinsDialog(QWidget* parent) : QDialog(parent),
     ui->customFee->setValue(settings.value("nTransactionFee").toLongLong());
     ui->checkBoxMinimumFee->setChecked(settings.value("fPayOnlyMinFee").toBool());
     ui->checkBoxFreeTx->setChecked(settings.value("fSendFreeTransactions").toBool());
-    ui->checkzDIV->hide();
+    ui->checkzAstra->hide();
     minimizeFeeSection(settings.value("fFeeSectionMinimized").toBool());
 }
 
@@ -371,7 +371,7 @@ void SendCoinsDialog::send(QList<SendCoinsRecipient> recipients, QString strFee,
         questionString.append(" (" + QString::number((double)currentTransaction.getTransactionSize() / 1000) + " kB)");
     }
 
-    // add total amount in all subdivision units
+    // add total amount in all subAstrasion units
     questionString.append("<hr />");
     CAmount totalAmount = currentTransaction.getTotalTransactionAmount() + txFee;
     QStringList alternativeUnits;
@@ -773,7 +773,7 @@ void SendCoinsDialog::splitBlockLineEditChanged(const QString& text)
     CAmount nAfterFee;
     ParseMoney(qAfterFee.toStdString().c_str(), nAfterFee);
 
-    //if greater than 0 then divide after fee by the amount of blocks
+    //if greater than 0 then Astrade after fee by the amount of blocks
     CAmount nSize = nAfterFee;
     int nBlocks = text.toInt();
     if (nAfterFee && nBlocks)
@@ -884,7 +884,7 @@ void SendCoinsDialog::coinControlChangeEdited(const QString& text)
             ui->labelCoinControlChangeLabel->setText("");
         } else if (!addr.IsValid()) // Invalid address
         {
-            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid DIVI address"));
+            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid Astra address"));
         } else // Valid address
         {
             CPubKey pubkey;

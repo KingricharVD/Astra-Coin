@@ -62,12 +62,12 @@
         <translation>Получаващ адрес</translation>
     </message>
     <message>
-        <source>These are your DIVI addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Това са вашите DIVI адреси за изпращане на плащания. Винаги проверявайте количеството и адреса на получателя, преди да изпратите монети.</translation>
+        <source>These are your Astra addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Това са вашите Astra адреси за изпращане на плащания. Винаги проверявайте количеството и адреса на получателя, преди да изпратите монети.</translation>
     </message>
     <message>
-        <source>These are your DIVI addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Това са вашите DIVI адреси за получаване на плащания. Препоръчително е да използвате нови адреси за получаване за всяка транзакция.</translation>
+        <source>These are your Astra addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Това са вашите Astra адреси за получаване на плащания. Препоръчително е да използвате нови адреси за получаване за всяка транзакция.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Потвърдете шифрирането на портфейла</translation>
     </message>
     <message>
-        <source>DIVI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DIVs from being stolen by malware infecting your computer.</source>
-        <translation>DIVI сега ще се затвори, за да довърши процеса по шифриране. Запомнете, че шифрирането на вашия портфейл не може напълно да защити вашия DIVI от това, да бъде откраднат чрез злонамерен софутуер, инфектирал вашия компютър.</translation>
+        <source>Astra will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Astras from being stolen by malware infecting your computer.</source>
+        <translation>Astra сега ще се затвори, за да довърши процеса по шифриране. Запомнете, че шифрирането на вашия портфейл не може напълно да защити вашия Astra от това, да бъде откраднат чрез злонамерен софутуер, инфектирал вашия компютър.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Сигурни ли сте, че искате да шифрирате вашия портфейл?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DIV&lt;/b&gt;!</source>
-        <translation>&lt;b&gt;Внимание: Ако шифрирате вашия портфейл и загубите вашата парола, вие ще ЗАГУБИТЕ ВСИЧКИТЕ ВИ DIV&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR Astra&lt;/b&gt;!</source>
+        <translation>&lt;b&gt;Внимание: Ако шифрирате вашия портфейл и загубите вашата парола, вие ще ЗАГУБИТЕ ВСИЧКИТЕ ВИ Astra&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Шифриране</translation>
     </message>
     <message>
-        <source>Enter a Divi Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Въведете Divi адрес, който искате да шифрирате с BIP 38. Въведете парола в средното поле. Натиснете 'шифрирай', за да се изчисли шифррания личен ключ.</translation>
+        <source>Enter a Astra Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Въведете Astra адрес, който искате да шифрирате с BIP 38. Въведете парола в средното поле. Натиснете 'шифрирай', за да се изчисли шифррания личен ключ.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Адрес:</translation>
     </message>
     <message>
-        <source>The DIVI address to sign the message with</source>
-        <translation>DIVI адреса, с който да подпишете съобщението</translation>
+        <source>The Astra address to sign the message with</source>
+        <translation>Astra адреса, с който да подпишете съобщението</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Копирай сегашния подпис в системния буфер</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DIVI address</source>
-        <translation>Подпишете съобщението, за да докажете, че притежавате този DIVI адрес</translation>
+        <source>Sign the message to prove you own this Astra address</source>
+        <translation>Подпишете съобщението, за да докажете, че притежавате този Astra адрес</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Въведете личният си BIP 38 ключ. Въведете тайната фраза в средното поле. Избери Дешифриращия Ключ за да изчислим личния ключ. След като ключа се дешифрира, за да добаите ключа към портфейла, кликнете "Импортирай адрес".</translation>
     </message>
     <message>
-        <source>The DIVI address the message was signed with</source>
-        <translation>DIVI адреса, който е подписано съобщението</translation>
+        <source>The Astra address the message was signed with</source>
+        <translation>Astra адреса, който е подписано съобщението</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DIVI address</source>
-        <translation>Поверете съобщението, за да се уверите, че е подписано със зададения DIVI адрес</translation>
+        <source>Verify the message to ensure it was signed with the specified Astra address</source>
+        <translation>Поверете съобщението, за да се уверите, че е подписано със зададения Astra адрес</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -602,16 +602,16 @@
         <translation>Колан с инструменти</translation>
     </message>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Ядро</translation>
+        <source>Astra Core</source>
+        <translation>Astra Ядро</translation>
     </message>
     <message>
-        <source>Send coins to a DIVI address</source>
-        <translation>Изпратете монети до DIVI адрес</translation>
+        <source>Send coins to a Astra address</source>
+        <translation>Изпратете монети до Astra адрес</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and divi: URIs)</source>
-        <translation>Поискай плащане (генерира QR кодове и  DIVI:URI)</translation>
+        <source>Request payments (generates QR codes and Astra: URIs)</source>
+        <translation>Поискай плащане (генерира QR кодове и  Astra:URI)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -626,24 +626,24 @@
         <translation>Разгледай мастърноудове</translation>
     </message>
     <message>
-        <source>&amp;About DIVI Core</source>
-        <translation>&amp;Относно DIVI Ядрото</translation>
+        <source>&amp;About Astra Core</source>
+        <translation>&amp;Относно Astra Ядрото</translation>
     </message>
     <message>
-        <source>Show information about DIVI Core</source>
-        <translation>Информациза за DIVI Ядрото</translation>
+        <source>Show information about Astra Core</source>
+        <translation>Информациза за Astra Ядрото</translation>
     </message>
     <message>
-        <source>Modify configuration options for DIVI</source>
-        <translation>Промени DIVI конфигурацията</translation>
+        <source>Modify configuration options for Astra</source>
+        <translation>Промени Astra конфигурацията</translation>
     </message>
     <message>
-        <source>Sign messages with your DIVI addresses to prove you own them</source>
-        <translation>Подпишете съобщения със своте DIVI адреси, за да докажете че са Ваши</translation>
+        <source>Sign messages with your Astra addresses to prove you own them</source>
+        <translation>Подпишете съобщения със своте Astra адреси, за да докажете че са Ваши</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified DIVI addresses</source>
-        <translation>Проеврете съобщения, за да се убедите, че са подписани с указаните DIVI адреси</translation>
+        <source>Verify messages to ensure they were signed with specified Astra addresses</source>
+        <translation>Проеврете съобщения, за да се убедите, че са подписани с указаните Astra адреси</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -674,8 +674,8 @@
         <translation>Отвори Мастърноуд конфигурационния файл</translation>
     </message>
     <message>
-        <source>Open a DIVI: URI or payment request</source>
-        <translation>Отвори DIVI:URI платежно нареждане</translation>
+        <source>Open a Astra: URI or payment request</source>
+        <translation>Отвори Astra:URI платежно нареждане</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -686,16 +686,16 @@
         <translation>Прозорец на блок сондата</translation>
     </message>
     <message>
-        <source>Show the DIVI Core help message to get a list with possible DIVI command-line options</source>
-        <translation>Разкрийте Помощ за DIVI Ядрото, за да видите списък с възможни писмени команди.</translation>
+        <source>Show the Astra Core help message to get a list with possible Astra command-line options</source>
+        <translation>Разкрийте Помощ за Astra Ядрото, за да видите списък с възможни писмени команди.</translation>
     </message>
     <message>
-        <source>DIVI Core client</source>
-        <translation>Клиент DIVI Ядро</translation>
+        <source>Astra Core client</source>
+        <translation>Клиент Astra Ядро</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to DIVI network</source>
-        <translation><numerusform>%n активни връзки към DIVI мрежата</numerusform><numerusform>%n активни свръзки към DIVI мрежата</numerusform></translation>
+        <source>%n active connection(s) to Astra network</source>
+        <translation><numerusform>%n активни връзки към Astra мрежата</numerusform><numerusform>%n активни свръзки към Astra мрежата</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -845,8 +845,8 @@ Address: %4
         <translation>ТекстовЕтикет</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (divi.conf).</source>
-        <translation>Не всички преводи ще бъдат показани. За да разгледате всички преводи, трябва да зададете txindex=1 в конфигурационния файл (divi.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (Astra.conf).</source>
+        <translation>Не всички преводи ще бъдат показани. За да разгледате всички преводи, трябва да зададете txindex=1 в конфигурационния файл (Astra.conf).</translation>
     </message>
 </context>
 <context>
@@ -1138,8 +1138,8 @@ Address: %4
         <translation>Редактирай адрес за изпращане</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid DIVI address.</source>
-        <translation>Зададения адрес "%1"не е валиден DIVI адрес.</translation>
+        <source>The entered address "%1" is not a valid Astra address.</source>
+        <translation>Зададения адрес "%1"не е валиден Astra адрес.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1184,16 +1184,16 @@ Address: %4
         <translation>версия</translation>
     </message>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Ядро</translation>
+        <source>Astra Core</source>
+        <translation>Astra Ядро</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About DIVI Core</source>
-        <translation>Относно DIVI Ядрото</translation>
+        <source>About Astra Core</source>
+        <translation>Относно Astra Ядрото</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1239,16 +1239,16 @@ Address: %4
         <translation>Привет</translation>
     </message>
     <message>
-        <source>Welcome to DIVI Core.</source>
-        <translation>Добре Дошли в DIVI Ядрото</translation>
+        <source>Welcome to Astra Core.</source>
+        <translation>Добре Дошли в Astra Ядрото</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where DIVI Core will store its data.</source>
-        <translation>Тъй като това е първия път, в който стартирате програмата, имате възможността да изберете къде DIVI Ядрото ще съхранява своите данни.</translation>
+        <source>As this is the first time the program is launched, you can choose where Astra Core will store its data.</source>
+        <translation>Тъй като това е първия път, в който стартирате програмата, имате възможността да изберете къде Astra Ядрото ще съхранява своите данни.</translation>
     </message>
     <message>
-        <source>DIVI Core will download and store a copy of the DIVI block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>DIVI Ядрото ще изтегли и запише копие на целия DIVI блокчейн. Поне %1 гигабайта ще бъдат съхранявани в тази папка, като тенденцията е файла да расте. Портфейла също ще бъде запазен в тази папка.</translation>
+        <source>Astra Core will download and store a copy of the Astra block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Astra Ядрото ще изтегли и запише копие на целия Astra блокчейн. Поне %1 гигабайта ще бъдат съхранявани в тази папка, като тенденцията е файла да расте. Портфейла също ще бъде запазен в тази папка.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1259,8 +1259,8 @@ Address: %4
         <translation>Задай своя папка за данни:</translation>
     </message>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Ядро</translation>
+        <source>Astra Core</source>
+        <translation>Astra Ядро</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1401,12 +1401,12 @@ Address: %4
         <translation>Въведете адреса на Получателя</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other DIVI addresses after it matures.
-To Add: enter percentage to give and DIVI address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Astra addresses after it matures.
+To Add: enter percentage to give and Astra address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>МултиИзпращане Ви позволява автоматично да изпращате до 100% от вашите стейк или мастърноуд възнаграждения към списък от други DIVI адреси.
-Да Добавите: въведете процент и задайте DIVI адрес към вектора за МултиИзпращане
+        <translation>МултиИзпращане Ви позволява автоматично да изпращате до 100% от вашите стейк или мастърноуд възнаграждения към списък от други Astra адреси.
+Да Добавите: въведете процент и задайте Astra адрес към вектора за МултиИзпращане
 Да Прамахнете: Въведете адрес за изстриване и натиснете истрий (del).
 МултиИзпращането няма да бъде активирано докато не кликнете "Активирай"</translation>
     </message>
@@ -1559,47 +1559,47 @@ Please check the address and try again.</source>
         <translation>Изберете ниво на поверителност.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 DIV</source>
-        <translation>Използвай 2 различни мастърноуда за смесване на средства над 10000 DIV</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 Astra</source>
+        <translation>Използвай 2 различни мастърноуда за смесване на средства над 10000 Astra</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 DIV</source>
-        <translation>Използвай 8 различни мастърноуда за да смесите средства до 10000 DIV</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 Astra</source>
+        <translation>Използвай 8 различни мастърноуда за да смесите средства до 10000 Astra</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Използвай 16 различни мастърноуда</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 DIV to anonymize 10000 DIV</source>
-        <translation>Това е най-бързия метод и ще струва около 0.025 DIV за да скриете 10000 DIV</translation>
+        <source>This option is the quickest and will cost about ~0.025 Astra to anonymize 10000 Astra</source>
+        <translation>Това е най-бързия метод и ще струва около 0.025 Astra за да скриете 10000 Astra</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 DIV to anonymize 10000 DIV</source>
-        <translation>Тази опция е сравнително бърза и ще струва около 0.05 DIV за да скриете 10000 DIV</translation>
+        <source>This option is moderately fast and will cost about 0.05 Astra to anonymize 10000 Astra</source>
+        <translation>Тази опция е сравнително бърза и ще струва около 0.05 Astra за да скриете 10000 Astra</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
-        <translation>Това е най-бавния и най-сигурен вариант за скриване на DIV. Използването й ще струва</translation>
+        <translation>Това е най-бавния и най-сигурен вариант за скриване на Astra. Използването й ще струва</translation>
     </message>
     <message>
-        <source>0.1 DIV per 10000 DIV you anonymize.</source>
-        <translation>0.1 DIV за 10000 скрити DIV</translation>
+        <source>0.1 Astra per 10000 Astra you anonymize.</source>
+        <translation>0.1 Astra за 10000 скрити Astra</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Конфигурация на Обфускацията</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening DIVI's configuration screen.</source>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Astra's configuration screen.</source>
         <translation>Обфускацията е успешно конфигурирана на елементарно ниво (%1 и 2 кръга). Moжете да промените тази настройка по всяко време от същото място.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening DIVI's configuration screen.</source>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Astra's configuration screen.</source>
         <translation>Обфускацията е успешно конфигурирана на високо ниво (%1 и 8 кръга). Moжете да промените тази настройка по всяко време от същото място.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening DIVI's configuration screen.</source>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Astra's configuration screen.</source>
         <translation>Обфускацията е успешно конфигурирана на максимално ниво (%1 и 16 кръга). Moжете да промените тази настройка по всяко време от същото място.</translation>
     </message>
 </context>
@@ -1661,8 +1661,8 @@ Please check the address and try again.</source>
         <translation>Aко изключите харча на непотвърдено ресто, рестото от превод&lt;br/&gt;не може да се използва, докато превода не получи поне 1 потвърждение. &lt;br/&gt;Това влияе и на начина по който общите Ви средства се преизчисляват.</translation>
     </message>
     <message>
-        <source>Automatically open the DIVI client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматично отвори DIVI порта в рутера. Това става само ако рутера Ви подържа UPnP и последния е включен.</translation>
+        <source>Automatically open the Astra client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматично отвори Astra порта в рутера. Това става само ако рутера Ви подържа UPnP и последния е включен.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1681,12 +1681,12 @@ Please check the address and try again.</source>
         <translation>Експерт</translation>
     </message>
     <message>
-        <source>Automatically start DIVI after logging in to the system.</source>
-        <translation>Стартирай DIVI автоматично след влизане в системата.</translation>
+        <source>Automatically start Astra after logging in to the system.</source>
+        <translation>Стартирай Astra автоматично след влизане в системата.</translation>
     </message>
     <message>
-        <source>&amp;Start DIVI on system login</source>
-        <translation>&amp;Стартирай DIVI заедно с операционната система</translation>
+        <source>&amp;Start Astra on system login</source>
+        <translation>&amp;Стартирай Astra заедно с операционната система</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1713,34 +1713,34 @@ Please check the address and try again.</source>
         <translation>&amp;Мрежа</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting DIVI.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Astra.</source>
         <translation>Промяна на езика. Настройката е активна след рестарт на портфейла.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/divicoin/divicoin-translations</source>
+https://www.transifex.com/Astracoin/Astracoin-translations</source>
         <translation>Липсващ език или непълен превод? Помогнете с преводите тук:
-https://www.transifex.com/divicoin/divicoin-translations</translation>
+https://www.transifex.com/Astracoin/Astracoin-translations</translation>
     </message>
     <message>
-        <source>Percentage of incoming DIV which get automatically converted to zDIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Процент от входящите DIV, който автоматично да се конвертира в zDIV посредтвом Zerocoin Протокола (мин: 10%)</translation>
+        <source>Percentage of incoming Astra which get automatically converted to zAstra via Zerocoin Protocol (min: 10%)</source>
+        <translation>Процент от входящите Astra, който автоматично да се конвертира в zAstra посредтвом Zerocoin Протокола (мин: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zDIV</source>
-        <translation>Процент автоматично сечени zDIV</translation>
+        <source>Percentage of autominted zAstra</source>
+        <translation>Процент автоматично сечени zAstra</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough DIV for this denomination is available</source>
-        <translation>Не бързай с автоматичното конвертиране в zDIV докато не се съберат достатъчно DIV за тази деноминация</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough Astra for this denomination is available</source>
+        <translation>Не бързай с автоматичното конвертиране в zAstra докато не се съберат достатъчно Astra за тази деноминация</translation>
     </message>
     <message>
-        <source>Preferred Automint zDIV Denomination</source>
-        <translation>Предпочитани деноминации, в които да се сече автоматичен zDIV</translation>
+        <source>Preferred Automint zAstra Denomination</source>
+        <translation>Предпочитани деноминации, в които да се сече автоматичен zAstra</translation>
     </message>
     <message>
-        <source>Connect to the DIVI network through a SOCKS5 proxy.</source>
-        <translation>Свържи се с DIVI мрежата със SOCKS5 прокси.</translation>
+        <source>Connect to the Astra network through a SOCKS5 proxy.</source>
+        <translation>Свържи се с Astra мрежата със SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1795,7 +1795,7 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Мерни единици:</translation>
     </message>
     <message>
-        <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
+        <source>Choose the default subAstrasion unit to show in the interface and when sending coins.</source>
         <translation>Изберете вида десетична запетая.</translation>
     </message>
     <message>
@@ -1870,8 +1870,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>От</translation>
     </message>
     <message>
-        <source>DIV Balances</source>
-        <translation>DIV Баланс</translation>
+        <source>Astra Balances</source>
+        <translation>Astra Баланс</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1898,8 +1898,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Възнаграждение от стейкване или мастърноуд, които все още не са узрели.</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DIVI network after a connection is established, but this process has not completed yet.</source>
-        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с DIVI мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Astra network after a connection is established, but this process has not completed yet.</source>
+        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с Astra мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1934,20 +1934,20 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Налични за харчене:</translation>
     </message>
     <message>
-        <source>DIV:</source>
-        <translation>DIV:</translation>
+        <source>Astra:</source>
+        <translation>Astra:</translation>
     </message>
     <message>
-        <source>zDIV:</source>
-        <translation>zDIV:</translation>
+        <source>zAstra:</source>
+        <translation>zAstra:</translation>
     </message>
     <message>
         <source>0 %</source>
         <translation>0 %</translation>
     </message>
     <message>
-        <source>0.000 000 00 DIV</source>
-        <translation>0.000 000 00 DIV</translation>
+        <source>0.000 000 00 Astra</source>
+        <translation>0.000 000 00 Astra</translation>
     </message>
     <message>
         <source>Zerocoin Balance</source>
@@ -1985,12 +1985,12 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Грешен адрес за плащане %1</translation>
     </message>
     <message>
-        <source>Cannot start divi: click-to-pay handler</source>
-        <translation>Провал при стартирането на divi: click-to-pay обработвател</translation>
+        <source>Cannot start Astra: click-to-pay handler</source>
+        <translation>Провал при стартирането на Astra: click-to-pay обработвател</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid DIVI address or malformed URI parameters.</source>
-        <translation>URI не може да се парсне. Вероятна причина е невалиден DIVI адрес или зле-форматирани URI Параметри.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Astra address or malformed URI parameters.</source>
+        <translation>URI не може да се парсне. Вероятна причина е невалиден Astra адрес или зле-форматирани URI Параметри.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2071,24 +2071,24 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>DIV which were anonymized via Zerocin Protocol</source>
-        <translation>DIV скрити посредством Зерокойн протокола</translation>
+        <source>Astra which were anonymized via Zerocin Protocol</source>
+        <translation>Astra скрити посредством Зерокойн протокола</translation>
     </message>
     <message>
-        <source>Zerocoin DIV (zDIV)</source>
-        <translation>Zerocoin DIV (zDIV)</translation>
+        <source>Zerocoin Astra (zAstra)</source>
+        <translation>Zerocoin Astra (zAstra)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
         <translation>Zerocoin Действия:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DIVI network after a connection is established, but this process has not completed yet.</source>
-        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с DIVI мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Astra network after a connection is established, but this process has not completed yet.</source>
+        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с Astra мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
     </message>
     <message>
-        <source>Enter an amount of Div to convert to zDiv</source>
-        <translation>Въведете колко DIV  да се конвертират в zDIV</translation>
+        <source>Enter an amount of Astra to convert to zAstra</source>
+        <translation>Въведете колко Astra  да се конвертират в zAstra</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2099,16 +2099,16 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zDIV</source>
-        <translation>zDIV</translation>
+        <source>zAstra</source>
+        <translation>zAstra</translation>
     </message>
     <message>
         <source>Available for Minting:</source>
         <translation>Налични за сечене:</translation>
     </message>
     <message>
-        <source>0.000 000 00 DIV</source>
-        <translation>0.000 000 00 DIV</translation>
+        <source>0.000 000 00 Astra</source>
+        <translation>0.000 000 00 Astra</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2143,12 +2143,12 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Състояния и/или Съобщения от последните действия по сечене на монети.</translation>
     </message>
     <message>
-        <source>zDiv Control</source>
-        <translation>zDIV Контрол</translation>
+        <source>zAstra Control</source>
+        <translation>zAstra Контрол</translation>
     </message>
     <message>
-        <source>zDiv Selected:</source>
-        <translation>Избрани zDIV:</translation>
+        <source>zAstra Selected:</source>
+        <translation>Избрани zAstra:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2167,8 +2167,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Налични:</translation>
     </message>
     <message>
-        <source>0 zDIV</source>
-        <translation>0 zDIV</translation>
+        <source>0 zAstra</source>
+        <translation>0 zAstra</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2187,7 +2187,7 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Плати На:</translation>
     </message>
     <message>
-        <source>The DIVI address to send the payment to. Creates local payment to yourself when empty.</source>
+        <source>The Astra address to send the payment to. Creates local payment to yourself when empty.</source>
         <translation>Адреса на който да изпратим плащането. Ако е празно - плащането е до себе си.</translation>
     </message>
     <message>
@@ -2220,7 +2220,7 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
     </message>
     <message>
         <source>Convert Change to Zerocoin (might cost additional fees)</source>
-        <translation>Изсечи zDIV от рестото (ще струва допълнително заради таксите)</translation>
+        <translation>Изсечи zAstra от рестото (ще струва допълнително заради таксите)</translation>
     </message>
     <message>
         <source>If checked, the wallet tries to minimize the returning change instead of minimizing the number of spent denominations.</source>
@@ -2395,8 +2395,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Успешно изсечени</translation>
     </message>
     <message>
-        <source> zDIV in </source>
-        <translation>zDIV в</translation>
+        <source> zAstra in </source>
+        <translation>zAstra в</translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -2429,8 +2429,8 @@ Please be patient...</source>
         <translation>Без 'Плати На' адрес, плащането е локално</translation>
     </message>
     <message>
-        <source>Invalid Divi Address</source>
-        <translation>Невалиден DIVI адрес</translation>
+        <source>Invalid Astra Address</source>
+        <translation>Невалиден Astra адрес</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -2469,8 +2469,8 @@ Please be patient...</source>
         <translation>Харченето на Zerocoin се провали със статус =</translation>
     </message>
     <message>
-        <source>zDiv Spend #: </source>
-        <translation>zDIV Похарчени #:</translation>
+        <source>zAstra Spend #: </source>
+        <translation>zAstra Похарчени #:</translation>
     </message>
     <message>
         <source>denomination: </source>
@@ -2493,8 +2493,8 @@ Please be patient...</source>
         <translation>адрес:</translation>
     </message>
     <message>
-        <source>zDiv Mint</source>
-        <translation>Сечене на zDIV</translation>
+        <source>zAstra Mint</source>
+        <translation>Сечене на zAstra</translation>
     </message>
     <message>
         <source>Sending successful, return code: </source>
@@ -2516,8 +2516,8 @@ Please be patient...</source>
         <translation>Сума</translation>
     </message>
     <message>
-        <source>Enter a DIVI address (e.g. %1)</source>
-        <translation>Задайте DIVI адрес (например %1)</translation>
+        <source>Enter a Astra address (e.g. %1)</source>
+        <translation>Задайте Astra адрес (например %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2654,8 +2654,8 @@ Please be patient...</source>
         <translation>Блокчейн</translation>
     </message>
     <message>
-        <source>Open the DIVI debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Отвори DIVI дебъг лог файла от сегашната папка. Това може да отнеме известно време за по-дълги файлове.</translation>
+        <source>Open the Astra debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Отвори Astra дебъг лог файла от сегашната папка. Това може да отнеме известно време за по-дълги файлове.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2822,8 +2822,8 @@ Please be patient...</source>
         <translation>Изходящи:</translation>
     </message>
     <message>
-        <source>Welcome to the DIVI RPC console.</source>
-        <translation>Добре Дошли в RPC конзолата на DIVI.</translation>
+        <source>Welcome to the Astra RPC console.</source>
+        <translation>Добре Дошли в RPC конзолата на Astra.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2893,12 +2893,12 @@ Please be patient...</source>
         <translation>Незадължителен етикет, който да асоциираме с адреса за получаване.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the DIVI network.</source>
-        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по DIVI мрежата.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Astra network.</source>
+        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по Astra мрежата.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the DIVI network.</source>
-        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. &lt;br&gt;Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по DIVI мрежата.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Astra network.</source>
+        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. &lt;br&gt;Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по Astra мрежата.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3122,8 +3122,8 @@ Please be patient...</source>
         <translation>Размер на UTXO:</translation>
     </message>
     <message>
-        <source>0 DIV</source>
-        <translation>0 DIV</translation>
+        <source>0 Astra</source>
+        <translation>0 Astra</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3174,15 +3174,15 @@ Please be patient...</source>
         <translation>Автоматично избрани монети</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uDIVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uDIVs in fee,&lt;br /&gt;while "at least" pays 1000 uDIVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ако собствената такса е настроена на 1000 uDIV и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uDIV входяща такса, &lt;br /&gt;докато "минимална сума" плаща 1000 uDIV. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
+        <source>If the custom fee is set to 1000 uAstras and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uAstras in fee,&lt;br /&gt;while "at least" pays 1000 uAstras. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ако собствената такса е настроена на 1000 uAstra и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uAstra входяща такса, &lt;br /&gt;докато "минимална сума" плаща 1000 uAstra. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uDIVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uDIVs in fee,&lt;br /&gt;while "total at least" pays 1000 uDIVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ако собствената такса е настроена на 1000 uDIV и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uDIV входяща такса,&lt;br /&gt; докато "минимална сума" плаща 1000 uDIV. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
+        <source>If the custom fee is set to 1000 uAstras and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uAstras in fee,&lt;br /&gt;while "total at least" pays 1000 uAstras. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ако собствената такса е настроена на 1000 uAstra и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uAstra входяща такса,&lt;br /&gt; докато "минимална сума" плаща 1000 uAstra. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for DIVI transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Astra transactions than the network can process.</source>
         <translation>Няма проблем да платите минималната такса, стига обема преводи да е по-малък от наличното място в блоковете. &lt;br /&gt;Но имайте впредвид, че това може да се окаже в превод, който никога не получава потвърждение ако заявките за преводи са повече от колкото мрежата може да понесе.</translation>
     </message>
     <message>
@@ -3230,8 +3230,8 @@ Please be patient...</source>
         <translation>Добави Получател</translation>
     </message>
     <message>
-        <source>Anonymized DIV</source>
-        <translation>Анонимизиран DIV</translation>
+        <source>Anonymized Astra</source>
+        <translation>Анонимизиран Astra</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -3286,8 +3286,8 @@ Please be patient...</source>
         <translation>анонимни средства</translation>
     </message>
     <message>
-        <source>Warning: Invalid DIVI address</source>
-        <translation>Предупреждение: Невалиден DIV адрес</translation>
+        <source>Warning: Invalid Astra address</source>
+        <translation>Предупреждение: Невалиден Astra адрес</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -3389,8 +3389,8 @@ Please be patient...</source>
         <translation>Плати На:</translation>
     </message>
     <message>
-        <source>The DIVI address to send the payment to</source>
-        <translation>DIVI адреса - получател на плащането</translation>
+        <source>The Astra address to send the payment to</source>
+        <translation>Astra адреса - получател на плащането</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3429,8 +3429,8 @@ Please be patient...</source>
         <translation>Съобщение:</translation>
     </message>
     <message>
-        <source>A message that was attached to the DIVI: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the DIVI network.</source>
-        <translation>Съобщение, което е било прикачено към DIVI:URI и което ще бъде запазено заедно с превода за ваша информация. Внимание: Това съобщение е само за Вас, то няма да бъде изпратено по DIVI мрежата.</translation>
+        <source>A message that was attached to the Astra: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Astra network.</source>
+        <translation>Съобщение, което е било прикачено към Astra:URI и което ще бъде запазено заедно с превода за ваша информация. Внимание: Това съобщение е само за Вас, то няма да бъде изпратено по Astra мрежата.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3456,8 +3456,8 @@ Please be patient...</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>DIVI Core is shutting down...</source>
-        <translation>Изключване на DIVI Ядрото...</translation>
+        <source>Astra Core is shutting down...</source>
+        <translation>Изключване на Astra Ядрото...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3479,8 +3479,8 @@ Please be patient...</source>
         <translation>Може да подписвате съобщения с Вашите адреси, за да докажете че сте техен притежател. Внимавайте да не подписвате нищо съмнително, тъй като има хакерски атаки, които целят да придобият вашата самоличност. Само подписвайте пълен и ясен текст, с който сте напълно съгласни.</translation>
     </message>
     <message>
-        <source>The DIVI address to sign the message with</source>
-        <translation>DIVI адреса, с който да подпишете съобщението</translation>
+        <source>The Astra address to sign the message with</source>
+        <translation>Astra адреса, с който да подпишете съобщението</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3511,16 +3511,16 @@ Please be patient...</source>
         <translation>Копирай сегашния подпис в системния буфер</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DIVI address</source>
-        <translation>Подпишете съобщението, за да докажете, че притежавате този DIVI адрес</translation>
+        <source>Sign the message to prove you own this Astra address</source>
+        <translation>Подпишете съобщението, за да докажете, че притежавате този Astra адрес</translation>
     </message>
     <message>
-        <source>The DIVI address the message was signed with</source>
-        <translation>DIVI адреса, който е подписано съобщението</translation>
+        <source>The Astra address the message was signed with</source>
+        <translation>Astra адреса, който е подписано съобщението</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DIVI address</source>
-        <translation>Поверете съобщението, за да се уверите, че е подписано със зададения DIVI адрес</translation>
+        <source>Verify the message to ensure it was signed with the specified Astra address</source>
+        <translation>Поверете съобщението, за да се уверите, че е подписано със зададения Astra адрес</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3606,8 +3606,8 @@ Please be patient...</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Ядро</translation>
+        <source>Astra Core</source>
+        <translation>Astra Ядро</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3622,8 +3622,8 @@ Please be patient...</source>
         <translation>Dash Core разработчици</translation>
     </message>
     <message>
-        <source>The DIVI Core developers</source>
-        <translation>DIVI Core разработчици</translation>
+        <source>The Astra Core developers</source>
+        <translation>Astra Core разработчици</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3910,32 +3910,32 @@ Please be patient...</source>
         <translation>Обфускирани</translation>
     </message>
     <message>
-        <source>Converted Div to zDiv</source>
-        <translation>Конвертиран DIV във zDIV</translation>
+        <source>Converted Astra to zAstra</source>
+        <translation>Конвертиран Astra във zAstra</translation>
     </message>
     <message>
-        <source>Spent zDiv</source>
-        <translation>Похарчени zDIV</translation>
+        <source>Spent zAstra</source>
+        <translation>Похарчени zAstra</translation>
     </message>
     <message>
-        <source>Received Div from zDiv</source>
-        <translation>Получен DIV от zDIV</translation>
+        <source>Received Astra from zAstra</source>
+        <translation>Получен Astra от zAstra</translation>
     </message>
     <message>
-        <source>Minted Change as zDiv from zDiv Spend</source>
-        <translation>Исечено ресто като zDIV от похарчените zDIV</translation>
+        <source>Minted Change as zAstra from zAstra Spend</source>
+        <translation>Исечено ресто като zAstra от похарчените zAstra</translation>
     </message>
     <message>
-        <source>Converted zDiv to Div</source>
-        <translation>Конвертирани zDIV в DIV</translation>
+        <source>Converted zAstra to Astra</source>
+        <translation>Конвертирани zAstra в Astra</translation>
     </message>
     <message>
         <source>watch-only</source>
         <translation>наблюдение само</translation>
     </message>
     <message>
-        <source>zDiv Accumulator</source>
-        <translation>zDIV Акумулатор</translation>
+        <source>zAstra Accumulator</source>
+        <translation>zAstra Акумулатор</translation>
     </message>
     <message>
         <source>(n/a)</source>
@@ -4041,8 +4041,8 @@ Please be patient...</source>
         <translation>Мастърноуд възнаграждение</translation>
     </message>
     <message>
-        <source>Received Div from zDiv</source>
-        <translation>Получен DIV от zDIV</translation>
+        <source>Received Astra from zAstra</source>
+        <translation>Получен Astra от zAstra</translation>
     </message>
     <message>
         <source>Zerocoin Mint</source>
@@ -4053,8 +4053,8 @@ Please be patient...</source>
         <translation>Харчене на Zerocoin</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zDiv</source>
-        <translation>Харчене на Zerocoin, Ресто в zDIV</translation>
+        <source>Zerocoin Spend, Change in zAstra</source>
+        <translation>Харчене на Zerocoin, Ресто в zAstra</translation>
     </message>
     <message>
         <source>Zerocoin Spend to Self</source>
@@ -4210,10 +4210,10 @@ Please be patient...</source>
     </message>
 </context>
 <context>
-    <name>ZDivControlDialog</name>
+    <name>ZAstraControlDialog</name>
     <message>
-        <source>Select zDiv to Spend</source>
-        <translation>Изберете zDIV за Изпращане</translation>
+        <source>Select zAstra to Spend</source>
+        <translation>Изберете zAstra за Изпращане</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4224,8 +4224,8 @@ Please be patient...</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zDiv</source>
-        <translation>zDIV</translation>
+        <source>zAstra</source>
+        <translation>zAstra</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4237,7 +4237,7 @@ Please be patient...</source>
     </message>
 </context>
 <context>
-    <name>divi-core</name>
+    <name>Astra-core</name>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
         <translation>Промяна на поведението на автоматично финализираното гласоподаване. mode=auto: Гласувай само за точни финализирани бюджети, които съвпадат с моят генериран бюджет. (string, default:auto)</translation>
@@ -4287,12 +4287,12 @@ Please be patient...</source>
         <translation>Командата влиза в сила, когато най-добрия блок се промени (%s в cmd се замества от хаш на блока)</translation>
     </message>
     <message>
-        <source>Fees (in DIV/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Такси (в DIV/Кб) по-малки от това се считат за нулеви при препращане (default: %s)</translation>
+        <source>Fees (in Astra/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Такси (в Astra/Кб) по-малки от това се считат за нулеви при препращане (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in DIV/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Такси (в DIV/Кб) по-малки от това се считат за нулеви при създаване на предовда (default: %s)</translation>
+        <source>Fees (in Astra/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Такси (в Astra/Кб) по-малки от това се считат за нулеви при създаване на предовда (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>

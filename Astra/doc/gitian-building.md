@@ -1,9 +1,9 @@
 Gitian building
 ================
 
-*Setup instructions for a Gitian build of Divi Core using a Debian VM or physical system.*
+*Setup instructions for a Gitian build of Astra Core using a Debian VM or physical system.*
 
-Gitian is the deterministic build process that is used to build the Divi
+Gitian is the deterministic build process that is used to build the Astra
 Core executables. It provides a way to be reasonably sure that the
 executables are really built from the source on GitHub. It also makes sure that
 the same, tested dependencies are used and statically built into the executable.
@@ -11,7 +11,7 @@ the same, tested dependencies are used and statically built into the executable.
 Multiple developers build the source code by following a specific descriptor
 ("recipe"), cryptographically sign the result, and upload the resulting signature.
 These results are compared and only if they match, the build is accepted and uploaded
-to diviproject.org.
+to Astraproject.org.
 
 More independent Gitian builders are needed, which is why this guide exists.
 It is preferred you follow these steps yourself instead of using someone else's
@@ -26,7 +26,7 @@ Table of Contents
 - [Installing Gitian](#installing-gitian)
 - [Setting up the Gitian image](#setting-up-the-gitian-image)
 - [Getting and building the inputs](#getting-and-building-the-inputs)
-- [Building Divi Core](#building-Divi-core)
+- [Building Astra Core](#building-Astra-core)
 
 Preparing the Gitian builder host
 ---------------------------------
@@ -236,7 +236,7 @@ For example, to connect as `root` from a Linux command prompt use
 
     The programs included with the Debian GNU/Linux system are free software;
     the exact distribution terms for each program are described in the
-    individual files in /usr/share/doc/*/copyright.
+    inAstradual files in /usr/share/doc/*/copyright.
 
     Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
     permitted by applicable law.
@@ -303,11 +303,11 @@ cd ..
 
 **Note**: When sudo asks for a password, enter the password for the user *debian* not for *root*.
 
-Clone the git repositories for Divi Core and Gitian.
+Clone the git repositories for Astra Core and Gitian.
 
 ```bash
 git clone https://github.com/devrandom/gitian-builder.git
-git clone https://github.com/Divicoin/Divi.git
+git clone https://github.com/Astracoin/Astra.git
 ```
 
 Setting up the Gitian image
@@ -344,15 +344,15 @@ Getting and building the inputs
 At this point you have two options, you can either use the automated script (found in [contrib/gitian-build.sh](/contrib/gitian-build.sh)) or you could manually do everything by following this guide. If you're using the automated script, then run it with the "--setup" command. Afterwards, run it with the "--build" command (example: "contrib/gitian-building.sh -b signer 0.13.0"). Otherwise ignore this.
 
 Follow the instructions in [doc/release-process.md](release-process.md#fetch-and-create-inputs-first-time-or-when-dependency-versions-change)
-in the Divi Core repository under 'Fetch and create inputs' to install sources which require
+in the Astra Core repository under 'Fetch and create inputs' to install sources which require
 manual intervention. Also optionally follow the next step: 'Seed the Gitian sources cache
 and offline git repositories' which will fetch the remaining files required for building
 offline.
 
-Building Divi Core
+Building Astra Core
 ----------------
 
-To build Divi Core (for Linux, OS X and Windows):
+To build Astra Core (for Linux, OS X and Windows):
 
 First update
 
@@ -361,11 +361,11 @@ First update
 
 Then run the following command to compile for the OS in question:
 
-`./bin/gbuild --commit divi=${COMMIT} ../Divi/divi/contrib/gitian-descriptors/gitian-linux.yml`
-`./bin/gbuild --commit divi=${COMMIT} ../Divi/divi/contrib/gitian-descriptors/gitian-osx.yml`
-`./bin/gbuild --commit divi=${COMMIT} ../Divi/divi/contrib/gitian-descriptors/gitian-win.yml`
+`./bin/gbuild --commit Astra=${COMMIT} ../Astra/Astra/contrib/gitian-descriptors/gitian-linux.yml`
+`./bin/gbuild --commit Astra=${COMMIT} ../Astra/Astra/contrib/gitian-descriptors/gitian-osx.yml`
+`./bin/gbuild --commit Astra=${COMMIT} ../Astra/Astra/contrib/gitian-descriptors/gitian-win.yml`
 
-instead of `${COMMIT}` you can specify any branch or tag, for instance: `divi=master`
+instead of `${COMMIT}` you can specify any branch or tag, for instance: `Astra=master`
 
 This may take some time as it will build all the dependencies needed for each descriptor.
 These dependencies will be cached after a successful build to avoid rebuilding them when possible.
@@ -380,12 +380,12 @@ tail -f var/build.log
 Output from `gbuild` will look something like
 
 ```bash
-    Initialized empty Git repository in /home/debian/gitian-builder/inputs/Divi/.git/
+    Initialized empty Git repository in /home/debian/gitian-builder/inputs/Astra/.git/
     remote: Counting objects: 57959, done.
     remote: Total 57959 (delta 0), reused 0 (delta 0), pack-reused 57958
     Receiving objects: 100% (57959/57959), 53.76 MiB | 484.00 KiB/s, done.
     Resolving deltas: 100% (41590/41590), done.
-    From https://github.com/Divicoin/Divi
+    From https://github.com/Astracoin/Astra
     ... (new tags, new branch etc)
     --- Building for trusty amd64 ---
     Stopping target if it is up
@@ -411,9 +411,9 @@ and inputs.
 
 For example:
 ```bash
-URL=https://github.com/crowning-/Divi.git
+URL=https://github.com/crowning-/Astra.git
 COMMIT=b616fb8ef0d49a919b72b0388b091aaec5849b96
-./bin/gbuild --commit divi=${COMMIT} --url Divi=${URL} ../Divi/divi/contrib/gitian-descriptors/gitian-linux.yml
-./bin/gbuild --commit divi=${COMMIT} --url Divi=${URL} ../Divi/divi/contrib/gitian-descriptors/gitian-win.yml
-./bin/gbuild --commit divi=${COMMIT} --url Divi=${URL} ../Divi/divi/contrib/gitian-descriptors/gitian-osx.yml
+./bin/gbuild --commit Astra=${COMMIT} --url Astra=${URL} ../Astra/Astra/contrib/gitian-descriptors/gitian-linux.yml
+./bin/gbuild --commit Astra=${COMMIT} --url Astra=${URL} ../Astra/Astra/contrib/gitian-descriptors/gitian-win.yml
+./bin/gbuild --commit Astra=${COMMIT} --url Astra=${URL} ../Astra/Astra/contrib/gitian-descriptors/gitian-osx.yml
 ```

@@ -5,7 +5,7 @@ echo "Starting SSH ..."
 service ssh start
 
 tor
-divid 
+Astrad 
 
 
 

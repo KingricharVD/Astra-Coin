@@ -16,7 +16,7 @@ then deleted from Firefox's keystore. The exported file is used to sign the Wind
 Threat analysis
 --
 
-Gavin is a single point of failure. He could be coerced to divulge the secret signing keys,
+Gavin is a single point of failure. He could be coerced to Astraulge the secret signing keys,
 allowing somebody to distribute a Bitcoin-Qt.app or bitcoin-qt-setup.exe with a valid
 signature but containing a malicious binary.
 
@@ -30,7 +30,7 @@ Threat Mitigation
 "Air gapping" the machine used to do the signing will not work, because the signing
 process needs to access a timestamp server over the network. And it would not
 prevent the "rubber hose cryptography" threat (coercing Gavin to sign a bad binary
-or divulge the private keys).
+or Astraulge the private keys).
 
 Windows binaries are reproducibly 'gitian-built', and the setup.exe file created
 by the NSIS installer system is a 7zip archive, so you could check to make sure

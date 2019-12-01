@@ -25,14 +25,14 @@ chmod 0400 /etc/sudoers.d/ubuntu && \
 chown -R ubuntu.ubuntu /home/ubuntu
 USER ubuntu
 
-RUN printf "[[ -d /shared/divi ]] || \
-git clone -b \$1 --depth 1 \$2 /shared/divi && \
+RUN printf "[[ -d /shared/Astra ]] || \
+git clone -b \$1 --depth 1 \$2 /shared/Astra && \
 cd /shared/gitian-builder; \
-./bin/gbuild --skip-image --commit divi=\$1 --url divi=\$2 \$3" > /home/ubuntu/runit.sh
+./bin/gbuild --skip-image --commit Astra=\$1 --url Astra=\$2 \$3" > /home/ubuntu/runit.sh
 RUN chmod +x /home/ubuntu/runit.sh
 
 # # Run these commands in terminal on the host.
 # docker build -f Dockerfile.gitian -t [tagname] .
 # docker run -it [tagname]
 # # in the docker container shell run this:
-# /home/ubuntu/runit.sh master https://github.com/Divicoin/Divi.git  ../divi/divi/contrib/gitian-descriptors/gitian-linux.yml
+# /home/ubuntu/runit.sh master https://github.com/Astracoin/Astra.git  ../Astra/Astra/contrib/gitian-descriptors/gitian-linux.yml

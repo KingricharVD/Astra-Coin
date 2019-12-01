@@ -1,5 +1,5 @@
 ---
-name: "divi-dmg-signer"
+name: "Astra-dmg-signer"
 suites:
 - "trusty"
 architectures:
@@ -7,10 +7,10 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/divicoin/divi-detached-sigs.git"
+- "url": "https://github.com/Astracoin/Astra-detached-sigs.git"
   "dir": "signature"
 files:
-- "divi-osx-unsigned.tar.gz"
+- "Astra-osx-unsigned.tar.gz"
 script: |
   WRAP_DIR=$HOME/wrapped
   mkdir -p ${WRAP_DIR}
@@ -27,11 +27,11 @@ script: |
     chmod +x ${WRAP_DIR}/${prog}
   done
 
-  UNSIGNED=divi-osx-unsigned.tar.gz
-  SIGNED=divi-osx-signed.dmg
+  UNSIGNED=Astra-osx-unsigned.tar.gz
+  SIGNED=Astra-osx-signed.dmg
 
   tar -xf ${UNSIGNED}
   OSX_VOLNAME="$(cat osx_volname)"
   ./detached-sig-apply.sh ${UNSIGNED} signature/osx
-  ${WRAP_DIR}/genisoimage -no-cache-inodes -D -l -probe -V "Divi-Qt" -no-pad -r -dir-mode 0755 -apple -o uncompressed.dmg signed-app
+  ${WRAP_DIR}/genisoimage -no-cache-inodes -D -l -probe -V "Astra-Qt" -no-pad -r -dir-mode 0755 -apple -o uncompressed.dmg signed-app
   ${WRAP_DIR}/dmg dmg uncompressed.dmg ${OUTDIR}/${SIGNED}

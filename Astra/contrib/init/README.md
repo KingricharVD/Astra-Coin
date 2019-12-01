@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: divid.service
-Upstart: divid.conf
-OpenRC:  divid.openrc
-         divid.openrcconf
-CentOS:  divid.init
+SystemD: Astrad.service
+Upstart: Astrad.conf
+OpenRC:  Astrad.openrc
+         Astrad.openrcconf
+CentOS:  Astrad.init
 
 have been made available to assist packagers in creating node packages here.
 

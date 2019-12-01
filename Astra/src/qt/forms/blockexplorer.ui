@@ -168,7 +168,7 @@
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
-  <include location="../divi.qrc"/>
+  <include location="../Astra.qrc"/>
  </resources>
  <connections/>
 </ui>

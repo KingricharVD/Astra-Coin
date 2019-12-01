@@ -186,9 +186,9 @@
     </message>
     </context>
 <context>
-    <name>ZDivControlDialog</name>
+    <name>ZAstraControlDialog</name>
     </context>
 <context>
-    <name>divi-core</name>
+    <name>Astra-core</name>
     </context>
 </TS>

@@ -1,7 +1,7 @@
 # Staking
 
 ## Definition
-Divi's equivalent to Bitcoin’s Proof of Work is Proof of Stake, and instead of Bitcoin’s mining, Divi has staking. Rather than needing vast amounts of computer power to secure the network,  “Coin Age" enables Divi's security protocols. We find the Coin Age by multiplying the number of coins by the “age” of these coins, i.e. the amount of time between now and the last transaction using said coins.
+Astra's equivalent to Bitcoin’s Proof of Work is Proof of Stake, and instead of Bitcoin’s mining, Astra has staking. Rather than needing vast amounts of computer power to secure the network,  “Coin Age" enables Astra's security protocols. We find the Coin Age by multiplying the number of coins by the “age” of these coins, i.e. the amount of time between now and the last transaction using said coins.
 
 Generally speaking, PoS is solving the same hashing problem as PoW, but hashes are built from Coin Age and existing UTXOs (Unspent Transaction Outputs) not from running a mining rig.
 
@@ -22,7 +22,7 @@ It's required to be online during staking because otherwise, you are not able to
 Coin Age is a property of each UTXO; it's time that has passed from the moment of UTXO creation. 
 
 ### Example
-Imagine today is Monday, and I receive 1000 DIVI from Alice. On Tuesday, that UTXO has a Coin Age of 24 hours. Now, let's say I want to send 200 DIVI to Bob, but since I am sending my 1000 Divi UTXO, my Coin Age resets, and I get a new UTXO that is worth 800 DIVI.
+Imagine today is Monday, and I receive 1000 Astra from Alice. On Tuesday, that UTXO has a Coin Age of 24 hours. Now, let's say I want to send 200 Astra to Bob, but since I am sending my 1000 Astra UTXO, my Coin Age resets, and I get a new UTXO that is worth 800 Astra.
 
 The minimum Coin Age that is allowed for staking is 1 hour, while the maximum Coin Age is 7 days, which means that if your UTXO is older than 7 days, it counts as if it were 7 days old.
 
@@ -34,4 +34,4 @@ Every time you successfully stake, you get a reward for keeping the network secu
 To solidify network stability and to ensure that spending of a recently earned reward that may not have been 100% included into the blockchain, staking rewards (coins created by staking transaction) are unspendable for 20 blocks. These unspendable coins are considered to be "immature."
 
 ### Example
-My wallet creates a stake with 10 000 DIVI, (essentially spending 10 000 DIVI) getting back 10 000 + 456 DIVI, at this point 10 456 coins are "immature" for 20 blocks, only after that am I able to spend the coins that were used to create the Coin Stake.
+My wallet creates a stake with 10 000 Astra, (essentially spending 10 000 Astra) getting back 10 000 + 456 Astra, at this point 10 456 coins are "immature" for 20 blocks, only after that am I able to spend the coins that were used to create the Coin Stake.

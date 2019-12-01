@@ -1029,7 +1029,7 @@ void VersionSet::Finalize(Version* v) {
       // many level-0 compactions.
       //
       // (2) The files in level-0 are merged on every read and
-      // therefore we wish to avoid too many files when the individual
+      // therefore we wish to avoid too many files when the inAstradual
       // file size is small (perhaps because of a small write-buffer
       // setting, or very high compression ratios, or lots of
       // overwrites/deletions).

@@ -62,12 +62,12 @@
         <translation>Vastaanottavat osoitteet</translation>
     </message>
     <message>
-        <source>These are your DIVI addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Nämä ovat sinun DIVI osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
+        <source>These are your Astra addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Nämä ovat sinun Astra osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
     </message>
     <message>
-        <source>These are your DIVI addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Nämä ovat sinun DIVI osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
+        <source>These are your Astra addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Nämä ovat sinun Astra osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Vahvista lompakon salaus</translation>
     </message>
     <message>
-        <source>DIVI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DIVs from being stolen by malware infecting your computer.</source>
-        <translation>DIVI sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella DIVien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
+        <source>Astra will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Astras from being stolen by malware infecting your computer.</source>
+        <translation>Astra sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella Astraen varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Oletko varma että tahdot salata lompakkosi?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DIV&lt;/b&gt;!</source>
-        <translation>Varoitus: Jos salaat lompakkosi ja unohdat salausavaimesi, &lt;b&gt;menetät kaikki DIVisi&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR Astra&lt;/b&gt;!</source>
+        <translation>Varoitus: Jos salaat lompakkosi ja unohdat salausavaimesi, &lt;b&gt;menetät kaikki Astrasi&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -235,8 +235,8 @@
         <translation>&amp;BIP 38 Salaus</translation>
     </message>
     <message>
-        <source>Enter a Divi Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Syötä Divi osoite, jonnka tahtoisit salata käyttäen BIP 38.
+        <source>Enter a Astra Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Syötä Astra osoite, jonnka tahtoisit salata käyttäen BIP 38.
 Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityisavaimen.</translation>
     </message>
     <message>
@@ -244,8 +244,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Osoite:</translation>
     </message>
     <message>
-        <source>The DIVI address to sign the message with</source>
-        <translation>DIVI osoite, jolla viesti allekirjoitetaan</translation>
+        <source>The Astra address to sign the message with</source>
+        <translation>Astra osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -276,8 +276,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DIVI address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän DIVI osoitteen</translation>
+        <source>Sign the message to prove you own this Astra address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Astra osoitteen</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -300,12 +300,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Syötä BIP 38 salattu yksityisavain. Syötä salausavain laatikkoon. Paina Avaa Salaus tuottaaksesi yksityisavaimen. Kun avain on dekryptattu, painamalla "Import osoite" lisää tämän yksityisavaimen lompakkoon.</translation>
     </message>
     <message>
-        <source>The DIVI address the message was signed with</source>
-        <translation>DIVI osoite, jolla viesti allekirjoitettiin</translation>
+        <source>The Astra address the message was signed with</source>
+        <translation>Astra osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DIVI address</source>
-        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla DIVI osoitteella.</translation>
+        <source>Verify the message to ensure it was signed with the specified Astra address</source>
+        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla Astra osoitteella.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -591,16 +591,16 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>&amp;Apua</translation>
     </message>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Ydin</translation>
+        <source>Astra Core</source>
+        <translation>Astra Ydin</translation>
     </message>
     <message>
-        <source>Send coins to a DIVI address</source>
-        <translation>Lähetä kolikkoja DIVI osoitteeseen</translation>
+        <source>Send coins to a Astra address</source>
+        <translation>Lähetä kolikkoja Astra osoitteeseen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and divi: URIs)</source>
-        <translation>Pyydä maksuja (Generoi QR koodeja ja divi: URIja)</translation>
+        <source>Request payments (generates QR codes and Astra: URIs)</source>
+        <translation>Pyydä maksuja (Generoi QR koodeja ja Astra: URIja)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -611,24 +611,24 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Selaa masternodeja</translation>
     </message>
     <message>
-        <source>&amp;About DIVI Core</source>
-        <translation>DIVI Core &amp;ytimestä</translation>
+        <source>&amp;About Astra Core</source>
+        <translation>Astra Core &amp;ytimestä</translation>
     </message>
     <message>
-        <source>Show information about DIVI Core</source>
-        <translation>Näytä tietoja DIVI Ytimestä</translation>
+        <source>Show information about Astra Core</source>
+        <translation>Näytä tietoja Astra Ytimestä</translation>
     </message>
     <message>
-        <source>Modify configuration options for DIVI</source>
-        <translation>Muokkaa konfiguraatio vaihtoehtoja DIVI:lle</translation>
+        <source>Modify configuration options for Astra</source>
+        <translation>Muokkaa konfiguraatio vaihtoehtoja Astra:lle</translation>
     </message>
     <message>
-        <source>Sign messages with your DIVI addresses to prove you own them</source>
+        <source>Sign messages with your Astra addresses to prove you own them</source>
         <translation>Allekirjoita viestejä todistaaksesi, että omistat ne.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified DIVI addresses</source>
-        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä DIVI osoiteella.</translation>
+        <source>Verify messages to ensure they were signed with specified Astra addresses</source>
+        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä Astra osoiteella.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -659,8 +659,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Avaa Masternode konfiguraatiotiedosto</translation>
     </message>
     <message>
-        <source>Open a DIVI: URI or payment request</source>
-        <translation>Avaa DIVI: URI tai pyydä maksua</translation>
+        <source>Open a Astra: URI or payment request</source>
+        <translation>Avaa Astra: URI tai pyydä maksua</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -671,12 +671,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Lohkon tutkija näkymä</translation>
     </message>
     <message>
-        <source>Show the DIVI Core help message to get a list with possible DIVI command-line options</source>
-        <translation>Näytä DIVI Ydin apuviesti saadaksesi lista mahdollisista DIVI komentolinja komennoista.</translation>
+        <source>Show the Astra Core help message to get a list with possible Astra command-line options</source>
+        <translation>Näytä Astra Ydin apuviesti saadaksesi lista mahdollisista Astra komentolinja komennoista.</translation>
     </message>
     <message>
-        <source>DIVI Core client</source>
-        <translation>DIVI Ydin asiakasohjelma</translation>
+        <source>Astra Core client</source>
+        <translation>Astra Ydin asiakasohjelma</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -934,8 +934,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Ydin</translation>
+        <source>Astra Core</source>
+        <translation>Astra Ydin</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -953,12 +953,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Tervetuloa</translation>
     </message>
     <message>
-        <source>Welcome to DIVI Core.</source>
-        <translation>Tervetuloa DIVI Ytimeen.</translation>
+        <source>Welcome to Astra Core.</source>
+        <translation>Tervetuloa Astra Ytimeen.</translation>
     </message>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Ydin</translation>
+        <source>Astra Core</source>
+        <translation>Astra Ydin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1150,32 +1150,32 @@ Please check the address and try again.</source>
         <translation>Valitse yksityisyyden taso.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 DIV</source>
-        <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 10000 DIVI</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 Astra</source>
+        <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 10000 Astra</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 DIV</source>
-        <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 10000 DIVI</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 Astra</source>
+        <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 10000 Astra</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Käytä 16 erillistä masternodea</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 DIV to anonymize 10000 DIV</source>
-        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 DIV anonymoidaksesi 10000 DIVI</translation>
+        <source>This option is the quickest and will cost about ~0.025 Astra to anonymize 10000 Astra</source>
+        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 Astra anonymoidaksesi 10000 Astra</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 DIV to anonymize 10000 DIV</source>
-        <translation>Tämä vaihtoehto on suhteellisen nopea ja maksaa 0.05 DIVI anonymoidaksesi 10000 DIVI</translation>
+        <source>This option is moderately fast and will cost about 0.05 Astra to anonymize 10000 Astra</source>
+        <translation>Tämä vaihtoehto on suhteellisen nopea ja maksaa 0.05 Astra anonymoidaksesi 10000 Astra</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Tämä on hitain ja turvallisin vaihtoehto. Täydesti anonymisoiminen ei maksa mitään.</translation>
     </message>
     <message>
-        <source>0.1 DIV per 10000 DIV you anonymize.</source>
-        <translation>0.1 per 10000 DIVI, jotka anonymisoit.</translation>
+        <source>0.1 Astra per 10000 Astra you anonymize.</source>
+        <translation>0.1 per 10000 Astra, jotka anonymisoit.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1224,12 +1224,12 @@ Please check the address and try again.</source>
         <translation>Ekspertti</translation>
     </message>
     <message>
-        <source>Automatically start DIVI after logging in to the system.</source>
-        <translation>Automaattisesti käynnistä DIVI kun kirjaudut sisään.</translation>
+        <source>Automatically start Astra after logging in to the system.</source>
+        <translation>Automaattisesti käynnistä Astra kun kirjaudut sisään.</translation>
     </message>
     <message>
-        <source>&amp;Start DIVI on system login</source>
-        <translation>&amp;Aloita DIVI järjestelmän kirjautumisessa</translation>
+        <source>&amp;Start Astra on system login</source>
+        <translation>&amp;Aloita Astra järjestelmän kirjautumisessa</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1248,12 +1248,12 @@ Please check the address and try again.</source>
         <translation>&amp;Verkko</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting DIVI.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Astra.</source>
         <translation>Käyttöliittymän kielen voi säätää täällä. Tämä asetus tulee voimaan uudelleenkäynnistettyäsi lompakon.</translation>
     </message>
     <message>
-        <source>Connect to the DIVI network through a SOCKS5 proxy.</source>
-        <translation>Yhdistä DIVI verkkoon SOCKS5 proxyn kautta</translation>
+        <source>Connect to the Astra network through a SOCKS5 proxy.</source>
+        <translation>Yhdistä Astra verkkoon SOCKS5 proxyn kautta</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1308,7 +1308,7 @@ Please check the address and try again.</source>
         <translation>&amp;Yksikkö jossa määrä näytetään:</translation>
     </message>
     <message>
-        <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
+        <source>Choose the default subAstrasion unit to show in the interface and when sending coins.</source>
         <translation>Käytä oletus vähennysyksikköä käyttöliittymässä ja kolikoita lähettäessä.</translation>
     </message>
     <message>
@@ -1557,8 +1557,8 @@ Please check the address and try again.</source>
         <translation>Lohko ketju</translation>
     </message>
     <message>
-        <source>Open the DIVI debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa DIVI debug loki nykyisestä sijainnista. Tämä voi kestää muutaman sekunnin suurille lokeille</translation>
+        <source>Open the Astra debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Avaa Astra debug loki nykyisestä sijainnista. Tämä voi kestää muutaman sekunnin suurille lokeille</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -1669,8 +1669,8 @@ Please check the address and try again.</source>
         <translation>Ulos:</translation>
     </message>
     <message>
-        <source>Welcome to the DIVI RPC console.</source>
-        <translation>Tervetuloa DIVI RPC konsoliin.</translation>
+        <source>Welcome to the Astra RPC console.</source>
+        <translation>Tervetuloa Astra RPC konsoliin.</translation>
     </message>
     <message>
         <source>never</source>
@@ -1712,12 +1712,12 @@ Please check the address and try again.</source>
         <translation>Vaihtoehtoinen nimike uudelle vastaanottavalle osoitteelle</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the DIVI network.</source>
-        <translation>Vaihtoehtoinen viesti joka liitetään maksupyyntöön, joka näytetään kun pyyntö avataan. Huomio: Viestiä ei lähetetä maksun mukana DIVI verkolle.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Astra network.</source>
+        <translation>Vaihtoehtoinen viesti joka liitetään maksupyyntöön, joka näytetään kun pyyntö avataan. Huomio: Viestiä ei lähetetä maksun mukana Astra verkolle.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the DIVI network.</source>
-        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana DIVI  verkolle.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Astra network.</source>
+        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana Astra  verkolle.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -1913,8 +1913,8 @@ Please check the address and try again.</source>
         <translation>Muutos:</translation>
     </message>
     <message>
-        <source>0 DIV</source>
-        <translation>0 DIV</translation>
+        <source>0 Astra</source>
+        <translation>0 Astra</translation>
     </message>
     <message>
         <source>Choose...</source>
@@ -1993,8 +1993,8 @@ Please check the address and try again.</source>
         <translation>käyttää</translation>
     </message>
     <message>
-        <source>Warning: Invalid DIVI address</source>
-        <translation>Varoitus: Virheellinen DIVI osoite</translation>
+        <source>Warning: Invalid Astra address</source>
+        <translation>Varoitus: Virheellinen Astra osoite</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
@@ -2040,8 +2040,8 @@ Please check the address and try again.</source>
         <translation>Tämä on normaali maksu.</translation>
     </message>
     <message>
-        <source>The DIVI address to send the payment to</source>
-        <translation>DIVI osoite johon maksu lähetetään</translation>
+        <source>The Astra address to send the payment to</source>
+        <translation>Astra osoite johon maksu lähetetään</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2083,8 +2083,8 @@ Please check the address and try again.</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>DIVI Core is shutting down...</source>
-        <translation>DIVI core sammuu...</translation>
+        <source>Astra Core is shutting down...</source>
+        <translation>Astra core sammuu...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2102,8 +2102,8 @@ Please check the address and try again.</source>
         <translation>Voit allekirjoittaa viestejä osoitteillasi todistaaksesi, että omistat ne. Ole varovainen ettet allekirjoita mitään kummallista, sillä kalasteluyritykset saattavat yrittää huijata sinut luovuttamaan tietoja. Allekirjoita vain täysin yksityiskohtaisia sanomia, jotka hyväksyt.</translation>
     </message>
     <message>
-        <source>The DIVI address to sign the message with</source>
-        <translation>DIVI osoite, jolla viesti allekirjoitetaan</translation>
+        <source>The Astra address to sign the message with</source>
+        <translation>Astra osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2134,16 +2134,16 @@ Please check the address and try again.</source>
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DIVI address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän DIVI osoitteen</translation>
+        <source>Sign the message to prove you own this Astra address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Astra osoitteen</translation>
     </message>
     <message>
-        <source>The DIVI address the message was signed with</source>
-        <translation>DIVI osoite, jolla viesti allekirjoitettiin</translation>
+        <source>The Astra address the message was signed with</source>
+        <translation>Astra osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DIVI address</source>
-        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla DIVI osoitteella.</translation>
+        <source>Verify the message to ensure it was signed with the specified Astra address</source>
+        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla Astra osoitteella.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2225,8 +2225,8 @@ Please check the address and try again.</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Ydin</translation>
+        <source>Astra Core</source>
+        <translation>Astra Ydin</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2241,8 +2241,8 @@ Please check the address and try again.</source>
         <translation>Dash Core kehittäjät</translation>
     </message>
     <message>
-        <source>The DIVI Core developers</source>
-        <translation>DIVI core kehittäjät</translation>
+        <source>The Astra Core developers</source>
+        <translation>Astra core kehittäjät</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2545,14 +2545,14 @@ Please check the address and try again.</source>
     </message>
     </context>
 <context>
-    <name>ZDivControlDialog</name>
+    <name>ZAstraControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     </context>
 <context>
-    <name>divi-core</name>
+    <name>Astra-core</name>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
         <translation>Varoitus: Verkko ei näytä olevan samaa mieltä! Jotkin mainaajat saattavat kokea ongelmia.</translation>
@@ -2602,8 +2602,8 @@ Please check the address and try again.</source>
         <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko korruptoitunut</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of DIVI Core</source>
-        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version DIVI Coresta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Astra Core</source>
+        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version Astra Coresta</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>

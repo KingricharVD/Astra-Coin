@@ -115,8 +115,8 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>The DIVI address the message was signed with</source>
-        <translation>DIVI adresa s kojom je potpisana poruka</translation>
+        <source>The Astra address the message was signed with</source>
+        <translation>Astra adresa s kojom je potpisana poruka</translation>
     </message>
     <message>
         <source>Allowed: 0-9,a-z,A-Z,</source>
@@ -150,8 +150,8 @@
         <translation>Otvori konfiguracijsku datoteku</translation>
     </message>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Core</translation>
+        <source>Astra Core</source>
+        <translation>Astra Core</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -162,8 +162,8 @@
         <translation>&amp;BIP38 alat</translation>
     </message>
     <message>
-        <source>DIVI Core client</source>
-        <translation>DIVI Core klijent</translation>
+        <source>Astra Core client</source>
+        <translation>Astra Core klijent</translation>
     </message>
     <message>
         <source>Error</source>
@@ -260,15 +260,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Core</translation>
+        <source>Astra Core</source>
+        <translation>Astra Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Core</translation>
+        <source>Astra Core</source>
+        <translation>Astra Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -550,8 +550,8 @@
         <translation>ne</translation>
     </message>
     <message>
-        <source>0 DIV</source>
-        <translation>0 DIV</translation>
+        <source>0 Astra</source>
+        <translation>0 Astra</translation>
     </message>
     <message>
         <source>Confirmation time:</source>
@@ -612,8 +612,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>DIVI Core is shutting down...</source>
-        <translation>DIVI Core se gasi...</translation>
+        <source>Astra Core is shutting down...</source>
+        <translation>Astra Core se gasi...</translation>
     </message>
     </context>
 <context>
@@ -635,8 +635,8 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>The DIVI address the message was signed with</source>
-        <translation>DIVI adresa s kojom je potpisana poruka</translation>
+        <source>The Astra address the message was signed with</source>
+        <translation>Astra adresa s kojom je potpisana poruka</translation>
     </message>
     <message>
         <source>Message signed.</source>
@@ -650,8 +650,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Core</translation>
+        <source>Astra Core</source>
+        <translation>Astra Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -798,14 +798,14 @@
     </message>
     </context>
 <context>
-    <name>ZDivControlDialog</name>
+    <name>ZAstraControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     </context>
 <context>
-    <name>divi-core</name>
+    <name>Astra-core</name>
     <message>
         <source>Error</source>
         <translation>Greška</translation>

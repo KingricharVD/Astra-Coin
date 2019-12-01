@@ -5,11 +5,11 @@ have to jump a couple of legal hurdles.
 
 ## Contributor License Agreements
 
-Please fill out either the individual or corporate Contributor License
+Please fill out either the inAstradual or corporate Contributor License
 Agreement as appropriate.
 
-* If you are an individual writing original source code and you're sure you
-own the intellectual property, then sign an [individual CLA](https://developers.google.com/open-source/cla/individual).
+* If you are an inAstradual writing original source code and you're sure you
+own the intellectual property, then sign an [inAstradual CLA](https://developers.google.com/open-source/cla/inAstradual).
 * If you work for a company that wants to allow you to contribute your work,
 then sign a [corporate CLA](https://developers.google.com/open-source/cla/corporate).
 

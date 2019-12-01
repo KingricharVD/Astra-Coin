@@ -119,26 +119,26 @@ base_uint<BITS>& base_uint<BITS>::operator*=(const base_uint& b)
 template <unsigned int BITS>
 base_uint<BITS>& base_uint<BITS>::operator/=(const base_uint& b)
 {
-    base_uint<BITS> div = b;     // make a copy, so we can shift.
+    base_uint<BITS> Astra = b;     // make a copy, so we can shift.
     base_uint<BITS> num = *this; // make a copy, so we can subtract.
     *this = 0;                   // the quotient.
     int num_bits = num.bits();
-    int div_bits = div.bits();
-    if (div_bits == 0)
-        throw uint_error("Division by zero");
-    if (div_bits > num_bits) // the result is certainly 0.
+    int Astra_bits = Astra.bits();
+    if (Astra_bits == 0)
+        throw uint_error("Astrasion by zero");
+    if (Astra_bits > num_bits) // the result is certainly 0.
         return *this;
-    int shift = num_bits - div_bits;
-    div <<= shift; // shift so that div and num align.
+    int shift = num_bits - Astra_bits;
+    Astra <<= shift; // shift so that Astra and num align.
     while (shift >= 0) {
-        if (num >= div) {
-            num -= div;
+        if (num >= Astra) {
+            num -= Astra;
             pn[shift / 32] |= (1 << (shift & 31)); // set a bit of the result.
         }
-        div >>= 1; // shift back.
+        Astra >>= 1; // shift back.
         shift--;
     }
-    // num now contains the remainder of the division.
+    // num now contains the remainder of the Astrasion.
     return *this;
 }
 
@@ -272,7 +272,7 @@ uint32_t arith_uint256::GetCompact(bool fNegative) const
         nCompact = bn.GetLow64();
     }
     // The 0x00800000 bit denotes the sign.
-    // Thus, if it is already set, divide the mantissa by 256 and increase the exponent.
+    // Thus, if it is already set, Astrade the mantissa by 256 and increase the exponent.
     if (nCompact & 0x00800000) {
         nCompact >>= 8;
         nSize++;

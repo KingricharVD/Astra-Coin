@@ -1,6 +1,6 @@
 ## Definition
 
-This document describes how to start new network based on Divi code. 
+This document describes how to start new network based on Astra code. 
 
 We will breakdown whole process to list of steps.
 
@@ -16,7 +16,7 @@ We will breakdown whole process to list of steps.
 
 ### Coin naming
 
-Code has many mentions of Divi, everything related to names(except license info) needs to be changed. Suggested approach is to find & replace every Divi, DIVI and divi strings except license headers.
+Code has many mentions of Astra, everything related to names(except license info) needs to be changed. Suggested approach is to find & replace every Astra, Astra and Astra strings except license headers.
 
 ### Address format
 
@@ -61,13 +61,13 @@ For PoS transition we need to have stakeable balance(aged for 1 hour), wallet ha
 
 ### DNS seeding
 
-Seeder itself is located under this repo: https://github.com/Divicoin/divi-seeder, it needs to be forked and core parameters has to be changed, sample of those changes can be checked at github history. 
+Seeder itself is located under this repo: https://github.com/Astracoin/Astra-seeder, it needs to be forked and core parameters has to be changed, sample of those changes can be checked at github history. 
 
-Address for seeder needs to be hardcoded in `chainparams.cpp` at line `vSeeds.push_back(CDNSSeedData("autoseeds.diviseed.diviproject.org", "autoseeds.diviseed.diviproject.org"));`
+Address for seeder needs to be hardcoded in `chainparams.cpp` at line `vSeeds.push_back(CDNSSeedData("autoseeds.Astraseed.Astraproject.org", "autoseeds.Astraseed.Astraproject.org"));`
 
 ### HD Wallet configuration
 
-Divi wallet supports BIP44 to correctly support it we need to provide coin type which is registered here: https://github.com/satoshilabs/slips/blob/master/slip-0044.md
+Astra wallet supports BIP44 to correctly support it we need to provide coin type which is registered here: https://github.com/satoshilabs/slips/blob/master/slip-0044.md
 
 Value in code needs to be changed in `chainparams.cpp` at line `nExtCoinType = 301;`
 

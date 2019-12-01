@@ -84,7 +84,7 @@ public:
         ZerocoinMint,
         ZerocoinSpend,
         RecvFromZerocoinSpend,
-        ZerocoinSpend_Change_zDiv,
+        ZerocoinSpend_Change_zAstra,
         ZerocoinSpend_FromMe,
     };
 

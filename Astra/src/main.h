@@ -9,7 +9,7 @@
 #define BITCOIN_MAIN_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/divi-config.h"
+#include "config/Astra-config.h"
 #endif
 
 #include "amount.h"
@@ -401,9 +401,9 @@ bool IsTransactionInChain(uint256 txId, int& nHeightTx);
 bool IsBlockHashInChain(const uint256& hashBlock);
 void PopulateInvalidOutPointMap();
 bool ValidOutPoint(const COutPoint out, int nHeight);
-void RecalculateZDIVSpent();
-void RecalculateZDIVMinted();
-bool RecalculateDIVSupply(int nHeightStart);
+void RecalculateZAstraSpent();
+void RecalculateZAstraMinted();
+bool RecalculateAstraSupply(int nHeightStart);
 bool ReindexAccumulators(list<uint256>& listMissingCheckpoints, string& strError);
 
 

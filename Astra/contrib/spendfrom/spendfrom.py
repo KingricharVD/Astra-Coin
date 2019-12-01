@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 #
-# Use the raw transactions API to spend DIVs received on particular addresses,
+# Use the raw transactions API to spend Astras received on particular addresses,
 # and send any change back to that same address.
 #
 # Example usage:
 #  spendfrom.py  # Lists available funds
 #  spendfrom.py --from=ADDRESS --to=ADDRESS --amount=11.00
 #
-# Assumes it will talk to a divid or divi-Qt running
+# Assumes it will talk to a Astrad or Astra-Qt running
 # on localhost.
 #
 # Depends on jsonrpc
@@ -33,15 +33,15 @@ def check_json_precision():
         raise RuntimeError("JSON encode/decode loses precision")
 
 def determine_db_dir():
-    """Return the default location of the divi data directory"""
+    """Return the default location of the Astra data directory"""
     if platform.system() == "Darwin":
-        return os.path.expanduser("~/Library/Application Support/DIVI/")
+        return os.path.expanduser("~/Library/Application Support/Astra/")
     elif platform.system() == "Windows":
-        return os.path.join(os.environ['APPDATA'], "DIVI")
-    return os.path.expanduser("~/.divi")
+        return os.path.join(os.environ['APPDATA'], "Astra")
+    return os.path.expanduser("~/.Astra")
 
 def read_bitcoin_config(dbdir):
-    """Read the divi.conf file from dbdir, returns dictionary of settings"""
+    """Read the Astra.conf file from dbdir, returns dictionary of settings"""
     from ConfigParser import SafeConfigParser
 
     class FakeSecHead(object):
@@ -59,11 +59,11 @@ def read_bitcoin_config(dbdir):
                 return s
 
     config_parser = SafeConfigParser()
-    config_parser.readfp(FakeSecHead(open(os.path.join(dbdir, "divi.conf"))))
+    config_parser.readfp(FakeSecHead(open(os.path.join(dbdir, "Astra.conf"))))
     return dict(config_parser.items("all"))
 
 def connect_JSON(config):
-    """Connect to a divi JSON-RPC server"""
+    """Connect to a Astra JSON-RPC server"""
     testnet = config.get('testnet', '0')
     testnet = (int(testnet) > 0)  # 0/1 in config file, convert to True/False
     if not 'rpcport' in config:
@@ -72,7 +72,7 @@ def connect_JSON(config):
     try:
         result = ServiceProxy(connect)
         # ServiceProxy is lazy-connect, so send an RPC command mostly to catch connection errors,
-        # but also make sure the divid we're talking to is/isn't testnet:
+        # but also make sure the Astrad we're talking to is/isn't testnet:
         if result.getmininginfo()['testnet'] != testnet:
             sys.stderr.write("RPC server at "+connect+" testnet setting mismatch\n")
             sys.exit(1)
@@ -81,36 +81,36 @@ def connect_JSON(config):
         sys.stderr.write("Error connecting to RPC server at "+connect+"\n")
         sys.exit(1)
 
-def unlock_wallet(divid):
-    info = divid.getinfo()
+def unlock_wallet(Astrad):
+    info = Astrad.getinfo()
     if 'unlocked_until' not in info:
         return True # wallet is not encrypted
     t = int(info['unlocked_until'])
     if t <= time.time():
         try:
             passphrase = getpass.getpass("Wallet is locked; enter passphrase: ")
-            divid.walletpassphrase(passphrase, 5)
+            Astrad.walletpassphrase(passphrase, 5)
         except:
             sys.stderr.write("Wrong passphrase\n")
 
-    info = divid.getinfo()
+    info = Astrad.getinfo()
     return int(info['unlocked_until']) > time.time()
 
-def list_available(divid):
+def list_available(Astrad):
     address_summary = dict()
 
     address_to_account = dict()
-    for info in divid.listreceivedbyaddress(0):
+    for info in Astrad.listreceivedbyaddress(0):
         address_to_account[info["address"]] = info["account"]
 
-    unspent = divid.listunspent(0)
+    unspent = Astrad.listunspent(0)
     for output in unspent:
         # listunspent doesn't give addresses, so:
-        rawtx = divid.getrawtransaction(output['txid'], 1)
+        rawtx = Astrad.getrawtransaction(output['txid'], 1)
         vout = rawtx["vout"][output['vout']]
         pk = vout["scriptPubKey"]
 
-        # This code only deals with ordinary pay-to-divi-address
+        # This code only deals with ordinary pay-to-Astra-address
         # or pay-to-script-hash outputs right now; anything exotic is ignored.
         if pk["type"] != "pubkeyhash" and pk["type"] != "scripthash":
             continue
@@ -139,8 +139,8 @@ def select_coins(needed, inputs):
         n += 1
     return (outputs, have-needed)
 
-def create_tx(divid, fromaddresses, toaddress, amount, fee):
-    all_coins = list_available(divid)
+def create_tx(Astrad, fromaddresses, toaddress, amount, fee):
+    all_coins = list_available(Astrad)
 
     total_available = Decimal("0.0")
     needed = amount+fee
@@ -159,7 +159,7 @@ def create_tx(divid, fromaddresses, toaddress, amount, fee):
     # Note:
     # Python's json/jsonrpc modules have inconsistent support for Decimal numbers.
     # Instead of wrestling with getting json.dumps() (used by jsonrpc) to encode
-    # Decimals, I'm casting amounts to float before sending them to divid.
+    # Decimals, I'm casting amounts to float before sending them to Astrad.
     #
     outputs = { toaddress : float(amount) }
     (inputs, change_amount) = select_coins(needed, potential_inputs)
@@ -170,8 +170,8 @@ def create_tx(divid, fromaddresses, toaddress, amount, fee):
         else:
             outputs[change_address] = float(change_amount)
 
-    rawtx = divid.createrawtransaction(inputs, outputs)
-    signed_rawtx = divid.signrawtransaction(rawtx)
+    rawtx = Astrad.createrawtransaction(inputs, outputs)
+    signed_rawtx = Astrad.signrawtransaction(rawtx)
     if not signed_rawtx["complete"]:
         sys.stderr.write("signrawtransaction failed\n")
         sys.exit(1)
@@ -179,10 +179,10 @@ def create_tx(divid, fromaddresses, toaddress, amount, fee):
 
     return txdata
 
-def compute_amount_in(divid, txinfo):
+def compute_amount_in(Astrad, txinfo):
     result = Decimal("0.0")
     for vin in txinfo['vin']:
-        in_info = divid.getrawtransaction(vin['txid'], 1)
+        in_info = Astrad.getrawtransaction(vin['txid'], 1)
         vout = in_info['vout'][vin['vout']]
         result = result + vout['value']
     return result
@@ -193,18 +193,18 @@ def compute_amount_out(txinfo):
         result = result + vout['value']
     return result
 
-def sanity_test_fee(divid, txdata_hex, max_fee):
+def sanity_test_fee(Astrad, txdata_hex, max_fee):
     class FeeError(RuntimeError):
         pass
     try:
-        txinfo = divid.decoderawtransaction(txdata_hex)
-        total_in = compute_amount_in(divid, txinfo)
+        txinfo = Astrad.decoderawtransaction(txdata_hex)
+        total_in = compute_amount_in(Astrad, txinfo)
         total_out = compute_amount_out(txinfo)
         if total_in-total_out > max_fee:
             raise FeeError("Rejecting transaction, unreasonable fee of "+str(total_in-total_out))
 
         tx_size = len(txdata_hex)/2
-        kb = tx_size/1000  # integer division rounds down
+        kb = tx_size/1000  # integer Astrasion rounds down
         if kb > 1 and fee < BASE_FEE:
             raise FeeError("Rejecting no-fee transaction, larger than 1000 bytes")
         if total_in < 0.01 and fee < BASE_FEE:
@@ -221,15 +221,15 @@ def main():
 
     parser = optparse.OptionParser(usage="%prog [options]")
     parser.add_option("--from", dest="fromaddresses", default=None,
-                      help="addresses to get DIVs from")
+                      help="addresses to get Astras from")
     parser.add_option("--to", dest="to", default=None,
-                      help="address to get send DIVs to")
+                      help="address to get send Astras to")
     parser.add_option("--amount", dest="amount", default=None,
                       help="amount to send")
     parser.add_option("--fee", dest="fee", default="0.0",
                       help="fee to include")
     parser.add_option("--datadir", dest="datadir", default=determine_db_dir(),
-                      help="location of divi.conf file with RPC username/password (default: %default)")
+                      help="location of Astra.conf file with RPC username/password (default: %default)")
     parser.add_option("--testnet", dest="testnet", default=False, action="store_true",
                       help="Use the test network")
     parser.add_option("--dry_run", dest="dry_run", default=False, action="store_true",
@@ -240,10 +240,10 @@ def main():
     check_json_precision()
     config = read_bitcoin_config(options.datadir)
     if options.testnet: config['testnet'] = True
-    divid = connect_JSON(config)
+    Astrad = connect_JSON(config)
 
     if options.amount is None:
-        address_summary = list_available(divid)
+        address_summary = list_available(Astrad)
         for address,info in address_summary.iteritems():
             n_transactions = len(info['outputs'])
             if n_transactions > 1:
@@ -253,14 +253,14 @@ def main():
     else:
         fee = Decimal(options.fee)
         amount = Decimal(options.amount)
-        while unlock_wallet(divid) == False:
+        while unlock_wallet(Astrad) == False:
             pass # Keep asking for passphrase until they get it right
-        txdata = create_tx(divid, options.fromaddresses.split(","), options.to, amount, fee)
-        sanity_test_fee(divid, txdata, amount*Decimal("0.01"))
+        txdata = create_tx(Astrad, options.fromaddresses.split(","), options.to, amount, fee)
+        sanity_test_fee(Astrad, txdata, amount*Decimal("0.01"))
         if options.dry_run:
             print(txdata)
         else:
-            txid = divid.sendrawtransaction(txdata)
+            txid = Astrad.sendrawtransaction(txdata)
             print(txid)
 
 if __name__ == '__main__':

@@ -1,6 +1,6 @@
 [Protocol]
-exec=divi-qt '%u'
-protocol=divi
+exec=Astra-qt '%u'
+protocol=Astra
 input=none
 output=none
 helper=true

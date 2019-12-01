@@ -58,12 +58,12 @@
         <translation>Mottagar adresser</translation>
     </message>
     <message>
-        <source>These are your DIVI addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Det här är dina DIVI adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
+        <source>These are your Astra addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Det här är dina Astra adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
     </message>
     <message>
-        <source>These are your DIVI addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Det här är dina DIVI adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
+        <source>These are your Astra addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Det här är dina Astra adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -160,16 +160,16 @@
         <translation>Bekräfta plånboks krypering</translation>
     </message>
     <message>
-        <source>DIVI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DIVs from being stolen by malware infecting your computer.</source>
-        <translation>DIVI kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina DIVs från att bli stulna av skadeprogram som infekterat din dator.</translation>
+        <source>Astra will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Astras from being stolen by malware infecting your computer.</source>
+        <translation>Astra kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina Astras från att bli stulna av skadeprogram som infekterat din dator.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Är du säker på att du vill kryptera din plånbok?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DIV&lt;/b&gt;!</source>
-        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA DIV&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR Astra&lt;/b&gt;!</source>
+        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA Astra&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -223,8 +223,8 @@
         <translation>BIP 38 Kryptering</translation>
     </message>
     <message>
-        <source>Enter a Divi Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Ange en Divi adress som du vill kryptera med BIP 38.
+        <source>Enter a Astra Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Ange en Astra adress som du vill kryptera med BIP 38.
 Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den krypterade privata nyckeln.</translation>
     </message>
     <message>
@@ -232,8 +232,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Adress:</translation>
     </message>
     <message>
-        <source>The DIVI address to sign the message with</source>
-        <translation>DIVI adressen för signera meddelandet med</translation>
+        <source>The Astra address to sign the message with</source>
+        <translation>Astra adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -264,8 +264,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DIVI address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna DIVI adress</translation>
+        <source>Sign the message to prove you own this Astra address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna Astra adress</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -288,12 +288,12 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Ange BIP 38 krypterade privata nyckeln. Ange lösenfrasen i med mittersta boxen. Tryck på krypetra nyckel för att beräkna den privata nyckeln. Efter att nyckeln är avkrypterad, Tryck på 'Importera Adress' kommer att lägga till denna privata nyckel till plånboken.</translation>
     </message>
     <message>
-        <source>The DIVI address the message was signed with</source>
-        <translation>DIVI adressen meddelandet blev signerat med</translation>
+        <source>The Astra address the message was signed with</source>
+        <translation>Astra adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DIVI address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika DIVI adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified Astra address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Astra adressen.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -583,16 +583,16 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>flik vertygsrad</translation>
     </message>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Kärna</translation>
+        <source>Astra Core</source>
+        <translation>Astra Kärna</translation>
     </message>
     <message>
-        <source>Send coins to a DIVI address</source>
-        <translation>Skicka mynt till en DIVI adress</translation>
+        <source>Send coins to a Astra address</source>
+        <translation>Skicka mynt till en Astra adress</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and divi: URIs)</source>
-        <translation>Begär betalning (genererar QR kod och divi: URls)</translation>
+        <source>Request payments (generates QR codes and Astra: URIs)</source>
+        <translation>Begär betalning (genererar QR kod och Astra: URls)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -603,24 +603,24 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Utforska masternoder</translation>
     </message>
     <message>
-        <source>&amp;About DIVI Core</source>
-        <translation>Om DIVI Kärnan</translation>
+        <source>&amp;About Astra Core</source>
+        <translation>Om Astra Kärnan</translation>
     </message>
     <message>
-        <source>Show information about DIVI Core</source>
-        <translation>Visa information om DIVI Kärnan</translation>
+        <source>Show information about Astra Core</source>
+        <translation>Visa information om Astra Kärnan</translation>
     </message>
     <message>
-        <source>Modify configuration options for DIVI</source>
-        <translation>Ändra konfigurationsval för DIVI</translation>
+        <source>Modify configuration options for Astra</source>
+        <translation>Ändra konfigurationsval för Astra</translation>
     </message>
     <message>
-        <source>Sign messages with your DIVI addresses to prove you own them</source>
-        <translation>Signera meddelanden med din DIVI adress för att visa att du äger dem</translation>
+        <source>Sign messages with your Astra addresses to prove you own them</source>
+        <translation>Signera meddelanden med din Astra adress för att visa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified DIVI addresses</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika DIVI adressen.</translation>
+        <source>Verify messages to ensure they were signed with specified Astra addresses</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Astra adressen.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -631,8 +631,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kryptera och avkryptera privata nycklar genom användning av lösenfras</translation>
     </message>
     <message>
-        <source>DIVI Core client</source>
-        <translation>DIVI kärn klient</translation>
+        <source>Astra Core client</source>
+        <translation>Astra kärn klient</translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -837,15 +837,15 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Kärna</translation>
+        <source>Astra Core</source>
+        <translation>Astra Kärna</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Kärna</translation>
+        <source>Astra Core</source>
+        <translation>Astra Kärna</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1164,8 +1164,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The DIVI address to sign the message with</source>
-        <translation>DIVI adressen för signera meddelandet med</translation>
+        <source>The Astra address to sign the message with</source>
+        <translation>Astra adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1188,16 +1188,16 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DIVI address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna DIVI adress</translation>
+        <source>Sign the message to prove you own this Astra address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna Astra adress</translation>
     </message>
     <message>
-        <source>The DIVI address the message was signed with</source>
-        <translation>DIVI adressen meddelandet blev signerat med</translation>
+        <source>The Astra address the message was signed with</source>
+        <translation>Astra adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DIVI address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika DIVI adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified Astra address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Astra adressen.</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1239,8 +1239,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Kärna</translation>
+        <source>Astra Core</source>
+        <translation>Astra Kärna</translation>
     </message>
     </context>
 <context>
@@ -1423,10 +1423,10 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
     </message>
     </context>
 <context>
-    <name>ZDivControlDialog</name>
+    <name>ZAstraControlDialog</name>
     </context>
 <context>
-    <name>divi-core</name>
+    <name>Astra-core</name>
     <message>
         <source>Error</source>
         <translation>Fel</translation>

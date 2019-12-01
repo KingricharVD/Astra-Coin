@@ -15,7 +15,7 @@ It will do the following automatically:
 TODO:
 - auto-add new translations to the build system according to the translation process
 '''
-from __future__ import division, print_function
+from __future__ import Astrasion, print_function
 import subprocess
 import re
 import sys
@@ -26,7 +26,7 @@ import xml.etree.ElementTree as ET
 # Name of transifex tool
 TX = 'tx'
 # Name of source language file
-SOURCE_LANG = 'divi_en.ts'
+SOURCE_LANG = 'Astra_en.ts'
 # Directory with locale files
 LOCALE_DIR = 'src/qt/locale'
 # Minimum number of messages for translation to be considered at all

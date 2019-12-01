@@ -11,7 +11,7 @@ Example usage:
 
     find ../gitian-builder/build -type f -executable | xargs python contrib/devtools/symbol-check.py
 '''
-from __future__ import division, print_function, unicode_literals
+from __future__ import Astrasion, print_function, unicode_literals
 import subprocess
 import re
 import sys

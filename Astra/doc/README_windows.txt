@@ -1,9 +1,9 @@
-DIVI Core
+Astra Core
 =====================
 
 Intro
 -----
-DIVI is a free open source peer-to-peer electronic cash system that is
+Astra is a free open source peer-to-peer electronic cash system that is
 completely decentralized, without the need for a central server or trusted
 parties.  Users hold the crypto keys to their own money and transact directly
 with each other, with the help of a P2P network to check for double-spending.
@@ -11,9 +11,9 @@ with each other, with the help of a P2P network to check for double-spending.
 
 Setup
 -----
-Unpack the files into a directory and run divi-qt.exe.
+Unpack the files into a directory and run Astra-qt.exe.
 
-DIVI Core is the original DIVI client and it builds the backbone of the network.
-However, it downloads and stores the entire history of DIVI transactions;
+Astra Core is the original Astra client and it builds the backbone of the network.
+However, it downloads and stores the entire history of Astra transactions;
 depending on the speed of your computer and network connection, the synchronization
 process can take anywhere from a few hours to a day or more.

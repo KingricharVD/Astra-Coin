@@ -42,16 +42,16 @@ RUN apt-get update \
   && echo "$SSH_PASSWD" | chpasswd
 
 COPY ssh-cb.sh /root/cb.sh
-COPY ssh-divi.conf /root/divi.conf
+COPY ssh-Astra.conf /root/Astra.conf
 COPY torrc /etc/tor/torrc
 COPY sshd_config /etc/ssh/sshd_config
 RUN dos2unix /root/cb.sh 
-RUN dos2unix /root/divi.conf
+RUN dos2unix /root/Astra.conf
 RUN dos2unix /etc/tor/torrc
 RUN dos2unix /etc/ssh/sshd_config
 
 ENV GITBRANCH master
-ENV GITURI https://github.com/Divicoin/Divi
+ENV GITURI https://github.com/Astracoin/Astra
 RUN /root/cb.sh
 
 COPY ssh-init.sh /usr/local/bin/

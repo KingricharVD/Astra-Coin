@@ -1,39 +1,39 @@
-DIVI Core
+Astra Core
 =====================
 
 Setup
 ---------------------
-[DIVI Core](http://diviproject.org/wallet) is the original DIVI client and it builds the backbone of the network. However, it downloads and stores the entire history of DIVI transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[Astra Core](http://Astraproject.org/wallet) is the original Astra client and it builds the backbone of the network. However, it downloads and stores the entire history of Astra transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
-The following are some helpful notes on how to run DIVI on your native platform.
+The following are some helpful notes on how to run Astra on your native platform.
 
 ### Unix
 
 Unpack the files into a directory and run:
 
-- bin/32/divi-qt (GUI, 32-bit) or bin/32/divid (headless, 32-bit)
-- bin/64/divi-qt (GUI, 64-bit) or bin/64/divid (headless, 64-bit)
+- bin/32/Astra-qt (GUI, 32-bit) or bin/32/Astrad (headless, 32-bit)
+- bin/64/Astra-qt (GUI, 64-bit) or bin/64/Astrad (headless, 64-bit)
 
 ### Windows
 
-Unpack the files into a directory, and then run divi-qt.exe.
+Unpack the files into a directory, and then run Astra-qt.exe.
 
 ### OSX
 
-Drag DIVI-Qt to your applications folder, and then run DIVI-Qt.
+Drag Astra-Qt to your applications folder, and then run Astra-Qt.
 
 ### Need Help?
 
-* See the documentation at the [DIVI Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
+* See the documentation at the [Astra Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [DIVI Forum](http://forum.diviproject.org/).
-* Join one of our Slack groups [DIVI Slack Groups](https://diviproject.org/slack-logins/).
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [Astra Forum](http://forum.Astraproject.org/).
+* Join one of our Slack groups [Astra Slack Groups](https://Astraproject.org/slack-logins/).
 
 Building
 ---------------------
-The following are developer notes on how to build DIVI on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Astra on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OSX Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -41,7 +41,7 @@ The following are developer notes on how to build DIVI on your native platform. 
 
 Development
 ---------------------
-The Divi repo's [root README](https://github.com/divicoin/divi/blob/master/README.md) contains relevant information on the development process and automated testing.
+The Astra repo's [root README](https://github.com/Astracoin/Astra/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -55,8 +55,8 @@ The Divi repo's [root README](https://github.com/divicoin/divi/blob/master/READM
 
 ### Resources
 
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [DIVI](http://forum.diviproject.org/) forum.
-* Join the [DIVI-Dev](https://divi-dev.slack.com/) Slack group ([Sign-Up](https://divi-dev.herokuapp.com/)).
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [Astra](http://forum.Astraproject.org/) forum.
+* Join the [Astra-Dev](https://Astra-dev.slack.com/) Slack group ([Sign-Up](https://Astra-dev.herokuapp.com/)).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

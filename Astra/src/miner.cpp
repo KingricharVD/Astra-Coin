@@ -32,7 +32,7 @@ using namespace std;
 
 //////////////////////////////////////////////////////////////////////////////
 //
-// DIVIMiner
+// AstraMiner
 //
 
 //
@@ -319,7 +319,7 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn, CWallet* pwallet, 
             if (!view.HaveInputs(tx))
                 continue;
 
-            // double check that there are no double spent zDiv spends in this block or tx
+            // double check that there are no double spent zAstra spends in this block or tx
             if (tx.IsZerocoinSpend()) {
                 int nHeightTx = 0;
                 if (IsTransactionInChain(tx.GetHash(), nHeightTx))
@@ -340,7 +340,7 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn, CWallet* pwallet, 
                         vTxSerials.emplace_back(spend.getCoinSerialNumber());
                     }
                 }
-                //This zDiv serial has already been included in the block, do not add this tx.
+                //This zAstra serial has already been included in the block, do not add this tx.
                 if (fDoubleSerial)
                     continue;
             }
@@ -478,7 +478,7 @@ bool ProcessBlockFound(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     {
         LOCK(cs_main);
         if (pblock->hashPrevBlock != chainActive.Tip()->GetBlockHash())
-            return error("DIVIMiner : generated block is stale");
+            return error("AstraMiner : generated block is stale");
     }
 
     // Remove key from key pool
@@ -493,7 +493,7 @@ bool ProcessBlockFound(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     // Process this block the same as if we had received it from another node
     CValidationState state;
     if (!ProcessNewBlock(state, NULL, pblock))
-        return error("DIVIMiner : ProcessNewBlock, block not accepted");
+        return error("AstraMiner : ProcessNewBlock, block not accepted");
 
     for (CNode* node : vNodes) {
         node->PushInventory(CInv(MSG_BLOCK, pblock->GetHash()));
@@ -508,9 +508,9 @@ bool fGenerateBitcoins = false;
 
 void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
 {
-    LogPrintf("DIVIMiner started\n");
+    LogPrintf("AstraMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("divi-miner");
+    RenameThread("Astra-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);
@@ -597,7 +597,7 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
                     continue;
                 }
 
-                LogPrintf("Running DIVIMiner with %u transactions in block (%u bytes)\n", pblock->vtx.size(),
+                LogPrintf("Running AstraMiner with %u transactions in block (%u bytes)\n", pblock->vtx.size(),
                           ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
 
                 //

@@ -30,7 +30,7 @@ and it will be used in code in next way:
 Also value can be any integer, like block height or some other constant.
 
 ## Multivalue spork
-Divi has a need to make changes to the blockchain in more complex way comparing to binary switches.
+Astra has a need to make changes to the blockchain in more complex way comparing to binary switches.
 ### Motivation
 We need to be able to save all previous values that were used with this spork. Why? 
 Let's take a look on example, we need to be able to change block value to arbitrary one. We can't achieve it with binary switches, because for binary switches we need to have all options compiled into code. We can only switch between two 'branches'.
@@ -52,7 +52,7 @@ It means that there are 3 historic values:
 
 Spork can needs to be signed by private key that was used to create spork address which is hardcoded into protocol. 
 
-1. Start `divid` with `-sporkkey=private_key`. This will allow you to send sporks to the network.
+1. Start `Astrad` with `-sporkkey=private_key`. This will allow you to send sporks to the network.
 2. Use RPC call `spork "SPORK_15_BLOCK_VALUE" "1000;100"`. Actual format depends on spork.
 
 **__ATTENTION YOU NEED TO BE EXTREMELY CAREFUL WITH MULTIVALUE SPORKS, DON'T EVER APPLY MULTIVALUE SPORK WITH BLOCK HEIGHT THAT HAS ALREADY PASSED, IT MAY FORK THE CHAIN.__**
@@ -65,7 +65,7 @@ Use RPC call `spork show` to see current state of sporks.
 
 In Dash or PIVX sporks are synced as part of second layer(Masternodes), before syncing masternodes and masternode-payments client requests sporks from his peers and then proceeded with masternode sync. 
 
-Divi supports different model, since we need to know about all sporks before syncing to properly react to any consensus changes. 
+Astra supports different model, since we need to know about all sporks before syncing to properly react to any consensus changes. 
 
 Standard protocol is:
 
@@ -75,7 +75,7 @@ Standard protocol is:
 4. Peer A receives `verack` and is suspeneded till the moment he syncs all sporks using INV mechanism. 
 5. At this state Peer A can send messages to peer B and process messages from him, doing classic sync.
 
-## Format for different spork values that are supported by Divi
+## Format for different spork values that are supported by Astra
 
 | Spork ID | Spork Value | Example |
 | -------- | ----------- | ------- |

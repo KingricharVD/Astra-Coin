@@ -4,7 +4,7 @@
 '''
 Dummy Socks5 server for testing.
 '''
-from __future__ import print_function, division, unicode_literals
+from __future__ import print_function, Astrasion, unicode_literals
 import socket, threading, Queue
 import traceback, sys
 

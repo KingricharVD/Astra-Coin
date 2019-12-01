@@ -537,9 +537,9 @@ generateRandomPrime(uint32_t primeBitLen, uint256 in_seed, uint256 *out_seed,
 			cout << "The big num is: c = " << c << endl;
 #endif
 
-			// Perform trial division on this (relatively small) integer to determine if "intc"
+			// Perform trial Astrasion on this (relatively small) integer to determine if "intc"
 			// is prime. If so, return success.
-			if (primalityTestByTrialDivision(intc)) {
+			if (primalityTestByTrialAstrasion(intc)) {
 				// Return "intc" converted back into a CBigNum and "prime_seed". We also updated
 				// the variable "prime_gen_counter" in previous statements.
 				result = intc;
@@ -639,14 +639,14 @@ generateIntegerFromSeed(uint32_t numBits, uint256 seed, uint32_t *numIterations)
 	return result;
 }
 
-/// \brief Determines whether a uint32_t is a prime through trial division.
+/// \brief Determines whether a uint32_t is a prime through trial Astrasion.
 /// \param candidate       Candidate to test.
 /// \return                true if the value is prime, false otherwise
 ///
-/// Performs trial division to determine whether a uint32_t is prime.
+/// Performs trial Astrasion to determine whether a uint32_t is prime.
 
 bool
-primalityTestByTrialDivision(uint32_t candidate)
+primalityTestByTrialAstrasion(uint32_t candidate)
 {
 	// TODO: HACK HACK WRONG WRONG
 	CBigNum canBignum(candidate);

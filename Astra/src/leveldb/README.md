@@ -111,7 +111,7 @@ Guide to header files:
 * **include/db.h**: Main interface to the DB: Start here
 
 * **include/options.h**: Control over the behavior of an entire database,
-and also control over the behavior of individual reads and writes.
+and also control over the behavior of inAstradual reads and writes.
 
 * **include/comparator.h**: Abstraction for user-specified comparison function. 
 If you want just bytewise comparison of keys, you can use the default

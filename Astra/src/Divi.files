@@ -48,9 +48,9 @@ db.cpp
 db.h
 denomination_functions.cpp
 denomination_functions.h
-divi-cli.cpp
-divi-tx.cpp
-divid.cpp
+Astra-cli.cpp
+Astra-tx.cpp
+Astrad.cpp
 eccryptoverify.cpp
 eccryptoverify.h
 ecwrapper.cpp
@@ -139,8 +139,8 @@ qt/coincontroltreewidget.cpp
 qt/coincontroltreewidget.h
 qt/csvmodelwriter.cpp
 qt/csvmodelwriter.h
-qt/divi.cpp
-qt/divistrings.cpp
+qt/Astra.cpp
+qt/Astrastrings.cpp
 qt/editaddressdialog.cpp
 qt/editaddressdialog.h
 qt/forms/addressbookpage.ui
@@ -167,7 +167,7 @@ qt/forms/sendcoinsentry.ui
 qt/forms/signverifymessagedialog.ui
 qt/forms/tradingdialog.ui
 qt/forms/transactiondescdialog.ui
-qt/forms/zdivcontroldialog.ui
+qt/forms/zAstracontroldialog.ui
 qt/guiconstants.h
 qt/guiutil.cpp
 qt/guiutil.h
@@ -257,8 +257,8 @@ qt/walletview.cpp
 qt/walletview.h
 qt/winshutdownmonitor.cpp
 qt/winshutdownmonitor.h
-qt/zdivcontroldialog.cpp
-qt/zdivcontroldialog.h
+qt/zAstracontroldialog.cpp
+qt/zAstracontroldialog.h
 random.cpp
 random.h
 rest.cpp

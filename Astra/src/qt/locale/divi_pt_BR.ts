@@ -62,12 +62,12 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
-        <source>These are your DIVI addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Esses são seus endereços DIVI para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
+        <source>These are your Astra addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Esses são seus endereços Astra para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your DIVI addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Esses são seus endereços DIVI para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
+        <source>These are your Astra addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Esses são seus endereços Astra para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Confirmar criptografia de carteira</translation>
     </message>
     <message>
-        <source>DIVI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DIVs from being stolen by malware infecting your computer.</source>
-        <translation>DIVI vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas DIVs de serem roubadas por malwares infectando seu computador.</translation>
+        <source>Astra will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Astras from being stolen by malware infecting your computer.</source>
+        <translation>Astra vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas Astras de serem roubadas por malwares infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Você tem certeza que deseja criptografar sua carteira?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DIV&lt;/b&gt;!</source>
-        <translation>Aviso: se você criptografar sua carteira e perder sua senha você &lt;b&gt;PERDERÁ TODAS AS SUAS DIV&lt;b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR Astra&lt;/b&gt;!</source>
+        <translation>Aviso: se você criptografar sua carteira e perder sua senha você &lt;b&gt;PERDERÁ TODAS AS SUAS Astra&lt;b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -235,7 +235,7 @@
         <translation>&amp;Encriptação BIP 38</translation>
     </message>
     <message>
-        <source>Enter a Divi Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a Astra Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Insira um endereço que você deseja criptografar usando a BIP 38. Insira a palavra-chave na caixa do meio. Pressione criptografar para computar a chave privada criptografada.</translation>
     </message>
     <message>
@@ -243,8 +243,8 @@
         <translation>Endereço:</translation>
     </message>
     <message>
-        <source>The DIVI address to sign the message with</source>
-        <translation>O endereço DIVI para assinar a mensagem</translation>
+        <source>The Astra address to sign the message with</source>
+        <translation>O endereço Astra para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -275,8 +275,8 @@
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DIVI address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço DIVI</translation>
+        <source>Sign the message to prove you own this Astra address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço Astra</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -295,12 +295,12 @@
         <translation>&amp;Descriptografar BIP 38</translation>
     </message>
     <message>
-        <source>The DIVI address the message was signed with</source>
-        <translation>O endereço DIVI que assinou a mensagem</translation>
+        <source>The Astra address the message was signed with</source>
+        <translation>O endereço Astra que assinou a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DIVI address</source>
-        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço DIVI especificado.</translation>
+        <source>Verify the message to ensure it was signed with the specified Astra address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço Astra especificado.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -418,8 +418,8 @@
         <translation>Olhar histórico de transação</translation>
     </message>
     <message>
-        <source>Privacy Actions for zDIV</source>
-        <translation>Ações privadas para zDIV</translation>
+        <source>Privacy Actions for zAstra</source>
+        <translation>Ações privadas para zAstra</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -618,16 +618,16 @@
         <translation>Ferramentas de abas</translation>
     </message>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Core</translation>
+        <source>Astra Core</source>
+        <translation>Astra Core</translation>
     </message>
     <message>
-        <source>Send coins to a DIVI address</source>
-        <translation>Enviar moedas para um endereço DIVI</translation>
+        <source>Send coins to a Astra address</source>
+        <translation>Enviar moedas para um endereço Astra</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and divi: URIs)</source>
-        <translation>Requisitar pagamentos (gera códigos QR e divi: URIs)</translation>
+        <source>Request payments (generates QR codes and Astra: URIs)</source>
+        <translation>Requisitar pagamentos (gera códigos QR e Astra: URIs)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -642,24 +642,24 @@
         <translation>Procurar masternodes</translation>
     </message>
     <message>
-        <source>&amp;About DIVI Core</source>
-        <translation>&amp;Sobre o DIVI Core</translation>
+        <source>&amp;About Astra Core</source>
+        <translation>&amp;Sobre o Astra Core</translation>
     </message>
     <message>
-        <source>Show information about DIVI Core</source>
-        <translation>Mostra informação sobre o DIVI Core</translation>
+        <source>Show information about Astra Core</source>
+        <translation>Mostra informação sobre o Astra Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for DIVI</source>
-        <translation>Modificar opções de configuração para DIVI</translation>
+        <source>Modify configuration options for Astra</source>
+        <translation>Modificar opções de configuração para Astra</translation>
     </message>
     <message>
-        <source>Sign messages with your DIVI addresses to prove you own them</source>
-        <translation>Assine mensagens com seus endereços DIVI para provar que você os detém</translation>
+        <source>Sign messages with your Astra addresses to prove you own them</source>
+        <translation>Assine mensagens com seus endereços Astra para provar que você os detém</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified DIVI addresses</source>
-        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços DIVI especificados</translation>
+        <source>Verify messages to ensure they were signed with specified Astra addresses</source>
+        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços Astra especificados</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -690,8 +690,8 @@
         <translation>Abrir arquivo de configuração de Masternode</translation>
     </message>
     <message>
-        <source>Open a DIVI: URI or payment request</source>
-        <translation>Abrir um DIVI: URI ou requisição de pagamento</translation>
+        <source>Open a Astra: URI or payment request</source>
+        <translation>Abrir um Astra: URI ou requisição de pagamento</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -702,12 +702,12 @@
         <translation>Janela de exploração de blocos</translation>
     </message>
     <message>
-        <source>Show the DIVI Core help message to get a list with possible DIVI command-line options</source>
-        <translation>Mostra a ajuda da DIVI Core para receber uma lista com possíveis opções de linha de comando DIVI</translation>
+        <source>Show the Astra Core help message to get a list with possible Astra command-line options</source>
+        <translation>Mostra a ajuda da Astra Core para receber uma lista com possíveis opções de linha de comando Astra</translation>
     </message>
     <message>
-        <source>DIVI Core client</source>
-        <translation>Cliente Core DIVI</translation>
+        <source>Astra Core client</source>
+        <translation>Cliente Core Astra</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -862,8 +862,8 @@ MultiSend: %1</translation>
         <translation>Rótulo</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (divi.conf).</source>
-        <translation>Nem todas as transações serão exibidas. Para visualizar todas as transações você precisa definir txindex=1 no arquivo de configuração (divi.conf). </translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (Astra.conf).</source>
+        <translation>Nem todas as transações serão exibidas. Para visualizar todas as transações você precisa definir txindex=1 no arquivo de configuração (Astra.conf). </translation>
     </message>
 </context>
 <context>
@@ -1147,8 +1147,8 @@ MultiSend: %1</translation>
         <translation>Editar endereço remetente</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid DIVI address.</source>
-        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de DIVI</translation>
+        <source>The entered address "%1" is not a valid Astra address.</source>
+        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de Astra</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1193,16 +1193,16 @@ MultiSend: %1</translation>
         <translation>versão</translation>
     </message>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Core</translation>
+        <source>Astra Core</source>
+        <translation>Astra Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About DIVI Core</source>
-        <translation>Sobre o DIVI Core</translation>
+        <source>About Astra Core</source>
+        <translation>Sobre o Astra Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1244,16 +1244,16 @@ MultiSend: %1</translation>
         <translation>Bem-vindo</translation>
     </message>
     <message>
-        <source>Welcome to DIVI Core.</source>
-        <translation>Bem-vindo ao DIVI Core.</translation>
+        <source>Welcome to Astra Core.</source>
+        <translation>Bem-vindo ao Astra Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where DIVI Core will store its data.</source>
-        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde DIVI Core vai armazenar os seus dados.</translation>
+        <source>As this is the first time the program is launched, you can choose where Astra Core will store its data.</source>
+        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde Astra Core vai armazenar os seus dados.</translation>
     </message>
     <message>
-        <source>DIVI Core will download and store a copy of the DIVI block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>DIVI Core vai baixar e armazenar uma cópia da blockchain DIVI. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
+        <source>Astra Core will download and store a copy of the Astra block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Astra Core vai baixar e armazenar uma cópia da blockchain Astra. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1264,8 +1264,8 @@ MultiSend: %1</translation>
         <translation>Usar um diretório personalizado de dados:</translation>
     </message>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Core</translation>
+        <source>Astra Core</source>
+        <translation>Astra Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1559,48 +1559,48 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Favor selecionar o nível de privacidade.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 DIV</source>
-        <translation>Use 2 masternodes separados para embaralhar fundos até 10000 DIV</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 Astra</source>
+        <translation>Use 2 masternodes separados para embaralhar fundos até 10000 Astra</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 DIV</source>
-        <translation>Use 8 masternodes separados para embaralhar fundos até 10000 DIV</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 Astra</source>
+        <translation>Use 8 masternodes separados para embaralhar fundos até 10000 Astra</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Use 16 masternodes separados</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 DIV to anonymize 10000 DIV</source>
-        <translation>Está opção é a mais rápida e vai custar em torno de ~0.025 DIV para anonimizar 10000 DIV</translation>
+        <source>This option is the quickest and will cost about ~0.025 Astra to anonymize 10000 Astra</source>
+        <translation>Está opção é a mais rápida e vai custar em torno de ~0.025 Astra para anonimizar 10000 Astra</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 DIV to anonymize 10000 DIV</source>
-        <translation>Está opção moderamente rápida e vai custar em torno de ~0.05 DIV para anonimizar 10000 DIV</translation>
+        <source>This option is moderately fast and will cost about 0.05 Astra to anonymize 10000 Astra</source>
+        <translation>Está opção moderamente rápida e vai custar em torno de ~0.05 Astra para anonimizar 10000 Astra</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Esta é a opção mais lenta e mais segura. Usando a anonimização máxima vai custar</translation>
     </message>
     <message>
-        <source>0.1 DIV per 10000 DIV you anonymize.</source>
-        <translation>0.1 DIV por 10000 DIV que deixar anônima.</translation>
+        <source>0.1 Astra per 10000 Astra you anonymize.</source>
+        <translation>0.1 Astra por 10000 Astra que deixar anônima.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Configuração de ofuscação</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening DIVI's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para o básico (%1 e 2 rodadas) Você pode mudar isto a qualquer tempo ao abrir a configuração de tela DIVI's.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Astra's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para o básico (%1 e 2 rodadas) Você pode mudar isto a qualquer tempo ao abrir a configuração de tela Astra's.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening DIVI's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para alto (%1 e 8 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela DIVI's.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Astra's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para alto (%1 e 8 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela Astra's.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening DIVI's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para máxima (%1 e 16 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela DIVI's.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Astra's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para máxima (%1 e 16 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela Astra's.</translation>
     </message>
 </context>
 <context>
@@ -1653,8 +1653,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>C&amp;arteira</translation>
     </message>
     <message>
-        <source>Automatically open the DIVI client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automaticamente a porta do cliente DIVI no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
+        <source>Automatically open the Astra client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automaticamente a porta do cliente Astra no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1673,12 +1673,12 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start DIVI after logging in to the system.</source>
-        <translation>Iniciar automaticamente DIVI depois de logar no sistema.</translation>
+        <source>Automatically start Astra after logging in to the system.</source>
+        <translation>Iniciar automaticamente Astra depois de logar no sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start DIVI on system login</source>
-        <translation>&amp;Iniciar DIVI ao logar no sistema</translation>
+        <source>&amp;Start Astra on system login</source>
+        <translation>&amp;Iniciar Astra ao logar no sistema</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1693,18 +1693,18 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>&amp;Rede</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting DIVI.</source>
-        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do DIVI.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Astra.</source>
+        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do Astra.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/divicoin/divicoin-translations</source>
+https://www.transifex.com/Astracoin/Astracoin-translations</source>
         <translation>Linguagem não encontrada ou tradução incompleta? Ajude contribuido com traduções aqui:
-https://www.transifex.com/divicoin/divicoin-translations</translation>
+https://www.transifex.com/Astracoin/Astracoin-translations</translation>
     </message>
     <message>
-        <source>Connect to the DIVI network through a SOCKS5 proxy.</source>
-        <translation>Conectar à rede DIVI através de um proxy SOCKS5</translation>
+        <source>Connect to the Astra network through a SOCKS5 proxy.</source>
+        <translation>Conectar à rede Astra através de um proxy SOCKS5</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1755,7 +1755,7 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>&amp;Unidades para mostrar as quantias:</translation>
     </message>
     <message>
-        <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
+        <source>Choose the default subAstrasion unit to show in the interface and when sending coins.</source>
         <translation>Escolha uma unidade padrão para mostrar quando estiver enviando moedas.</translation>
     </message>
     <message>
@@ -1822,8 +1822,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Formulário</translation>
     </message>
     <message>
-        <source>DIV Balances</source>
-        <translation>Balanços DIV</translation>
+        <source>Astra Balances</source>
+        <translation>Balanços Astra</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1846,8 +1846,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Imaturo:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DIVI network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede DIVI após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Astra network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede Astra após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1874,20 +1874,20 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Disponível:</translation>
     </message>
     <message>
-        <source>DIV:</source>
-        <translation>DIV:</translation>
+        <source>Astra:</source>
+        <translation>Astra:</translation>
     </message>
     <message>
-        <source>zDIV:</source>
-        <translation>zDIV:</translation>
+        <source>zAstra:</source>
+        <translation>zAstra:</translation>
     </message>
     <message>
         <source>0 %</source>
         <translation>0 %</translation>
     </message>
     <message>
-        <source>0.000 000 00 DIV</source>
-        <translation>0.000 000 00 DIV</translation>
+        <source>0.000 000 00 Astra</source>
+        <translation>0.000 000 00 Astra</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -1967,36 +1967,36 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>DIV which were anonymized via Zerocin Protocol</source>
-        <translation>DIV que foram anonimizadas via protocolo Zerocoin</translation>
+        <source>Astra which were anonymized via Zerocin Protocol</source>
+        <translation>Astra que foram anonimizadas via protocolo Zerocoin</translation>
     </message>
     <message>
-        <source>Zerocoin DIV (zDIV)</source>
-        <translation>Zerocoin DIV (zDIV)</translation>
+        <source>Zerocoin Astra (zAstra)</source>
+        <translation>Zerocoin Astra (zAstra)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
         <translation>Ações Zerocoin:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DIVI network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede DIVI após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Astra network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede Astra após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
     </message>
     <message>
-        <source>Enter an amount of Div to convert to zDiv</source>
-        <translation>Insira uma quantia de Div para converter para zDiv</translation>
+        <source>Enter an amount of Astra to convert to zAstra</source>
+        <translation>Insira uma quantia de Astra para converter para zAstra</translation>
     </message>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zDIV</source>
-        <translation>zDIV</translation>
+        <source>zAstra</source>
+        <translation>zAstra</translation>
     </message>
     <message>
-        <source>0.000 000 00 DIV</source>
-        <translation>0.000 000 00 DIV</translation>
+        <source>0.000 000 00 Astra</source>
+        <translation>0.000 000 00 Astra</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -2019,8 +2019,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Pagar &amp;Para:</translation>
     </message>
     <message>
-        <source>The DIVI address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>O endereço DIVI para enviar o pagamento. Cria um pagamento local para si mesmo quando vazio.</translation>
+        <source>The Astra address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>O endereço Astra para enviar o pagamento. Cria um pagamento local para si mesmo quando vazio.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2059,8 +2059,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Estatísticas zerocoin:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zDIV</source>
-        <translation>Balanço Total incluindo não confirmadas e imaturas zDIV</translation>
+        <source>Total Balance including unconfirmed and immature zAstra</source>
+        <translation>Balanço Total incluindo não confirmadas e imaturas zAstra</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2174,8 +2174,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Quantidade</translation>
     </message>
     <message>
-        <source>Enter a DIVI address (e.g. %1)</source>
-        <translation>Insira um endereço DIVI (e.g. %1)</translation>
+        <source>Enter a Astra address (e.g. %1)</source>
+        <translation>Insira um endereço Astra (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2436,8 +2436,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>saída:</translation>
     </message>
     <message>
-        <source>Welcome to the DIVI RPC console.</source>
-        <translation>Bem-vindo ao console da DIVI RPC</translation>
+        <source>Welcome to the Astra RPC console.</source>
+        <translation>Bem-vindo ao console da Astra RPC</translation>
     </message>
     <message>
         <source>Do you want to continue?.&lt;br /&gt;</source>
@@ -2685,7 +2685,7 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
     </message>
     <message>
         <source>Split UTXO</source>
-        <translation>Dividir UTXO</translation>
+        <translation>Astradir UTXO</translation>
     </message>
     <message>
         <source># of outputs</source>
@@ -2696,8 +2696,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Tamanho UTXO:</translation>
     </message>
     <message>
-        <source>0 DIV</source>
-        <translation>0 DIV</translation>
+        <source>0 Astra</source>
+        <translation>0 Astra</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2740,12 +2740,12 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Tempo de confirmação:</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uDIVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uDIVs in fee,&lt;br /&gt;while "at least" pays 1000 uDIVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Se a taxa padrão estiver definida para 1000 uDIVs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uDIVs em taxa,&lt;br /&gt; pagará pelo menos 1000 uDIVs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uAstras and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uAstras in fee,&lt;br /&gt;while "at least" pays 1000 uAstras. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Se a taxa padrão estiver definida para 1000 uAstras e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uAstras em taxa,&lt;br /&gt; pagará pelo menos 1000 uAstras. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for DIVI transactions than the network can process.</source>
-        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de DIVI do que a rede pode processar.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Astra transactions than the network can process.</source>
+        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de Astra do que a rede pode processar.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -2781,15 +2781,15 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation>Envia para diversos recipientes de uma vez</translation>
+        <translation>Envia para Astraersos recipientes de uma vez</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
         <translation>Adicionar &amp;Recipiente</translation>
     </message>
     <message>
-        <source>Anonymized DIV</source>
-        <translation>DIV anonimizadas</translation>
+        <source>Anonymized Astra</source>
+        <translation>Astra anonimizadas</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -2832,8 +2832,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>fundos anônimos</translation>
     </message>
     <message>
-        <source>Warning: Invalid DIVI address</source>
-        <translation>Aviso: endereço DIVI inválido</translation>
+        <source>Warning: Invalid Astra address</source>
+        <translation>Aviso: endereço Astra inválido</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -2877,7 +2877,7 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
     </message>
     <message>
         <source> split into %1 outputs using the UTXO splitter.</source>
-        <translation>divida em %1 outputs utilizando o divisor de UTXO.</translation>
+        <translation>Astrada em %1 outputs utilizando o Astrasor de UTXO.</translation>
     </message>
     <message>
         <source>&lt;b&gt;(%1 of %2 entries displayed)&lt;/b&gt;</source>
@@ -2931,8 +2931,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Pagar &amp;Para:</translation>
     </message>
     <message>
-        <source>The DIVI address to send the payment to</source>
-        <translation>O endereço DIVI para enviar o pagamento</translation>
+        <source>The Astra address to send the payment to</source>
+        <translation>O endereço Astra para enviar o pagamento</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2994,8 +2994,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>DIVI Core is shutting down...</source>
-        <translation>DIVI Core está desligando...</translation>
+        <source>Astra Core is shutting down...</source>
+        <translation>Astra Core está desligando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3013,8 +3013,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>&amp;Assinar mensagem</translation>
     </message>
     <message>
-        <source>The DIVI address to sign the message with</source>
-        <translation>O endereço DIVI para assinar a mensagem</translation>
+        <source>The Astra address to sign the message with</source>
+        <translation>O endereço Astra para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3045,16 +3045,16 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DIVI address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço DIVI</translation>
+        <source>Sign the message to prove you own this Astra address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço Astra</translation>
     </message>
     <message>
-        <source>The DIVI address the message was signed with</source>
-        <translation>O endereço DIVI que assinou a mensagem</translation>
+        <source>The Astra address the message was signed with</source>
+        <translation>O endereço Astra que assinou a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DIVI address</source>
-        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço DIVI especificado.</translation>
+        <source>Verify the message to ensure it was signed with the specified Astra address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço Astra especificado.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3136,8 +3136,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Core</translation>
+        <source>Astra Core</source>
+        <translation>Astra Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3152,8 +3152,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Os desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>The DIVI Core developers</source>
-        <translation>Os desenvolvedores do DIVI Core</translation>
+        <source>The Astra Core developers</source>
+        <translation>Os desenvolvedores do Astra Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3444,24 +3444,24 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Ofuscado</translation>
     </message>
     <message>
-        <source>Spent zDiv</source>
-        <translation>zDiv gasto</translation>
+        <source>Spent zAstra</source>
+        <translation>zAstra gasto</translation>
     </message>
     <message>
-        <source>Received Div from zDiv</source>
-        <translation>Recebido Div de zDiv</translation>
+        <source>Received Astra from zAstra</source>
+        <translation>Recebido Astra de zAstra</translation>
     </message>
     <message>
-        <source>Converted zDiv to Div</source>
-        <translation>Convertido zDiv para Div</translation>
+        <source>Converted zAstra to Astra</source>
+        <translation>Convertido zAstra para Astra</translation>
     </message>
     <message>
         <source>watch-only</source>
         <translation>somente visualização</translation>
     </message>
     <message>
-        <source>zDiv Accumulator</source>
-        <translation>zDiv Acumulador</translation>
+        <source>zAstra Accumulator</source>
+        <translation>zAstra Acumulador</translation>
     </message>
     <message>
         <source>(n/a)</source>
@@ -3555,8 +3555,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Recompensa de Masternode</translation>
     </message>
     <message>
-        <source>Received Div from zDiv</source>
-        <translation>Recebido Div de zDiv</translation>
+        <source>Received Astra from zAstra</source>
+        <translation>Recebido Astra de zAstra</translation>
     </message>
     <message>
         <source>Other</source>
@@ -3716,7 +3716,7 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
     </message>
 </context>
 <context>
-    <name>ZDivControlDialog</name>
+    <name>ZAstraControlDialog</name>
     <message>
         <source>Quantity</source>
         <translation>Quantia</translation>
@@ -3731,7 +3731,7 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
     </message>
     </context>
 <context>
-    <name>divi-core</name>
+    <name>Astra-core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes da blockchain através de -rescan na inicialização</translation>
@@ -3749,12 +3749,12 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Executar o comando quando uma transação da carteira mudar (%s no cmd será substituído pela TxID)</translation>
     </message>
     <message>
-        <source>Fees (in DIV/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Taxas (em DIV/Kb) menores que isso serão consideradas taxa zero para propagação (padrão: %s)</translation>
+        <source>Fees (in Astra/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Taxas (em Astra/Kb) menores que isso serão consideradas taxa zero para propagação (padrão: %s)</translation>
     </message>
     <message>
-        <source>Fees (in DIV/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Taxas (em DIV/Kb) menores que isso serão consideradas taxa zero para a criação da transação (padrão: %s)</translation>
+        <source>Fees (in Astra/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Taxas (em Astra/Kb) menores que isso serão consideradas taxa zero para a criação da transação (padrão: %s)</translation>
     </message>
     <message>
         <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
@@ -3773,8 +3773,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Define o tamanho máximo de transações de alta prioridade/taxa baixa em bytes (padrão: %d)</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 DIV.</source>
-        <translation>Incapaz de localizar fundos para esta transação que não são iguais a 10000 DIV.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 Astra.</source>
+        <translation>Incapaz de localizar fundos para esta transação que não são iguais a 10000 Astra.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3789,8 +3789,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Aviso: -paytxfee está definido como muito alto! Está e a taxa de transação que você irá pagar se enviar uma transação.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong DIVI Core will not work properly.</source>
-        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core DIVI não vai funcionar corretamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Astra Core will not work properly.</source>
+        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core Astra não vai funcionar corretamente.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3869,8 +3869,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Todos os direitos reservados (C) 2014-%i aos Desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The DIVI Core Developers</source>
-        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do DIVI Core</translation>
+        <source>Copyright (C) 2015-%i The Astra Core Developers</source>
+        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do Astra Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -3929,8 +3929,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Erro no carregamento da wallet.dat: Carteira corrompida</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of DIVI Core</source>
-        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da DIVI Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Astra Core</source>
+        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da Astra Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -3969,8 +3969,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Falhou em ler o bloco</translation>
     </message>
     <message>
-        <source>Fee (in DIV/kB) to add to transactions you send (default: %s)</source>
-        <translation>Taxa (em DIV/kB) a adicionar em transações que você enviar (padrão: %s)</translation>
+        <source>Fee (in Astra/kB) to add to transactions you send (default: %s)</source>
+        <translation>Taxa (em Astra/kB) a adicionar em transações que você enviar (padrão: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -4423,8 +4423,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Carteira está travada.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart DIVI Core to complete</source>
-        <translation>A carteira precisa ser reescrita: reinicia o DIVI Core para completar</translation>
+        <source>Wallet needed to be rewritten: restart Astra Core to complete</source>
+        <translation>A carteira precisa ser reescrita: reinicia o Astra Core para completar</translation>
     </message>
     <message>
         <source>Wallet options:</source>

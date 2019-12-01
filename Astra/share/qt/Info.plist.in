@@ -17,7 +17,7 @@
   <string>APPL</string>
 
   <key>CFBundleGetInfoString</key>
-  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Dash Core developers, 2015-@COPYRIGHT_YEAR@ The Divi Core developers</string>
+  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Dash Core developers, 2015-@COPYRIGHT_YEAR@ The Astra Core developers</string>
 
   <key>CFBundleShortVersionString</key>
   <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@</string>
@@ -29,10 +29,10 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>DIVI-Qt</string>
+  <string>Astra-Qt</string>
 
   <key>CFBundleIdentifier</key>
-  <string>io.divi.Divi-Qt</string>
+  <string>io.Astra.Astra-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -40,10 +40,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>io.divi.DiviPayment</string>
+      <string>io.Astra.AstraPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>divi</string>
+        <string>Astra</string>
       </array>
     </dict>
   </array>
@@ -52,9 +52,9 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>io.divi.paymentrequest</string>
+      <string>io.Astra.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Divi payment request</string>
+      <string>Astra payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>
@@ -62,10 +62,10 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-divi-payment-request</string>
+        <string>application/x-Astra-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>divipaymentrequest</string>
+          <string>Astrapaymentrequest</string>
         </array>
       </dict>
     </dict>
@@ -78,7 +78,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>io.divi.paymentrequest</string>
+        <string>io.Astra.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

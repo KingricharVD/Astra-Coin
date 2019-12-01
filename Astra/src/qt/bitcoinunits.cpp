@@ -19,18 +19,18 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(DIV);
-    unitlist.append(mDIV);
-    unitlist.append(uDIV);
+    unitlist.append(Astra);
+    unitlist.append(mAstra);
+    unitlist.append(uAstra);
     return unitlist;
 }
 
 bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
-    case DIV:
-    case mDIV:
-    case uDIV:
+    case Astra:
+    case mAstra:
+    case uAstra:
         return true;
     default:
         return false;
@@ -40,12 +40,12 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
-    case DIV:
-        return QString("divi");
-    case mDIV:
-        return QString("mdivi");
-    case uDIV:
-        return QString::fromUtf8("udivi");
+    case Astra:
+        return QString("Astra");
+    case mAstra:
+        return QString("mAstra");
+    case uAstra:
+        return QString::fromUtf8("uAstra");
     default:
         return QString("???");
     }
@@ -55,23 +55,23 @@ QString BitcoinUnits::name(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case DIV:
-            return QString("DIV");
-        case mDIV:
-            return QString("mDIV");
-        case uDIV:
-            return QString::fromUtf8("μDIV");
+        case Astra:
+            return QString("Astra");
+        case mAstra:
+            return QString("mAstra");
+        case uAstra:
+            return QString::fromUtf8("μAstra");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case DIV:
-            return QString("tDIV");
-        case mDIV:
-            return QString("mtDIV");
-        case uDIV:
-            return QString::fromUtf8("μtDIV");
+        case Astra:
+            return QString("tAstra");
+        case mAstra:
+            return QString("mtAstra");
+        case uAstra:
+            return QString::fromUtf8("μtAstra");
         default:
             return QString("???");
         }
@@ -82,23 +82,23 @@ QString BitcoinUnits::description(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case DIV:
-            return QString("DIV");
-        case mDIV:
-            return QString("Milli-DIV (1 / 1" THIN_SP_UTF8 "000)");
-        case uDIV:
-            return QString("Micro-DIV (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case Astra:
+            return QString("Astra");
+        case mAstra:
+            return QString("Milli-Astra (1 / 1" THIN_SP_UTF8 "000)");
+        case uAstra:
+            return QString("Micro-Astra (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case DIV:
-            return QString("TestDIVs");
-        case mDIV:
-            return QString("Milli-TestDIV (1 / 1" THIN_SP_UTF8 "000)");
-        case uDIV:
-            return QString("Micro-TestDIV (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case Astra:
+            return QString("TestAstras");
+        case mAstra:
+            return QString("Milli-TestAstra (1 / 1" THIN_SP_UTF8 "000)");
+        case uAstra:
+            return QString("Micro-TestAstra (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
@@ -108,11 +108,11 @@ QString BitcoinUnits::description(int unit)
 qint64 BitcoinUnits::factor(int unit)
 {
     switch (unit) {
-    case DIV:
+    case Astra:
         return 100000000;
-    case mDIV:
+    case mAstra:
         return 100000;
-    case uDIV:
+    case uAstra:
         return 100;
     default:
         return 100000000;
@@ -122,11 +122,11 @@ qint64 BitcoinUnits::factor(int unit)
 int BitcoinUnits::decimals(int unit)
 {
     switch (unit) {
-    case DIV:
+    case Astra:
         return 8;
-    case mDIV:
+    case mAstra:
         return 5;
-    case uDIV:
+    case uAstra:
         return 2;
     default:
         return 0;

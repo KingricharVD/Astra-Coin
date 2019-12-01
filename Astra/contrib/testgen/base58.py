@@ -29,9 +29,9 @@ def b58encode(v):
 
     result = ''
     while long_value >= __b58base:
-        div, mod = divmod(long_value, __b58base)
+        Astra, mod = Astramod(long_value, __b58base)
         result = __b58chars[mod] + result
-        long_value = div
+        long_value = Astra
     result = __b58chars[long_value] + result
 
     # Bitcoin does a little leading-zero-compression:
@@ -52,9 +52,9 @@ def b58decode(v, length = None):
 
     result = bytes()
     while long_value >= 256:
-        div, mod = divmod(long_value, 256)
+        Astra, mod = Astramod(long_value, 256)
         result = chr(mod) + result
-        long_value = div
+        long_value = Astra
     result = chr(long_value) + result
 
     nPad = 0

@@ -1,7 +1,7 @@
 # Rewards
 
 ## Definition
-__Block subsidity__ is a value in Divi which is created (minted) every new block. Rewards are sent to different parties (Stakers, Masternodes, Treasury, etc). Will cover payments in next sections.
+__Block subsidity__ is a value in Astra which is created (minted) every new block. Rewards are sent to different parties (Stakers, Masternodes, Treasury, etc). Will cover payments in next sections.
 __Superblock__ is a special block which creates a payment to treasury or lottery or something else in perspective.
 
 ## Subsidy over the time
@@ -13,8 +13,8 @@ __Superblock__ is a special block which creates a payment to treasury or lottery
 | 2102400 - 3153600 | 850 | 
 | ... | ... | 
 
-The subsidy decreases every two years (1051200 blocks) by 200 DIVI, unless spork is not activated, which explicitly controls subsidy.
-Minimum block reward is 100 DIVI, so no matter how much time passes minimum reward will be 100.
+The subsidy decreases every two years (1051200 blocks) by 200 Astra, unless spork is not activated, which explicitly controls subsidy.
+Minimum block reward is 100 Astra, so no matter how much time passes minimum reward will be 100.
 
 `static CAmount GetFullBlockValue(int nHeight)` in `main.cpp` is the place where full block reward is calculated.
 

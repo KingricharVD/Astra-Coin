@@ -1,13 +1,13 @@
 ## Definition
 
-This document describes a few way how to run Divi client persistently remotely(on VPS).
+This document describes a few way how to run Astra client persistently remotely(on VPS).
 
 ### Options
 
 We will imply that user is connected via ssh to remote host.
 
-1. Simply running `# /path/to/divid/divid`
-2. Running as daemon `# /path/to/divid/divid -daemon` or placing daemon=1 into `divi.conf`
+1. Simply running `# /path/to/Astrad/Astrad`
+2. Running as daemon `# /path/to/Astrad/Astrad -daemon` or placing daemon=1 into `Astra.conf`
 3. Running as service(systemd, init.d, etc)
 
 Let's breakdown every solution. 
@@ -20,34 +20,34 @@ Let's breakdown every solution.
 
 To run client as systemd daemon we need to make simple configuration. 
 
-Unit file can be found at our github repository, `divi/contrib/init/divid.service`
+Unit file can be found at our github repository, `Astra/contrib/init/Astrad.service`
 
-1. Place so `divid.service` unit file into `/etc/systemd/system`. 
-2. Create folder for datadir: `sudo mkdir -p /var/lib/divid`
-3. Enable unit for auto-start: `sudo systemctl start divid`. (Optional)
-4. Start service: `sudo systemctl start divid`
-5. Check status: `sudo systemctl status divid`
+1. Place so `Astrad.service` unit file into `/etc/systemd/system`. 
+2. Create folder for datadir: `sudo mkdir -p /var/lib/Astrad`
+3. Enable unit for auto-start: `sudo systemctl start Astrad`. (Optional)
+4. Start service: `sudo systemctl start Astrad`
+5. Check status: `sudo systemctl status Astrad`
 
 Useful commands:
 
-* `sudo systemctl status divid` - shows status
-* `sudo systemctl stop divid` - stops daemon
-* `tail -f /var/lib/divid/debug.log` - show logs
+* `sudo systemctl status Astrad` - shows status
+* `sudo systemctl stop Astrad` - stops daemon
+* `tail -f /var/lib/Astrad/debug.log` - show logs
 
-#### Using our divid.service
+#### Using our Astrad.service
 
-Our unit file that is provided at `divi/contrib/init/divid.service` has configuration for different from default `divi.conf` and `datadir` folders. 
+Our unit file that is provided at `Astra/contrib/init/Astrad.service` has configuration for different from default `Astra.conf` and `datadir` folders. 
 Default is: 
 
-* `-datadir=/var/lib/divid`
-* `-conf=/etc/divi/divi.conf`
+* `-datadir=/var/lib/Astrad`
+* `-conf=/etc/Astra/Astra.conf`
 
-Using our unit file won't place `datadir` and `divi.conf` under `~/.divi`. If you want to change those locations, you will need to modify unit file. 
+Using our unit file won't place `datadir` and `Astra.conf` under `~/.Astra`. If you want to change those locations, you will need to modify unit file. 
 
 ### Daemon configuration
 
-If you want fluid support of auto-start it might be useful to add `reindex=1` into `divi.conf`. Motivation for this is that when daemon crashes database might corrupt, `reindex=1` will slow things a lot on restarts but will provide automatic robust experience.
+If you want fluid support of auto-start it might be useful to add `reindex=1` into `Astra.conf`. Motivation for this is that when daemon crashes database might corrupt, `reindex=1` will slow things a lot on restarts but will provide automatic robust experience.
 
-It makes sense to setup strong `rpcpassword`, `rpcuser` and `rpcallowip` in `divi.conf` to secure a bit this client.
+It makes sense to setup strong `rpcpassword`, `rpcuser` and `rpcallowip` in `Astra.conf` to secure a bit this client.
 
 If wallet contains any funds, it needs to be encrypted with strong passphrase. 

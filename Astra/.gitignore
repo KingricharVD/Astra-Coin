@@ -6,12 +6,12 @@ reset-files.bash
 *.tar.gz
 
 *.exe
-src/divi
-src/divid
-src/divi-cli
-src/divi-tx
-src/test/test_divi
-src/qt/test/test_divi-qt
+src/Astra
+src/Astrad
+src/Astra-cli
+src/Astra-tx
+src/test/test_Astra
+src/qt/test/test_Astra-qt
 
 # autoreconf
 Makefile.in
@@ -37,8 +37,8 @@ confdefs.h
 conftest.cpp
 conftest.err
 libtool
-src/config/divi-config.h
-src/config/divi-config.h.in
+src/config/Astra-config.h
+src/config/Astra-config.h.in
 src/config/stamp-h1
 share/setup.nsi
 share/qt/Info.plist
@@ -64,7 +64,7 @@ src/qt/test/moc*.cpp
 *.o
 *.o-*
 *.patch
-.divi
+.Astra
 *.a
 *.pb.cc
 *.pb.h
@@ -83,12 +83,12 @@ src/qt/test/moc*.cpp
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-divi-qt
-divi-Qt.app
+Astra-qt
+Astra-Qt.app
 
 # Unit-tests
 Makefile.test
-divi-qt_test
+Astra-qt_test
 src/test/buildenv.py
 
 # Resources cpp
@@ -104,7 +104,7 @@ build
 #lcov
 *.gcno
 /*.info
-test_divi.coverage/
+test_Astra.coverage/
 total.coverage/
 coverage_percent.txt
 

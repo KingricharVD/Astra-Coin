@@ -2,8 +2,8 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef DIVI_CSPORKDB_H
-#define DIVI_CSPORKDB_H
+#ifndef Astra_CSPORKDB_H
+#define Astra_CSPORKDB_H
 
 #include <boost/filesystem/path.hpp>
 #include "leveldbwrapper.h"
@@ -25,4 +25,4 @@ public:
 };
 
 
-#endif //DIVI_CSPORKDB_H
+#endif //Astra_CSPORKDB_H

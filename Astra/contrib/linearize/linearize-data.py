@@ -7,7 +7,7 @@
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #
 
-from __future__ import print_function, division
+from __future__ import print_function, Astrasion
 import json
 import struct
 import re

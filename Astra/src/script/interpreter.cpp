@@ -168,7 +168,7 @@ bool static IsLowDERSignature(const valtype &vchSig, ScriptError* serror) {
     unsigned int nLenR = vchSig[3];
     unsigned int nLenS = vchSig[5+nLenR];
     const unsigned char *S = &vchSig[6+nLenR];
-    // If the S value is above the order of the curve divided by two, its
+    // If the S value is above the order of the curve Astraded by two, its
     // complement modulo the order could have been used instead, which is
     // one byte shorter when encoded correctly.
     if (!eccrypto::CheckSignatureElement(S, nLenS, true))
@@ -285,9 +285,9 @@ bool EvalScript(vector<vector<unsigned char> >& stack, const CScript& script, un
                 opcode == OP_OR ||
                 opcode == OP_XOR ||
                 opcode == OP_2MUL ||
-                opcode == OP_2DIV ||
+                opcode == OP_2Astra ||
                 opcode == OP_MUL ||
-                opcode == OP_DIV ||
+                opcode == OP_Astra ||
                 opcode == OP_MOD ||
                 opcode == OP_LSHIFT ||
                 opcode == OP_RSHIFT)

@@ -144,7 +144,7 @@ def main(argv):
                         help='height of block where to check lottery')
     parser.add_argument('lottery_cycle', metavar='lottery_cycle', type=int,
                         help='length of lottery cycle in blocks')
-    parser.add_argument('--prefix', dest='prefix', help='path to folder where divi-cli is located', default='.')
+    parser.add_argument('--prefix', dest='prefix', help='path to folder where Astra-cli is located', default='.')
     args = parser.parse_args()
     lotteryCycle = args.lottery_cycle
     lotteryBlockHeight = args.lottery_height
@@ -156,17 +156,17 @@ def main(argv):
     if lotteryBlockHeight < lotteryCycle:
         raise ValueError('lottery height: {} is smaller than lottery cycle: {}'.format(lotteryBlockHeight, lotteryCycle))
 
-    executableName = prefix + '/divi-cli'
+    executableName = prefix + '/Astra-cli'
     print executableName
 
     if os.path.isfile(executableName) == False:
-        print 'Cannot find divi-cli, consider using --prefix'
+        print 'Cannot find Astra-cli, consider using --prefix'
         sys.exit(0)
 
     try:
         json.loads(executeProcess([executableName, 'getinfo']))
     except ValueError:
-        print 'Divi-cli is not running, or it is in wrong dir'
+        print 'Astra-cli is not running, or it is in wrong dir'
         sys.exit(0)
 
     checkWinner(executableName, lotteryBlockHeight, lotteryCycle, lotteryPart)

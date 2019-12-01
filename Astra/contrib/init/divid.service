@@ -1,16 +1,16 @@
 [Unit]
-Description=DIVI's distributed currency daemon
+Description=Astra's distributed currency daemon
 After=network.target
 
 [Service]
 Type=forking
-PIDFile=/var/lib/divid/divid.pid
+PIDFile=/var/lib/Astrad/Astrad.pid
 
-ExecStart=/usr/bin/divid -daemon -pid=/var/lib/divid/divid.pid \
-          -conf=/etc/divi/divi.conf -datadir=/var/lib/divid
+ExecStart=/usr/bin/Astrad -daemon -pid=/var/lib/Astrad/Astrad.pid \
+          -conf=/etc/Astra/Astra.conf -datadir=/var/lib/Astrad
 
-ExecStop=-/usr/bin/divi-cli -conf=/etc/divi/divi.conf \
-         -datadir=/var/lib/divid stop
+ExecStop=-/usr/bin/Astra-cli -conf=/etc/Astra/Astra.conf \
+         -datadir=/var/lib/Astrad stop
 
 Restart=always
 PrivateTmp=true

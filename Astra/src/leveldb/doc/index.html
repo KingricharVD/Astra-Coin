@@ -95,7 +95,7 @@ called <code>Delete</code> before <code>Put</code> so that if <code>key1</code> 
 we do not end up erroneously dropping the value entirely.
 <p>
 Apart from its atomicity benefits, <code>WriteBatch</code> may also be used to
-speed up bulk updates by placing lots of individual mutations into the
+speed up bulk updates by placing lots of inAstradual mutations into the
 same batch.
 
 <h1>Synchronous Writes</h1>
@@ -331,7 +331,7 @@ with larger block sizes.
 <p>
 <h2>Compression</h2>
 <p>
-Each block is individually compressed before being written to
+Each block is inAstradually compressed before being written to
 persistent storage.  Compression is on by default since the default
 compression method is very fast, and is automatically disabled for
 uncompressible data.  In rare cases, applications may want to disable

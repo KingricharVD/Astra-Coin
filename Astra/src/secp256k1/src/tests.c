@@ -407,7 +407,7 @@ void test_rand_bits(int rand32, int bits) {
     }
 }
 
-/* Subrange must be a whole divisor of range, and at most 64 */
+/* Subrange must be a whole Astrasor of range, and at most 64 */
 void test_rand_int(uint32_t range, uint32_t subrange) {
     /* (1-1/subrange)^rounds < 1/10^9 */
     int rounds = (subrange * 2073) / 100;

@@ -13,7 +13,7 @@ static const int MODEL_UPDATE_DELAY = 250;
 /* AskPassphraseDialog -- Maximum passphrase length */
 static const int MAX_PASSPHRASE_SIZE = 1024;
 
-/* Divi GUI -- Size of icons in status bar */
+/* Astra GUI -- Size of icons in status bar */
 static const int STATUSBAR_ICONSIZE = 16;
 
 static const bool DEFAULT_SPLASHSCREEN = true;
@@ -48,9 +48,9 @@ static const int MAX_URI_LENGTH = 255;
 /* Number of frames in spinner animation */
 #define SPINNER_FRAMES 35
 
-#define QAPP_ORG_NAME "DIVI"
-#define QAPP_ORG_DOMAIN "diviproject.org"
-#define QAPP_APP_NAME_DEFAULT "DIVI-Qt"
-#define QAPP_APP_NAME_TESTNET "DIVI-Qt-testnet"
+#define QAPP_ORG_NAME "Astra"
+#define QAPP_ORG_DOMAIN "Astraproject.org"
+#define QAPP_APP_NAME_DEFAULT "Astra-Qt"
+#define QAPP_APP_NAME_TESTNET "Astra-Qt-testnet"
 
 #endif // BITCOIN_QT_GUICONSTANTS_H

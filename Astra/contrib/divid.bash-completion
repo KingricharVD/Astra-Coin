@@ -1,12 +1,12 @@
-# bash programmable completion for divid(1) and divi-cli(1)
+# bash programmable completion for Astrad(1) and Astra-cli(1)
 # Copyright (c) 2012,2014 Christian von Roques <roques@mti.ag>
 # Distributed under the MIT/X11 software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-have divid && {
+have Astrad && {
 
-# call $divid for RPC
-_divi_rpc() {
+# call $Astrad for RPC
+_Astra_rpc() {
     # determine already specified args necessary for RPC
     local rpcargs=()
     for i in ${COMP_LINE}; do
@@ -16,23 +16,23 @@ _divi_rpc() {
                 ;;
         esac
     done
-    $divid "${rpcargs[@]}" "$@"
+    $Astrad "${rpcargs[@]}" "$@"
 }
 
-# Add divi accounts to COMPREPLY
-_divi_accounts() {
+# Add Astra accounts to COMPREPLY
+_Astra_accounts() {
     local accounts
-    accounts=$(_divi_rpc listaccounts | awk '/".*"/ { a=$1; gsub(/"/, "", a); print a}')
+    accounts=$(_Astra_rpc listaccounts | awk '/".*"/ { a=$1; gsub(/"/, "", a); print a}')
     COMPREPLY=( "${COMPREPLY[@]}" $( compgen -W "$accounts" -- "$cur" ) )
 }
 
-_divid() {
+_Astrad() {
     local cur prev words=() cword
-    local divid
+    local Astrad
 
-    # save and use original argument to invoke divid
-    # divid might not be in $PATH
-    divid="$1"
+    # save and use original argument to invoke Astrad
+    # Astrad might not be in $PATH
+    Astrad="$1"
 
     COMPREPLY=()
     _get_comp_words_by_ref -n = cur prev words cword
@@ -53,7 +53,7 @@ _divid() {
     if ((cword > 3)); then
         case ${words[cword-3]} in
             addmultisigaddress)
-                _divi_accounts
+                _Astra_accounts
                 return 0
                 ;;
             getbalance|gettxout|importaddress|importprivkey|listreceivedbyaccount|listreceivedbyaddress|listsinceblock)
@@ -74,7 +74,7 @@ _divid() {
                 return 0
                 ;;
             move|setaccount)
-                _divi_accounts
+                _Astra_accounts
                 return 0
                 ;;
         esac
@@ -90,7 +90,7 @@ _divid() {
             return 0
             ;;
         getaccountaddress|getaddressesbyaccount|getbalance|getnewaddress|getreceivedbyaccount|listtransactions|move|sendfrom|sendmany)
-            _divi_accounts
+            _Astra_accounts
             return 0
             ;;
     esac
@@ -114,12 +114,12 @@ _divid() {
 
             # only parse --help if senseful
             if [[ -z "$cur" || "$cur" =~ ^- ]]; then
-                helpopts=$($divid --help 2>&1 | awk '$1 ~ /^-/ { sub(/=.*/, "="); print $1 }' )
+                helpopts=$($Astrad --help 2>&1 | awk '$1 ~ /^-/ { sub(/=.*/, "="); print $1 }' )
             fi
 
             # only parse help if senseful
             if [[ -z "$cur" || "$cur" =~ ^[a-z] ]]; then
-                commands=$(_divi_rpc help 2>/dev/null | awk '$1 ~ /^[a-z]/ { print $1; }')
+                commands=$(_Astra_rpc help 2>/dev/null | awk '$1 ~ /^[a-z]/ { print $1; }')
             fi
 
             COMPREPLY=( $( compgen -W "$helpopts $commands" -- "$cur" ) )
@@ -133,7 +133,7 @@ _divid() {
     esac
 }
 
-complete -F _divid divid divi-cli
+complete -F _Astrad Astrad Astra-cli
 }
 
 # Local variables:

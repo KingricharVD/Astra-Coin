@@ -88,7 +88,7 @@ CSporkManager::CSporkManager()
 {
 }
 
-// DIVI: on startup load spork values from previous session if they exist in the sporkDB
+// Astra: on startup load spork values from previous session if they exist in the sporkDB
 void CSporkManager::LoadSporksFromDB()
 {
     for (int i = SPORK_START; i <= SPORK_END; ++i) {

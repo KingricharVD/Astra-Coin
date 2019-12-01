@@ -85,24 +85,24 @@ enum AvailableCoinsType {
     STAKABLE_COINS = 6                          // UTXO's that are valid for staking
 };
 
-// Possible states for zDIV send
+// Possible states for zAstra send
 enum ZerocoinSpendStatus {
-    ZDIV_SPEND_OKAY = 0,                            // No error
-    ZDIV_SPEND_ERROR = 1,                           // Unspecified class of errors, more details are (hopefully) in the returning text
-    ZDIV_WALLET_LOCKED = 2,                         // Wallet was locked
-    ZDIV_COMMIT_FAILED = 3,                         // Commit failed, reset status
-    ZDIV_ERASE_SPENDS_FAILED = 4,                   // Erasing spends during reset failed
-    ZDIV_ERASE_NEW_MINTS_FAILED = 5,                // Erasing new mints during reset failed
-    ZDIV_TRX_FUNDS_PROBLEMS = 6,                    // Everything related to available funds
-    ZDIV_TRX_CREATE = 7,                            // Everything related to create the transaction
-    ZDIV_TRX_CHANGE = 8,                            // Everything related to transaction change
-    ZDIV_TXMINT_GENERAL = 9,                        // General errors in MintToTxIn
-    ZDIV_INVALID_COIN = 10,                         // Selected mint coin is not valid
-    ZDIV_FAILED_ACCUMULATOR_INITIALIZATION = 11,    // Failed to initialize witness
-    ZDIV_INVALID_WITNESS = 12,                      // Spend coin transaction did not verify
-    ZDIV_BAD_SERIALIZATION = 13,                    // Transaction verification failed
-    ZDIV_SPENT_USED_ZDIV = 14,                      // Coin has already been spend
-    ZDIV_TX_TOO_LARGE = 15                          // The transaction is larger than the max tx size
+    ZAstra_SPEND_OKAY = 0,                            // No error
+    ZAstra_SPEND_ERROR = 1,                           // Unspecified class of errors, more details are (hopefully) in the returning text
+    ZAstra_WALLET_LOCKED = 2,                         // Wallet was locked
+    ZAstra_COMMIT_FAILED = 3,                         // Commit failed, reset status
+    ZAstra_ERASE_SPENDS_FAILED = 4,                   // Erasing spends during reset failed
+    ZAstra_ERASE_NEW_MINTS_FAILED = 5,                // Erasing new mints during reset failed
+    ZAstra_TRX_FUNDS_PROBLEMS = 6,                    // Everything related to available funds
+    ZAstra_TRX_CREATE = 7,                            // Everything related to create the transaction
+    ZAstra_TRX_CHANGE = 8,                            // Everything related to transaction change
+    ZAstra_TXMINT_GENERAL = 9,                        // General errors in MintToTxIn
+    ZAstra_INVALID_COIN = 10,                         // Selected mint coin is not valid
+    ZAstra_FAILED_ACCUMULATOR_INITIALIZATION = 11,    // Failed to initialize witness
+    ZAstra_INVALID_WITNESS = 12,                      // Spend coin transaction did not verify
+    ZAstra_BAD_SERIALIZATION = 13,                    // Transaction verification failed
+    ZAstra_SPENT_USED_ZAstra = 14,                      // Coin has already been spend
+    ZAstra_TX_TOO_LARGE = 15                          // The transaction is larger than the max tx size
 };
 
 struct CompactTallyItem {
@@ -220,7 +220,7 @@ public:
     std::string ResetMintZerocoin(bool fExtendedSearch);
     std::string ResetSpentZerocoin();
     void ReconsiderZerocoins(std::list<CZerocoinMint>& listMintsRestored);
-    void ZDivBackupWallet();
+    void ZAstraBackupWallet();
 
     /** Zerocin entry changed.
     * @note called with lock cs_wallet held.
@@ -324,7 +324,7 @@ public:
         return fEnableZeromint;
     }
 
-    void setZDivAutoBackups(bool fEnabled)
+    void setZAstraAutoBackups(bool fEnabled)
     {
         fBackupMints = fEnabled;
     }

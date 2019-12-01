@@ -62,12 +62,12 @@
         <translation>Prijímacia adresa</translation>
     </message>
     <message>
-        <source>These are your DIVI addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto sú vaše DIVI adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
+        <source>These are your Astra addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto sú vaše Astra adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
     </message>
     <message>
-        <source>These are your DIVI addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto sú vaše DIVI adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
+        <source>These are your Astra addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto sú vaše Astra adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Potvrďte šifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>DIVI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DIVs from being stolen by malware infecting your computer.</source>
-        <translation>DIVI sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše DIV pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
+        <source>Astra will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Astras from being stolen by malware infecting your computer.</source>
+        <translation>Astra sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše Astra pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Naozaj chcete zašifrovať svoju peňaženku?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DIV&lt;/b&gt;!</source>
-        <translation>Upozornenie: Ak zašifrujete svoju peňaženku a stratíte svoju prístupovú frázu, &lt;b&gt; PRÍDETE O VŠETKY DIV &lt;/ b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR Astra&lt;/b&gt;!</source>
+        <translation>Upozornenie: Ak zašifrujete svoju peňaženku a stratíte svoju prístupovú frázu, &lt;b&gt; PRÍDETE O VŠETKY Astra &lt;/ b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>BIP 38 Šifrovanie</translation>
     </message>
     <message>
-        <source>Enter a Divi Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Zadajte adresu Divi, ktorú chcete zašifrovať pomocou BIP 38. Zadajte prístupovú frázu do stredného poľa. Stlačte šifrovanie na výpočet šifrovaného privátneho kľúča.</translation>
+        <source>Enter a Astra Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Zadajte adresu Astra, ktorú chcete zašifrovať pomocou BIP 38. Zadajte prístupovú frázu do stredného poľa. Stlačte šifrovanie na výpočet šifrovaného privátneho kľúča.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresa:</translation>
     </message>
     <message>
-        <source>The DIVI address to sign the message with</source>
-        <translation>Adresa DIVI, ktorou chcete správu podpísať</translation>
+        <source>The Astra address to sign the message with</source>
+        <translation>Adresa Astra, ktorou chcete správu podpísať</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Skopírujte aktuálny podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DIVI address</source>
-        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto DIVI adresy</translation>
+        <source>Sign the message to prove you own this Astra address</source>
+        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto Astra adresy</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Zadajte súkromný kľúč zašifrovaný BIP 38. Zadajte prístupovú frázu do stredného poľa. Kliknite na Dešifrovať kľúč, ak chcete vypočítať privátny kľúč. Po dešifrovaní kľúča pridáte do peňaženky tento súkromný kľúč kliknutím na položku 'Importovať adresu'.</translation>
     </message>
     <message>
-        <source>The DIVI address the message was signed with</source>
-        <translation>DIVI adresa, ktorou bola správa podpísaná</translation>
+        <source>The Astra address the message was signed with</source>
+        <translation>Astra adresa, ktorou bola správa podpísaná</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DIVI address</source>
-        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou DIVI adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified Astra address</source>
+        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou Astra adresou</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -598,16 +598,16 @@
         <translation>Panel nástrojov Záložky</translation>
     </message>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Core</translation>
+        <source>Astra Core</source>
+        <translation>Astra Core</translation>
     </message>
     <message>
-        <source>Send coins to a DIVI address</source>
-        <translation>Odoslať mince na adresu DIVI</translation>
+        <source>Send coins to a Astra address</source>
+        <translation>Odoslať mince na adresu Astra</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and divi: URIs)</source>
-        <translation>Vyžiadať platby (generuje QR kódy a divi: identifikátory URI)</translation>
+        <source>Request payments (generates QR codes and Astra: URIs)</source>
+        <translation>Vyžiadať platby (generuje QR kódy a Astra: identifikátory URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -618,24 +618,24 @@
         <translation>Prezrieť masternody</translation>
     </message>
     <message>
-        <source>&amp;About DIVI Core</source>
-        <translation>O DIVI Core</translation>
+        <source>&amp;About Astra Core</source>
+        <translation>O Astra Core</translation>
     </message>
     <message>
-        <source>Show information about DIVI Core</source>
-        <translation>Zobraziť informácie o DIVI Core</translation>
+        <source>Show information about Astra Core</source>
+        <translation>Zobraziť informácie o Astra Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for DIVI</source>
-        <translation>Zmeňte možnosti konfigurácie pre DIVI</translation>
+        <source>Modify configuration options for Astra</source>
+        <translation>Zmeňte možnosti konfigurácie pre Astra</translation>
     </message>
     <message>
-        <source>Sign messages with your DIVI addresses to prove you own them</source>
-        <translation>Podpíšte správy pomocou adresy DIVI, aby ste preukázali, že ich vlastníte</translation>
+        <source>Sign messages with your Astra addresses to prove you own them</source>
+        <translation>Podpíšte správy pomocou adresy Astra, aby ste preukázali, že ich vlastníte</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified DIVI addresses</source>
-        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými DIVI adresami</translation>
+        <source>Verify messages to ensure they were signed with specified Astra addresses</source>
+        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými Astra adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -666,8 +666,8 @@
         <translation>Otvoriť konfiguračný súbor masternodu</translation>
     </message>
     <message>
-        <source>Open a DIVI: URI or payment request</source>
-        <translation>Otvorte DIVI: URI alebo žiadosť o platbu</translation>
+        <source>Open a Astra: URI or payment request</source>
+        <translation>Otvorte Astra: URI alebo žiadosť o platbu</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,12 +678,12 @@
         <translation>Okno blockchain prehliadača</translation>
     </message>
     <message>
-        <source>Show the DIVI Core help message to get a list with possible DIVI command-line options</source>
-        <translation>Zobraziť pomocnú správu programu DIVI Core a získajte zoznam možností príkazového riadka DIVI</translation>
+        <source>Show the Astra Core help message to get a list with possible Astra command-line options</source>
+        <translation>Zobraziť pomocnú správu programu Astra Core a získajte zoznam možností príkazového riadka Astra</translation>
     </message>
     <message>
-        <source>DIVI Core client</source>
-        <translation>DIVI Core klient</translation>
+        <source>Astra Core client</source>
+        <translation>Astra Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -809,8 +809,8 @@ MultiSend: %1</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (divi.conf).</source>
-        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (divi.conf) nastaviť txindex = 1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (Astra.conf).</source>
+        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (Astra.conf) nastaviť txindex = 1.</translation>
     </message>
 </context>
 <context>
@@ -900,15 +900,15 @@ MultiSend: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Core</translation>
+        <source>Astra Core</source>
+        <translation>Astra Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Core</translation>
+        <source>Astra Core</source>
+        <translation>Astra Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1139,8 +1139,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The DIVI address to sign the message with</source>
-        <translation>Adresa DIVI, ktorou chcete správu podpísať</translation>
+        <source>The Astra address to sign the message with</source>
+        <translation>Adresa Astra, ktorou chcete správu podpísať</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1163,16 +1163,16 @@ MultiSend: %1</translation>
         <translation>Skopírujte aktuálny podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DIVI address</source>
-        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto DIVI adresy</translation>
+        <source>Sign the message to prove you own this Astra address</source>
+        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto Astra adresy</translation>
     </message>
     <message>
-        <source>The DIVI address the message was signed with</source>
-        <translation>DIVI adresa, ktorou bola správa podpísaná</translation>
+        <source>The Astra address the message was signed with</source>
+        <translation>Astra adresa, ktorou bola správa podpísaná</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DIVI address</source>
-        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou DIVI adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified Astra address</source>
+        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou Astra adresou</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1210,8 +1210,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Core</translation>
+        <source>Astra Core</source>
+        <translation>Astra Core</translation>
     </message>
     </context>
 <context>
@@ -1306,10 +1306,10 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>ZDivControlDialog</name>
+    <name>ZAstraControlDialog</name>
     </context>
 <context>
-    <name>divi-core</name>
+    <name>Astra-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

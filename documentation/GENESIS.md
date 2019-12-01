@@ -63,6 +63,6 @@ assert(genesis.hashMerkleRoot == uint256("0xec803cc6b5e68728ec0117cb1154b6d28931
 
 Calling `MineGenesis` will output new values for genesis block, grab block hash, merkle tree hash and nNonce and replace corresponding values. Remove call to `MineGenesis`. At this point everything has to work.
 
-Don't forget to remove divi home folder to remove old blocks. 
+Don't forget to remove Astra home folder to remove old blocks. 
 
 This process can be done for any network, mainnet, testnet or regtest. 

@@ -62,12 +62,12 @@
         <translation>Adreces de recepció</translation>
     </message>
     <message>
-        <source>These are your DIVI addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Aquestes són les teves adreces DIVI per fer enviar pagaments. Sempre comprova l'import i l'adreça de recepció abans d'enviar les monedes.</translation>
+        <source>These are your Astra addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Aquestes són les teves adreces Astra per fer enviar pagaments. Sempre comprova l'import i l'adreça de recepció abans d'enviar les monedes.</translation>
     </message>
     <message>
-        <source>These are your DIVI addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Aquestes són les teves adreces DIVI per rebre pagaments. Es recomana utilitzar noves adreces de recepció per cada transacció.</translation>
+        <source>These are your Astra addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Aquestes són les teves adreces Astra per rebre pagaments. Es recomana utilitzar noves adreces de recepció per cada transacció.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,16 +168,16 @@
         <translation>Confirma l'encriptació del moneder</translation>
     </message>
     <message>
-        <source>DIVI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DIVs from being stolen by malware infecting your computer.</source>
-        <translation>DIVI es tancarà per finalitzar el procés d'encriptació. Recorda que encriptant el teu moneder no protegeix els teus DIV de ser robats si el teu ordinador està infectat amb programari maliciós.</translation>
+        <source>Astra will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Astras from being stolen by malware infecting your computer.</source>
+        <translation>Astra es tancarà per finalitzar el procés d'encriptació. Recorda que encriptant el teu moneder no protegeix els teus Astra de ser robats si el teu ordinador està infectat amb programari maliciós.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Estàs segur que vols encriptar el moneder?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DIV&lt;/b&gt;!</source>
-        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES DIVS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR Astra&lt;/b&gt;!</source>
+        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES AstraS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -418,12 +418,12 @@
         <translation>A&amp;juda</translation>
     </message>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Core</translation>
+        <source>Astra Core</source>
+        <translation>Astra Core</translation>
     </message>
     <message>
-        <source>Send coins to a DIVI address</source>
-        <translation>Envia monedes a una adreça DIVI</translation>
+        <source>Send coins to a Astra address</source>
+        <translation>Envia monedes a una adreça Astra</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -434,8 +434,8 @@
         <translation>&amp;Masternodes</translation>
     </message>
     <message>
-        <source>&amp;About DIVI Core</source>
-        <translation>&amp;Sobre DIVI Core</translation>
+        <source>&amp;About Astra Core</source>
+        <translation>&amp;Sobre Astra Core</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -458,12 +458,12 @@
         <translation>Obre el fitxer de configuració del Masternode</translation>
     </message>
     <message>
-        <source>DIVI Core client</source>
-        <translation>Client DIVI core</translation>
+        <source>Astra Core client</source>
+        <translation>Client Astra core</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to DIVI network</source>
-        <translation><numerusform>%n connexió activa a la xarxa DIVI</numerusform><numerusform>%n connexions actives a la xarxa DIVI</numerusform></translation>
+        <source>%n active connection(s) to Astra network</source>
+        <translation><numerusform>%n connexió activa a la xarxa Astra</numerusform><numerusform>%n connexions actives a la xarxa Astra</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -818,8 +818,8 @@
         <translation>Edita l'adreça d'enviament</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid DIVI address.</source>
-        <translation>L'adreça introduïda "%1" no és una adreça DIVI vàlida.</translation>
+        <source>The entered address "%1" is not a valid Astra address.</source>
+        <translation>L'adreça introduïda "%1" no és una adreça Astra vàlida.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -864,16 +864,16 @@
         <translation>versió</translation>
     </message>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Core</translation>
+        <source>Astra Core</source>
+        <translation>Astra Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About DIVI Core</source>
-        <translation>Sobre DIVI Core</translation>
+        <source>About Astra Core</source>
+        <translation>Sobre Astra Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -919,12 +919,12 @@
         <translation>Benvingut</translation>
     </message>
     <message>
-        <source>Welcome to DIVI Core.</source>
-        <translation>Benvingut a DIVI Core.</translation>
+        <source>Welcome to Astra Core.</source>
+        <translation>Benvingut a Astra Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where DIVI Core will store its data.</source>
-        <translation>Al ser el primer cop que s'inicia el programa, pots escollir on es desaran les dades del DIVI Core.</translation>
+        <source>As this is the first time the program is launched, you can choose where Astra Core will store its data.</source>
+        <translation>Al ser el primer cop que s'inicia el programa, pots escollir on es desaran les dades del Astra Core.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -935,8 +935,8 @@
         <translation>Usar una carpeta de dades personalitzada:</translation>
     </message>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Core</translation>
+        <source>Astra Core</source>
+        <translation>Astra Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1161,24 +1161,24 @@
         <translation>Si us plau, selecciona un nivell de privacitat.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 DIV</source>
-        <translation>Utilitza 2 masternodes diferents per mesclar fons de fins a 10000 DIV</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 Astra</source>
+        <translation>Utilitza 2 masternodes diferents per mesclar fons de fins a 10000 Astra</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 DIV</source>
-        <translation>Utilitza 8 masternodes diferents per mesclar fons de fins a 10000 DIV</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 Astra</source>
+        <translation>Utilitza 8 masternodes diferents per mesclar fons de fins a 10000 Astra</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Utilitza 16 masternodes diferents</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 DIV to anonymize 10000 DIV</source>
-        <translation>Aquesta opció és la més ràpida i té un cost d'uns ~0.025 DIV per anonimitzar 10000 DIV</translation>
+        <source>This option is the quickest and will cost about ~0.025 Astra to anonymize 10000 Astra</source>
+        <translation>Aquesta opció és la més ràpida i té un cost d'uns ~0.025 Astra per anonimitzar 10000 Astra</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 DIV to anonymize 10000 DIV</source>
-        <translation>Aquesta opció és moderadament ràpida i té un cost d'uns 0.05 DIV per anonimitzar 10000 DIV</translation>
+        <source>This option is moderately fast and will cost about 0.05 Astra to anonymize 10000 Astra</source>
+        <translation>Aquesta opció és moderadament ràpida i té un cost d'uns 0.05 Astra per anonimitzar 10000 Astra</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -1227,8 +1227,8 @@
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start DIVI after logging in to the system.</source>
-        <translation>Inicia DIVI automàticament després d'identificar-te en el sistema.</translation>
+        <source>Automatically start Astra after logging in to the system.</source>
+        <translation>Inicia Astra automàticament després d'identificar-te en el sistema.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1290,20 +1290,20 @@
         <translation>Total:</translation>
     </message>
     <message>
-        <source>DIV:</source>
-        <translation>DIV:</translation>
+        <source>Astra:</source>
+        <translation>Astra:</translation>
     </message>
     <message>
-        <source>zDIV:</source>
-        <translation>zDIV:</translation>
+        <source>zAstra:</source>
+        <translation>zAstra:</translation>
     </message>
     <message>
         <source>0 %</source>
         <translation>0 %</translation>
     </message>
     <message>
-        <source>0.000 000 00 DIV</source>
-        <translation>0.000 000 00 DIV</translation>
+        <source>0.000 000 00 Astra</source>
+        <translation>0.000 000 00 Astra</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -1327,20 +1327,20 @@
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>Zerocoin DIV (zDIV)</source>
-        <translation>Zerocoin DIV (zDIV)</translation>
+        <source>Zerocoin Astra (zAstra)</source>
+        <translation>Zerocoin Astra (zAstra)</translation>
     </message>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zDIV</source>
-        <translation>zDIV</translation>
+        <source>zAstra</source>
+        <translation>zAstra</translation>
     </message>
     <message>
-        <source>0.000 000 00 DIV</source>
-        <translation>0.000 000 00 DIV</translation>
+        <source>0.000 000 00 Astra</source>
+        <translation>0.000 000 00 Astra</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -1355,8 +1355,8 @@
         <translation>Import:</translation>
     </message>
     <message>
-        <source>0 zDIV</source>
-        <translation>0 zDIV</translation>
+        <source>0 zAstra</source>
+        <translation>0 zAstra</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1742,8 +1742,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>DIVI Core is shutting down...</source>
-        <translation>DIVI Core s'està tancant...</translation>
+        <source>Astra Core is shutting down...</source>
+        <translation>Astra Core s'està tancant...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1808,8 +1808,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Core</translation>
+        <source>Astra Core</source>
+        <translation>Astra Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1992,7 +1992,7 @@
     </message>
     </context>
 <context>
-    <name>ZDivControlDialog</name>
+    <name>ZAstraControlDialog</name>
     <message>
         <source>Quantity</source>
         <translation>Quantitat</translation>
@@ -2002,12 +2002,12 @@
         <translation>0</translation>
     </message>
     <message>
-        <source>zDiv</source>
-        <translation>zDiv</translation>
+        <source>zAstra</source>
+        <translation>zAstra</translation>
     </message>
     </context>
 <context>
-    <name>divi-core</name>
+    <name>Astra-core</name>
     <message>
         <source>Can't mix while sync in progress.</source>
         <translation>No es pot mesclar mentre s'està sincronitzant.</translation>

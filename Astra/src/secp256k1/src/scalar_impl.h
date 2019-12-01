@@ -275,7 +275,7 @@ static void secp256k1_scalar_split_lambda(secp256k1_scalar *r1, secp256k1_scalar
  * k1 = k - (c1*a1 + c2*a2) and k2 = -(c1*b1 + c2*b2). Instead, we use modular arithmetic, and
  * compute k1 as k - k2 * lambda, avoiding the need for constants a1 and a2.
  *
- * g1, g2 are precomputed constants used to replace division with a rounded multiplication
+ * g1, g2 are precomputed constants used to replace Astrasion with a rounded multiplication
  * when decomposing the scalar for an endomorphism-based point multiplication.
  *
  * The possibility of using precomputed estimates is mentioned in "Guide to Elliptic Curve

@@ -50,7 +50,7 @@ ZerocoinTutorial()
 {
 	// The following simple code illustrates the call flow for Zerocoin
 	// applications. In a real currency network these operations would
-	// be split between individual payers/payees, network nodes and miners.
+	// be split between inAstradual payers/payees, network nodes and miners.
 	//
 	// For each call we specify the participant who would use it.
 

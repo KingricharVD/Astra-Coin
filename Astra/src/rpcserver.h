@@ -98,7 +98,7 @@ public:
 };
 
 /**
- * DIVI RPC command dispatcher.
+ * Astra RPC command dispatcher.
  */
 class CRPCTable
 {

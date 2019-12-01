@@ -17,5 +17,5 @@ New Features
 
 4.0.0
 New Features
-1.  The -testnet argument when calling divid now connects the daemon to the beta testnet instead of the mainnet.
+1.  The -testnet argument when calling Astrad now connects the daemon to the beta testnet instead of the mainnet.
 2.  Release numbering in clientversion.h and release notes.

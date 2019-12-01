@@ -100,8 +100,8 @@ class fastfrac:
     """Multiply something else with a fraction."""
     return self.__mul__(other)
 
-  def __div__(self,other):
-    """Divide two fractions."""
+  def __Astra__(self,other):
+    """Astrade two fractions."""
     if parent(other) == ZZ:
       return fastfrac(self.R,self.top,self.bot * other)
     if other.__class__ == fastfrac:
@@ -138,7 +138,7 @@ class constraints:
   Note that (a != 0) and (b != 0) is the same as (a*b != 0), so all keys in
   nonzero could be multiplied into a single key. This is often much less
   efficient to work with though, so we keep them separate inside the
-  constraints. This allows higher-level code to do fast checks on the individual
+  constraints. This allows higher-level code to do fast checks on the inAstradual
   nonzero elements, or combine them if needed for stronger checks.
 
   We can't multiply the different zero elements, as it would suffice for one of
@@ -178,15 +178,15 @@ def conflicts(R, con):
   zero = R.ideal(map(numerator, con.zero))
   if 1 in zero:
     return True
-  # First a cheap check whether any of the individual nonzero terms conflict on
+  # First a cheap check whether any of the inAstradual nonzero terms conflict on
   # their own.
   for nonzero in con.nonzero:
     if nonzero.iszero(zero):
       return True
-  # It can be the case that entries in the nonzero set do not individually
+  # It can be the case that entries in the nonzero set do not inAstradually
   # conflict with the zero set, but their combination does. For example, knowing
   # that either x or y is zero is equivalent to having x*y in the zero set.
-  # Having x or y individually in the nonzero set is not a conflict, but both
+  # Having x or y inAstradually in the nonzero set is not a conflict, but both
   # simultaneously is, so that is the right thing to check for.
   if reduce(lambda a,b: a * b, con.nonzero, fastfrac(R, 1)).iszero(zero):
     return True

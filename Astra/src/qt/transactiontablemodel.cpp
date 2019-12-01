@@ -344,15 +344,15 @@ QString TransactionTableModel::formatTxType(const TransactionRecord* wtx) const
     case TransactionRecord::Generated:
         return tr("Mined");
     case TransactionRecord::ZerocoinMint:
-        return tr("Converted Div to zDiv");
+        return tr("Converted Astra to zAstra");
     case TransactionRecord::ZerocoinSpend:
-        return tr("Spent zDiv");
+        return tr("Spent zAstra");
     case TransactionRecord::RecvFromZerocoinSpend:
-        return tr("Received Div from zDiv");
-    case TransactionRecord::ZerocoinSpend_Change_zDiv:
-        return tr("Minted Change as zDiv from zDiv Spend");
+        return tr("Received Astra from zAstra");
+    case TransactionRecord::ZerocoinSpend_Change_zAstra:
+        return tr("Minted Change as zAstra from zAstra Spend");
     case TransactionRecord::ZerocoinSpend_FromMe:
-        return tr("Converted zDiv to Div");
+        return tr("Converted zAstra to Astra");
 
     default:
         return QString();
@@ -402,8 +402,8 @@ QString TransactionTableModel::formatTxToAddress(const TransactionRecord* wtx, b
     case TransactionRecord::SendToOther:
         return QString::fromStdString(wtx->address) + watchAddress;
     case TransactionRecord::ZerocoinMint:
-    case TransactionRecord::ZerocoinSpend_Change_zDiv:
-        return tr("zDiv Accumulator");
+    case TransactionRecord::ZerocoinSpend_Change_zAstra:
+        return tr("zAstra Accumulator");
     case TransactionRecord::SendToSelf:
     default:
         return tr("(n/a)") + watchAddress;

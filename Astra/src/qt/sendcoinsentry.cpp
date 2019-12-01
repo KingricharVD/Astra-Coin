@@ -31,9 +31,9 @@ SendCoinsEntry::SendCoinsEntry(QWidget* parent) : QStackedWidget(parent),
     ui->addAsLabel->setPlaceholderText(tr("Enter a label for this address to add it to your address book"));
 #endif
 
-    // normal divi address field
+    // normal Astra address field
     GUIUtil::setupAddressWidget(ui->payTo, this);
-    // just a label for displaying divi address(es)
+    // just a label for displaying Astra address(es)
     ui->payTo_is->setFont(GUIUtil::bitcoinAddressFont());
 
     // Connect signals

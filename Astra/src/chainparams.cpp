@@ -105,19 +105,19 @@ void MineGenesis(CBlock genesis)
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
-        (0, uint256("0x00000e258596876664989374c7ee36445cf5f4f80889af415cc32478214394ea"))
-        (100, uint256("0x000000275b2b4a8af2c93ebdfd36ef8dd8c8ec710072bcc388ecbf5d0c8d3f9d"));
+        (0, uint256("0x000006fbe6f6e379a43d6cb1f4eb69c9961b5848000d1eecd0a497a70a14aea5"));
+        
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1538069980, // * UNIX timestamp of last checkpoint block
+    1574965489, // * UNIX timestamp of last checkpoint block
     100,    // * total number of transactions between genesis and last checkpoint
     //   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
-        boost::assign::map_list_of(0, uint256("0x000000f351b8525f459c879f1e249b5d3d421b378ac6b760ea8b8e0df2454f33"));
+        boost::assign::map_list_of(0, uint256("0x001"));
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
     1537971708,
@@ -125,7 +125,7 @@ static const Checkpoints::CCheckpointData dataTestnet = {
     250};
 
 static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
-        boost::assign::map_list_of(0, uint256("0x79ba0d9d15d36edee8d07cc300379ec65ab7e12765acd883e870aa618dbcc1a8"));
+        boost::assign::map_list_of(0, uint256("0x001"));
 static const Checkpoints::CCheckpointData dataRegtest = {
     &mapCheckpointsRegtest,
     1518723178,
@@ -156,14 +156,14 @@ public:
         * a large 4-byte int at any alignment.
         */
 
-        pchMessageStart[0] = 0xdf;
-        pchMessageStart[1] = 0xa0;
-        pchMessageStart[2] = 0x8d;
-        pchMessageStart[3] = 0x8f;
-        premineAmt = 617222416 * COIN;
+        pchMessageStart[0] = 0xc2;
+        pchMessageStart[1] = 0xae;
+        pchMessageStart[2] = 0x5d;
+        pchMessageStart[3] = 0xf9;
+        premineAmt = 15000000 * COIN;
 
-        vAlertPubKey = ParseHex("0231c07d17c2d69facd84908434dc402b5a9b9e25e5062d1e65163acc7afd0e3ef");
-        nDefaultPort = 51472;
+        vAlertPubKey = ParseHex("042c5f01062047f3a00afb3c607a8b5ecad5dbf9a679a2f0ea1ae95ffcc429c6a895b3501bee5ba3ed6efdcb4b8a6d7775a21b53fdbd89655c1d911a3cb991c3a0f");
+        nDefaultPort = 4143;
         bnProofOfWorkLimit = ~uint256(0) >> 20;			// Astra starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 60 * 24 * 365;
         nMaxReorganizationDepth = 100;
@@ -175,7 +175,7 @@ public:
         nTargetSpacing = 1 * 60;						// Astra: 1 minute
         nMaturity = 20;
         nMasternodeCountDrift = 20;
-        nMaxMoneyOut = 2534320700 * COIN;
+        nMaxMoneyOut = 50000000 * COIN;
 
         /** Height or Time Based Activations **/
         nLastPOWBlock = 100;
@@ -206,40 +206,45 @@ public:
         *     CTxOut(nValue=50.00000000, scriptPubKey=0xA9037BAC7050C479B121CF)
         *   vMerkleTree: e0028e
         */
-        const char* pszTimestamp = "September 26, 2018 - US-Iran: Trump set to chair key UN Security Council session";
+        const char* pszTimestamp = "November 28, 2019 - Trumps set to for impeachment Council session";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CScriptNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         txNew.vout[0].nValue = 50 * COIN;
-        txNew.vout[0].scriptPubKey = CScript() << ParseHex("04bcc3ef3417ba00ab55e3de807a776ade43cbd634a7e2cff383fecc6920cf918b2ad427f6b0a3f8d38f5a41d5dcbf35b394521bd08fcb5f40749df5bfe7d42fe2") << OP_CHECKSIG;
+        txNew.vout[0].scriptPubKey = CScript() << ParseHex("04dbfa63db56c99cca9d110038ccf6ac09c2a73a6cdb502bf27a57be114d2078abd788722aadd873cc8c926a18a6b16963ebec3ac6fd8ceba42f8821850ce1d9e0") << OP_CHECKSIG;
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1537971708;
+        genesis.nTime = 1574965489;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 749845;
+        genesis.nNonce = 985812;
         genesis.payee = txNew.vout[0].scriptPubKey;
 
         nExtCoinType = 301;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000e258596876664989374c7ee36445cf5f4f80889af415cc32478214394ea"));
-        assert(genesis.hashMerkleRoot == uint256("0xec803cc6b5e68728ec0117cb1154b6d2893152f89d61319647db106908888bd6"));
+        assert(hashGenesisBlock == uint256("0x000006fbe6f6e379a43d6cb1f4eb69c9961b5848000d1eecd0a497a70a14aea5"));
+        assert(genesis.hashMerkleRoot == uint256("0x71c4403311a8053d6fbfab4cbbcef4c6fa5a8d79002fb706aa7680b1ca636224"));
 
-        vSeeds.push_back(CDNSSeedData("autoseeds.Astraseed.Astraproject.org", "autoseeds.Astraseed.Astraproject.org"));     // Primary DNS Seeder from Fuzzbawls
-        vSeeds.push_back(CDNSSeedData("178.62.195.16", "178.62.195.16"));
-        vSeeds.push_back(CDNSSeedData("178.62.221.33", "178.62.221.33"));
-        vSeeds.push_back(CDNSSeedData("178.128.251.20", "178.128.251.20"));
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 30);
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
+        // vSeeds.push_back(CDNSSeedData("autoseeds.Astraseed.Astraproject.org", "autoseeds.Astraseed.Astraproject.org"));     // Primary DNS Seeder from Fuzzbawls
+       // vSeeds.push_back(CDNSSeedData("178.62.195.16", "178.62.195.16"));
+       // vSeeds.push_back(CDNSSeedData("178.62.221.33", "178.62.221.33"));
+       // vSeeds.push_back(CDNSSeedData("178.128.251.20", "178.128.251.20"));
+
+	vFixedSeeds.clear();
+	vSeeds.clear();
+
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 23);
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 63);
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 212);
-        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x02)(0x2D)(0x25)(0x33).convert_to_container<std::vector<unsigned char> >();
-        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x02)(0x21)(0x31)(0x2B).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0x88, 0xB2, 0x1E};
+        base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x88, 0xAD, 0xE4};
         // 	BIP44 coin type is from https://github.com/satoshilabs/slips/blob/master/slip-0044.md
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x77).convert_to_container<std::vector<unsigned char> >();
+       // bech32_hrp = "Astra";   // bech32: starting with sugar1q
 
         convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
 
@@ -302,7 +307,7 @@ public:
         premineAmt = 2534320700;
 
         vAlertPubKey = ParseHex("046e70d194b1b6b63b9c5431ea83c7b17d0db8930408b1e7937e41759a799e8fcd22d99ffc0c880094bb07a852a9020f810068417e65d19def8ffbdfa90727b637");
-        nDefaultPort = 51472;
+        nDefaultPort = 4143;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // Astra starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 1000;
         nMaxReorganizationDepth = 100;
@@ -361,8 +366,8 @@ public:
         nExtCoinType = 1;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x0000050d77a86f7a3aa38dfac9c23821ed2c5d3002c2e02f9626c7521cd8ced5"));
-        assert(genesis.hashMerkleRoot == uint256("0xb68f3b6cefa827045e8bac505203050c9d247c10d7fe2a951575924427a51052"));
+       // assert(hashGenesisBlock == uint256("0x0000050d77a86f7a3aa38dfac9c23821ed2c5d3002c2e02f9626c7521cd8ced5"));
+        // assert(genesis.hashMerkleRoot == uint256("0xb68f3b6cefa827045e8bac505203050c9d247c10d7fe2a951575924427a51052"));
 
         //vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "Astra.seed.fuzzbawls.pw"));     // Primary DNS Seeder from Fuzzbawls
         //vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "Astra.seed2.fuzzbawls.pw"));    // Secondary DNS Seeder from Fuzzbawls
@@ -501,7 +506,7 @@ public:
         nBlockEnforceInvalidUTXO = 902850; //Start enforcing the invalid UTXO's
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000e258596876664989374c7ee36445cf5f4f80889af415cc32478214394ea"));
+       // assert(hashGenesisBlock == uint256("0x00000e258596876664989374c7ee36445cf5f4f80889af415cc32478214394ea"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -578,7 +583,7 @@ public:
         nDefaultPort = 51476;
         nFulfilledRequestExpireTime = 5*60; // fulfilled requests expire in 5 minutes
 
-        assert(hashGenesisBlock == uint256("0x0000000b3f9980dcf71f5f52d69e30d3b02f807e0a77b91b6091701e4ae51a6f"));
+       // assert(hashGenesisBlock == uint256("0x0000000b3f9980dcf71f5f52d69e30d3b02f807e0a77b91b6091701e4ae51a6f"));
 
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Testnet mode doesn't have any DNS seeds.

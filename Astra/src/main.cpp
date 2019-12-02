@@ -73,11 +73,11 @@ int nScriptCheckThreads = 0;
 bool fImporting = false;
 bool fReindex = false;
 bool fTxIndex = true;
-bool fAddressIndex = false;
-bool fSpentIndex = false;
+bool fAddressIndex = true;
+bool fSpentIndex = true;
 bool fIsBareMultisigStd = true;
-bool fCheckBlockIndex = false;
-bool fVerifyingBlocks = false;
+bool fCheckBlockIndex = true;
+bool fVerifyingBlocks = true;
 unsigned int nCoinCacheSize = 5000;
 bool fAlerts = DEFAULT_ALERTS;
 
@@ -2285,7 +2285,7 @@ CBlockRewards GetBlockSubsidity(int nHeight)
         }
     }
 
-    return helper(38, 45, 16, 0, 1);
+    return helper(45, 45, 8, 0, 2);
 }
 
 bool IsInitialBlockDownload()	//2446
